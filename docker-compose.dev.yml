@@ -20,13 +20,3 @@ services:
     volumes:
       - ./client:/app # we need to mount the client directory to the container for hot-reloading
       - /app/node_modules
-
-  db:
-    container_name: db
-    image: postgres:16.3
-    environment:
-      POSTGRES_PASSWORD: onepieceisreal
-      POSTGRES_USER: luffy
-      POSTGRES_DB: onepiece
-    ports:
-      - "5432:5432"
