@@ -16,12 +16,13 @@ services:
     ports:
       - "4000:4000"
 
-  db:
-    container_name: db
-    image: postgres:16.3
-    environment:
-      POSTGRES_PASSWORD: onepieceisreal
-      POSTGRES_USER: luffy
-      POSTGRES_DB: onepiece
-    ports:
-      - "5432:5432"
+  #  Comment this to use the database container
+  # db:
+  #   container_name: db
+  #   image: postgres:16.3
+  #   environment:
+  #     POSTGRES_PASSWORD: onepieceisreal
+  #     POSTGRES_USER: luffy
+  #     POSTGRES_DB: onepiece
+  #   ports:
+  #     - "5432:5432"
