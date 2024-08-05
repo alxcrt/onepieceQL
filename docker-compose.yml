@@ -2,7 +2,22 @@ version: '3.9'
 
 services:
 
+  server:
+    container_name: server
+    build: ./server
+    ports:
+      - "4001:4001"
+    depends_on:
+      - db
+
+  client:
+    container_name: client
+    build: ./client
+    ports:
+      - "4000:4000"
+
   db:
+    container_name: db
     image: postgres:16.3
     environment:
       POSTGRES_PASSWORD: onepieceisreal
