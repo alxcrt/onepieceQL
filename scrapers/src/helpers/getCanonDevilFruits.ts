@@ -115,7 +115,12 @@ async function getCanonDevilFruitsMetadata() {
 
 async function getCanonDevilFruitInfo(devilFruit: DevilFruitMetadata) {
   const info = await getInfoFromAside(BASE_URL + devilFruit.href);
-  return { id: devilFruit.id, href: devilFruit.href, ...info };
+  return {
+    id: devilFruit.id,
+    href: devilFruit.href,
+    types: devilFruit.types,
+    ...info,
+  };
 }
 
 async function getCanonDevilFruits(delay: number = 1000, limit: number = 0) {

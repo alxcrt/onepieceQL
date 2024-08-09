@@ -4,15 +4,30 @@
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
-    "start": "node dist/index.js"
-  },
-  "dependencies": {
-    "@hono/node-server": "^1.12.0",
-    "hono": "^4.5.3"
+    "start": "node dist/index.js",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:seed": "tsx ./src/db/seed.ts"
   },
   "devDependencies": {
-    "@types/node": "^20.11.17",
-    "tsx": "^4.7.1",
+    "@types/body-parser": "^1.19.5",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.1.0",
+    "@types/pg": "^8.11.6",
+    "drizzle-kit": "^0.23.2",
+    "express": "^4.19.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.16.5",
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.10.5",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "drizzle-graphql": "^0.8.4",
+    "drizzle-orm": "^0.32.2",
+    "graphql": "^16.9.0",
+    "pg": "^8.12.0"
   }
 }

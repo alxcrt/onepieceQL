@@ -10,6 +10,11 @@ export const saveJSON = (data: any, filename: string) => {
   fs.writeFileSync(filename, JSON.stringify(data, null, 2));
 };
 
+// Utility function remove bracketed footnotes
+export const removeFootnotes = (text: string) => {
+  return text.replace(/\[.*?\]/g, "");
+};
+
 // Function to extract information from the aside section of a webpage
 export async function getInfoFromAside(url: string) {
   // Fetch the webpage content
@@ -17,11 +22,28 @@ export async function getInfoFromAside(url: string) {
   // Load the HTML content into cheerio for parsing
   const $ = cheerio.load(response.data);
 
+  // Object to store all the extracted information
+  let info = {};
+
+  // #mw-content-text > div > p:nth-child(3)
+  // Find the description of the character/fruit
+  // const description = aside.find("p").text();
+  $("#mw-content-text > div > p")
+    .filter((_, el) => {
+      return $(el).text().trim().length > 0;
+    })
+    .first()
+    .each((_, el) => {
+      const text = $(el).text().trim();
+      info["description"] = removeFootnotes(text);
+    });
+
   // Find the aside element
   const aside = $("aside");
 
-  // Object to store all the extracted information
-  let info = {};
+  // Get the image URL
+  const img = aside.find("img").attr("src");
+  img && (info["image"] = img);
 
   // Iterate through each section in the aside
   aside.find("aside > section").each((_, sectionBody) => {
@@ -36,7 +58,7 @@ export async function getInfoFromAside(url: string) {
       .find("div")
       .each((_, row) => {
         let key = "";
-        let value = "";
+        let values: string[] | string = [];
 
         // Extract the key (usually in an h3 tag)
         $(row)
@@ -48,11 +70,33 @@ export async function getInfoFromAside(url: string) {
         $(row)
           .find("div")
           .each((_, el) => {
-            value = $(el).text();
+            // Extract the text content
+            let value = $(el)
+              .find("br")
+              .replaceWith("\n")
+              .end()
+              .find("hr")
+              .replaceWith("\n")
+              .end()
+              .text();
+
+            // Remove bracketed footnotes
+            value = removeFootnotes(value);
+
+            // Check if the value is a list
+            if (value.split("\n").length > 1) {
+              // Split multiple values into an array
+              values = value.split("\n").map((v: string) => v.trim());
+            } else {
+              values = value;
+            }
           });
 
+        // remove : from the key
+        key = key.replace(":", "");
+
         // If both key and value are present, add to the infoSection
-        key && value && (infoSection[key] = value);
+        key && values && (infoSection[key] = values);
       });
 
     // Handle duplicate sections by creating an array

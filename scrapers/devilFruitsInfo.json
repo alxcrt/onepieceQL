@@ -1,2118 +1,2839 @@
 [
   {
-    "Gomu Gomu no Mi": {
-      "id": "0",
-      "href": "/wiki/Gomu_Gomu_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ゴムゴムの実ヒトヒトの実 モデル「ニカ」",
-        "Romanized Name:": "Gomu Gomu no MiHito Hito no Mi Moderu Nika",
-        "Official English Name:": "Gum-Gum FruitHuman-Human Fruit, Model: Nika",
-        "Meaning:": "RubberHuman; Nika",
-        "Fruit Debut:": "Chapter 1; Episode 4[1]",
-        "Usage Debut:": "Chapter 1;[2] Episode 1[3]",
-        "Type:": "Paramecia[4][5]Mythical Zoan[6][7]",
-        "Previous User:": "Joy Boy[8]",
-        "Current User:": "Monkey D. Luffy[1]"
-      }
-    }
-  },
-  {
-    "Bara Bara no Mi": {
-      "id": "1",
-      "href": "/wiki/Bara_Bara_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "バラバラの実",
-        "Official English Name:": "Chop-Chop FruitThe Fruit of Dismemberment (Odex)",
-        "Meaning:": "Scattered; in pieces",
-        "Fruit Debut:": "Chapter 19; Episode 8[1]",
-        "Usage Debut:": "Chapter 9; Episode 5[2]",
-        "Type:": "Paramecia",
-        "Current User:": "Buggy"
-      }
-    }
-  },
-  {
-    "Sube Sube no Mi": {
-      "id": "2",
-      "href": "/wiki/Sube_Sube_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "スベスベの実",
-        "Official English Name:": "Slip-Slip Fruit (Viz, 4Kids);Smooth-Smooth Fruit (Funimation)",
-        "Meaning:": "Smooth",
-        "Fruit Debut:": "One Piece Magazine Vol.10",
-        "Usage Debut:": "Chapter 51 (cover); Episode 46[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Alvida"
-      }
-    }
-  },
-  {
-    "Bomu Bomu no Mi": {
-      "id": "3",
-      "href": "/wiki/Bomu_Bomu_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ボムボムの実",
-        "Official English Name:": "Bomb-Bomb Fruit (4Kids, Funimation, Odex); Boom-Boom Fruit (Viz)",
-        "Meaning:": "Bomb",
-        "Fruit Debut:": "One Piece Magazine Vol.11",
-        "Usage Debut:": "Chapter 110; Episode 65[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Gem"
-      }
-    }
-  },
-  {
-    "Kiro Kiro no Mi": {
-      "id": "4",
-      "href": "/wiki/Kiro_Kiro_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "キロキロの実",
-        "Official English Name:": "Kilo-Kilo Fruit;Pound-Pound Fruit (Odex)",
-        "Meaning:": "Kilo from Kilogram",
-        "Fruit Debut:": "One Piece Magazine Vol.11",
-        "Usage Debut:": "Chapter 112; Episode 66[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Mikita"
-      }
-    }
-  },
-  {
-    "Hana Hana no Mi": {
-      "id": "5",
-      "href": "/wiki/Hana_Hana_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ハナハナの実",
-        "Official English Name:": "Hana-Hana Fruit (4Kids);Flower-Flower Fruit (VIZ, Funimation)",
-        "Meaning:": "Flower; Bloom",
-        "Fruit Debut:": "One Piece Magazine Vol.6",
-        "Usage Debut:": "Chapter 114; Episode 67[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Nico Robin"
-      }
-    }
-  },
-  {
-    "Doru Doru no Mi": {
-      "id": "6",
-      "href": "/wiki/Doru_Doru_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ドルドルの実",
-        "Official English Name:": "Wax-Wax FruitFruit of the Doru-Doru (Odex)",
-        "Meaning:": "Candle",
-        "Fruit Debut:": "One Piece Magazine Vol.9",
-        "Usage Debut:": "Chapter 118; Episode 71[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Galdino[2]"
-      }
-    }
-  },
-  {
-    "Baku Baku no Mi": {
-      "id": "7",
-      "href": "/wiki/Baku_Baku_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "バクバクの実",
-        "Official English Name:": "Munch-Munch FruitBaku Baku Fruit (Manga Entertainment, Odex)*",
-        "Meaning:": "Sound of Chomping",
-        "Fruit Debut:": "One Piece Magazine Vol.9",
-        "Usage Debut:": "Chapter 131; Episode 79[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Wapol"
-      }
-    }
-  },
-  {
-    "Mane Mane no Mi": {
-      "id": "8",
-      "href": "/wiki/Mane_Mane_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "マネマネの実",
-        "Official English Name:": "Clone-Clone Fruit",
-        "Meaning:": "Imitation",
-        "Fruit Debut:": "One Piece Magazine Special Feature: The Wings -Zoro & Sanji- 018",
-        "Usage Debut:": "Chapter 156; Episode 92 (Bentham)[1]Chapter 965; Episode 965 (Kurozumi Higurashi)",
-        "Type:": "Paramecia",
-        "Previous User:": "Kurozumi Higurashi",
-        "Current User:": "Bentham"
-      }
-    }
-  },
-  {
-    "Supa Supa no Mi": {
-      "id": "9",
-      "href": "/wiki/Supa_Supa_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "スパスパの実",
-        "Official English Name:": "Dice-Dice Fruit",
-        "Meaning:": "Sound of cutting",
-        "Fruit Debut:": "One Piece Magazine Special Feature: The Wings -Zoro & Sanji- 018",
-        "Usage Debut:": "Chapter 160; Episode 103[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Daz BonezS-Hawk (Artificial)"
-      }
-    }
-  },
-  {
-    "Toge Toge no Mi": {
-      "id": "10",
-      "href": "/wiki/Toge_Toge_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "トゲトゲの実",
-        "Official English Name:": "Spike-Spike Fruit",
-        "Meaning:": "Spike; Thorn",
-        "Usage Debut:": "Chapter 190; Episode 117",
-        "Type:": "Paramecia",
-        "Current User:": "Zala"
-      }
-    }
-  },
-  {
-    "Ori Ori no Mi": {
-      "id": "11",
-      "href": "/wiki/Ori_Ori_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "オリオリの実",
-        "Official English Name:": "Bind-Bind Fruit (Viz);Cage-Cage Fruit (4Kids, Funimation)",
-        "Meaning:": "Cage",
-        "Usage Debut:": "Chapter 217, Episode 130[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Hina"
-      }
-    }
-  },
-  {
-    "Bane Bane no Mi": {
-      "id": "12",
-      "href": "/wiki/Bane_Bane_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "バネバネの実",
-        "Official English Name:": "Spring-Spring FruitBoing-Boing Fruit (VIZ, former)",
-        "Meaning:": "Spring",
-        "Usage Debut:": "Chapter 231; Episode 150[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Bellamy"
-      }
-    }
-  },
-  {
-    "Ito Ito no Mi": {
-      "id": "13",
-      "href": "/wiki/Ito_Ito_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "イトイトの実",
-        "Official English Name:": "String-String Fruit",
-        "Meaning:": "String; Thread",
-        "Fruit Debut:": "Chapter 782; Episode 723[1]",
-        "Usage Debut:": "Chapter 234; Episode 151[2]",
-        "Type:": "Paramecia[3]",
-        "Current User:": "Donquixote Doflamingo[4]"
-      }
-    }
-  },
-  {
-    "Noro Noro no Mi": {
-      "id": "14",
-      "href": "/wiki/Noro_Noro_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ノロノロの実",
-        "Official English Name:": "Slow-Slow Fruit",
-        "Meaning:": "Slowly; Sluggishly",
-        "Usage Debut:": "Chapter 308; Episode 210[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Foxy"
-      }
-    }
-  },
-  {
-    "Doa Doa no Mi": {
-      "id": "15",
-      "href": "/wiki/Doa_Doa_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ドアドアの実",
-        "Official English Name:": "Door-Door Fruit",
-        "Meaning:": "Door",
-        "Usage Debut:": "Chapter 326; Episode 231[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Blueno"
-      }
-    }
-  },
-  {
-    "Awa Awa no Mi": {
-      "id": "16",
-      "href": "/wiki/Awa_Awa_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "アワアワの実",
-        "Official English Name:": "Bubble-Bubble Fruit",
-        "Meaning:": "Bubble",
-        "Fruit Debut:": "Chapter 379; Episode 266[1]",
-        "Usage Debut:": "Chapter 408; Episode 293[2]",
-        "Type:": "Paramecia",
-        "Current User:": "Kalifa"
-      }
-    }
-  },
-  {
-    "Beri Beri no Mi": {
-      "id": "17",
-      "href": "/wiki/Beri_Beri_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ベリベリの実",
-        "Official English Name:": "Berry-Berry Fruit",
-        "Meaning:": "Berry",
-        "Usage Debut:": "Chapter 426; Episode 309",
-        "Type:": "Paramecia",
-        "Current User:": "Very Good[1]"
-      }
-    }
-  },
-  {
-    "Sabi Sabi no Mi": {
-      "id": "18",
-      "href": "/wiki/Sabi_Sabi_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "サビサビの実",
-        "Official English Name:": "Rust-Rust Fruit",
-        "Meaning:": "Rust",
-        "Usage Debut:": "Chapter 426; Episode 309[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Shu[2]"
-      }
-    }
-  },
-  {
-    "Shari Shari no Mi": {
-      "id": "19",
-      "href": "/wiki/Shari_Shari_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "シャリシャリの実",
-        "Official English Name:": "Wheel-Wheel Fruit",
-        "Meaning:": "Wheel",
-        "Usage Debut:": "Chapter 428[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Sharinguru"
-      }
-    }
-  },
-  {
-    "Horo Horo no Mi": {
-      "id": "20",
-      "href": "/wiki/Horo_Horo_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ホロホロの実",
-        "Official English Name:": "Hollow-Hollow Fruit",
-        "Meaning:": "Hollow",
-        "Fruit Debut:": "One Piece Magazine Vol.17",
-        "Usage Debut:": "Chapter 442; Episode 337[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Perona"
-      }
-    }
-  },
-  {
-    "Yomi Yomi no Mi": {
-      "id": "21",
-      "href": "/wiki/Yomi_Yomi_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ヨミヨミの実",
-        "Official English Name:": "Revive-Revive Fruit",
-        "Meaning:": "Resurrection",
-        "Fruit Debut:": "One Piece Magazine Vol.8",
-        "Usage Debut:": "Chapter 442; Episode 337[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Brook[2]"
-      }
-    }
-  },
-  {
-    "Kage Kage no Mi": {
-      "id": "22",
-      "href": "/wiki/Kage_Kage_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "カゲカゲの実",
-        "Official English Name:": "Shadow-Shadow Fruit",
-        "Meaning:": "Shadow",
-        "Fruit Debut:": "One Piece Magazine Vol.8",
-        "Usage Debut:": "Chapter 443; Episode 338[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Gecko Moria"
-      }
-    }
-  },
-  {
-    "Suke Suke no Mi": {
-      "id": "23",
-      "href": "/wiki/Suke_Suke_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "スケスケの実",
-        "Official English Name:": "Clear-Clear Fruit",
-        "Meaning:": "See-through; Sheer",
-        "Usage Debut:": "Chapter 444; Episode 339 (Absalom)[1]Chapter 925; Episode 917  (Shiryu)[2]",
-        "Type:": "Paramecia",
-        "Previous User:": "Absalom",
-        "Current User:": "Shiryu"
-      }
-    }
-  },
-  {
-    "Nikyu Nikyu no Mi": {
-      "id": "24",
-      "href": "/wiki/Nikyu_Nikyu_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ニキュニキュの実",
-        "Official English Name:": "Paw-Paw Fruit",
-        "Meaning:": "Paw",
-        "Fruit Debut:": "Chapter 1096[1]",
-        "Usage Debut:": "Chapter 473; Episode 368[2]",
-        "Type:": "Paramecia",
-        "Current User:": "Bartholomew KumaS-Bear (Artificial)"
-      }
-    }
-  },
-  {
-    "Toshi Toshi no Mi": {
-      "id": "25",
-      "href": "/wiki/Toshi_Toshi_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "トシトシの実",
-        "Official English Name:": "Age-Age Fruit",
-        "Meaning:": "Age; Year",
-        "Usage Debut:": "Chapter 499; Episode 393[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Jewelry Bonney"
-      }
-    }
-  },
-  {
-    "Jiki Jiki no Mi": {
-      "id": "26",
-      "href": "/wiki/Jiki_Jiki_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ジキジキの実",
-        "Official English Name:": "Magnet-Magnet Fruit",
-        "Meaning:": "Magnetism",
-        "Fruit Debut:": "Episode 1103;[1] One Piece Magazine Vol.14[2]",
-        "Usage Debut:": "Chapter 504; Episode 398[3]",
-        "Type:": "Paramecia",
-        "Current User:": "Eustass Kid"
-      }
-    }
-  },
-  {
-    "Ope Ope no Mi": {
-      "id": "27",
-      "href": "/wiki/Ope_Ope_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "オペオペの実",
-        "Official English Name:": "Op-Op Fruit",
-        "Meaning:": "Operation",
-        "Fruit Debut:": "Chapter 765; Episode 704[1]",
-        "Usage Debut:": "Chapter 504; Episode 398[2]",
-        "Type:": "Paramecia",
-        "Previous User:": "A certain doctor[3]",
-        "Current User:": "Trafalgar D. Water Law"
-      }
-    }
-  },
-  {
-    "Shiro Shiro no Mi": {
-      "id": "28",
-      "href": "/wiki/Shiro_Shiro_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "シロシロの実",
-        "Official English Name:": "Castle-Castle Fruit",
-        "Meaning:": "Castle",
-        "Usage Debut:": "Chapter 508; Episode 401[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Capone Bege"
-      }
-    }
-  },
-  {
-    "Wara Wara no Mi": {
-      "id": "29",
-      "href": "/wiki/Wara_Wara_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ワラワラの実",
-        "Official English Name:": "Straw-Straw Fruit",
-        "Meaning:": "Straw",
-        "Usage Debut:": "Chapter 508; Episode 401[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Basil Hawkins"
-      }
-    }
-  },
-  {
-    "Oto Oto no Mi": {
-      "id": "30",
-      "href": "/wiki/Oto_Oto_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "オトオトの実",
-        "Official English Name:": "Tone-Tone Fruit[1]",
-        "Meaning:": "Sound",
-        "Usage Debut:": "Chapter 509; Episode 402[2]",
-        "Type:": "Paramecia",
-        "Current User:": "Scratchmen Apoo"
-      }
-    }
-  },
-  {
-    "Mero Mero no Mi": {
-      "id": "31",
-      "href": "/wiki/Mero_Mero_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "メロメロの実",
-        "Official English Name:": "Love-Love Fruit",
-        "Meaning:": "Fall in Love",
-        "Fruit Debut:": "Episode 1101; One Piece Magazine Vol.16",
-        "Usage Debut:": "Chapter 516; Episode 410[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Boa HancockS-Snake (Artificial)"
-      }
-    }
-  },
-  {
-    "Doku Doku no Mi": {
-      "id": "32",
-      "href": "/wiki/Doku_Doku_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ドクドクの実",
-        "Official English Name:": "Venom-Venom Fruit",
-        "Meaning:": "Poison",
-        "Usage Debut:": "Chapter 528; Episode 425[1]",
-        "Type:": "Paramecia[2][3]",
-        "Current User:": "Magellan[1]"
-      }
-    }
-  },
-  {
-    "Horu Horu no Mi": {
-      "id": "33",
-      "href": "/wiki/Horu_Horu_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ホルホルの実",
-        "Official English Name:": "Horm-Horm Fruit (VIZ and Funimation);Hor-Hor Fruit (One Piece Official YouTube Channel)[1]",
-        "Meaning:": "Hormones",
-        "Usage Debut:": "Chapter 537; Episode 439[2]",
-        "Type:": "Paramecia",
-        "Current User:": "Emporio Ivankov"
-      }
-    }
-  },
-  {
-    "Choki Choki no Mi": {
-      "id": "34",
-      "href": "/wiki/Choki_Choki_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "チョキチョキの実",
-        "Official English Name:": "Snip-Snip Fruit (VIZ and Funimation);Shear-Shear Fruit (One Piece Official YouTube Channel)[1]",
-        "Meaning:": "Sound of scissors",
-        "Usage Debut:": "Chapter 540; Episode 442",
-        "Type:": "Paramecia",
-        "Current User:": "Inazuma"
-      }
-    }
-  },
-  {
-    "Gura Gura no Mi": {
-      "id": "35",
-      "href": "/wiki/Gura_Gura_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "グラグラの実",
-        "Official English Name:": "Tremor-Tremor Fruit or Quake-Quake Fruit",
-        "Meaning:": "Sound of shaking",
-        "Usage Debut:": "Chapter 552; Episode 461 (Edward Newgate)[1]Chapter 577; Episode 486 (Marshall D. Teach)[2]",
-        "Type:": "Paramecia",
-        "Previous User:": "Edward Newgate[1]",
-        "Current User:": "Marshall D. Teach[2]"
-      }
-    }
-  },
-  {
-    "Kira Kira no Mi": {
-      "id": "36",
-      "href": "/wiki/Kira_Kira_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "キラキラの実",
-        "Official English Name:": "Twinkle-Twinkle Fruit[1]",
-        "Meaning:": "Sparkle",
-        "Usage Debut:": "Chapter 553; Episode 463[2]",
-        "Type:": "Paramecia",
-        "Current User:": "Jozu"
-      }
-    }
-  },
-  {
-    "Poke Poke no Mi": {
-      "id": "37",
-      "href": "/wiki/Poke_Poke_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ポケポケの実",
-        "Official English Name:": "Pocket-Pocket Fruit[1]",
-        "Meaning:": "Pocket",
-        "Usage Debut:": "Chapter 553; Episode 461[2]",
-        "Type:": "Paramecia",
-        "Current User:": "Blamenco"
-      }
-    }
-  },
-  {
-    "Woshu Woshu no Mi": {
-      "id": "38",
-      "href": "/wiki/Woshu_Woshu_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ウォシュウォシュの実",
-        "Official English Name:": "Wash-Wash Fruit",
-        "Meaning:": "Wash",
-        "Usage Debut:": "Chapter 556; Episode 465",
-        "Type:": "Paramecia",
-        "Current User:": "Tsuru"
-      }
-    }
-  },
-  {
-    "Fuwa Fuwa no Mi": {
-      "id": "39",
-      "href": "/wiki/Fuwa_Fuwa_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "フワフワの実",
-        "Official English Name:": "Float-Float Fruit",
-        "Meaning:": "Float",
-        "Usage Debut:": "Chapter 0; Episode 426[1][2]",
-        "Type:": "Paramecia",
-        "Current User:": "Shiki"
-      }
-    }
-  },
-  {
-    "Deka Deka no Mi": {
-      "id": "40",
-      "href": "/wiki/Deka_Deka_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "デカデカの実",
-        "Official English Name:": "Huge-Huge Fruit",
-        "Meaning:": "Huge",
-        "Usage Debut:": "Chapter 575; Episode 484[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Sanjuan Wolf"
-      }
-    }
-  },
-  {
-    "Mato Mato no Mi": {
-      "id": "41",
-      "href": "/wiki/Mato_Mato_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "マトマトの実",
-        "Official English Name:": "Mark-Mark Fruit",
-        "Meaning:": "Target",
-        "Usage Debut:": "Chapter 613; Episode 532[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Vander Decken IX"
-      }
-    }
-  },
-  {
-    "Fuku Fuku no Mi": {
-      "id": "42",
-      "href": "/wiki/Fuku_Fuku_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "フクフクの実",
-        "Official English Name:": "Garb-Garb Jutsu (VIZ and Funimation);Garb-Garb Fruit (One Piece Official YouTube Channel)[1]",
-        "Meaning:": "Clothing",
-        "Usage Debut:": "Chapter 663; Episode 588[2]",
-        "Type:": "Paramecia",
-        "Current User:": "Kin'emon"
-      }
-    }
-  },
-  {
-    "Hobi Hobi no Mi": {
-      "id": "43",
-      "href": "/wiki/Hobi_Hobi_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ホビホビの実",
-        "Official English Name:": "Hobby-Hobby Fruit",
-        "Meaning:": "Hobby",
-        "Usage Debut:": "Chapter 701; Episode 630[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Sugar[2]"
-      }
-    }
-  },
-  {
-    "Buki Buki no Mi": {
-      "id": "44",
-      "href": "/wiki/Buki_Buki_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ブキブキの実",
-        "Romanized Name:": "Buki Buki no Mi",
-        "Official English Name:": "Arms-Arms Fruit",
-        "Meaning:": "Weapon",
-        "Usage Debut:": "Chapter 682; Episode 608[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Baby 5"
-      }
-    }
-  },
-  {
-    "Guru Guru no Mi": {
-      "id": "45",
-      "href": "/wiki/Guru_Guru_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "グルグルの実",
-        "Official English Name:": "Spin-Spin Fruit",
-        "Meaning:": "Sound of rotating",
-        "Usage Debut:": "Chapter 692; Episode 618[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Buffalo"
-      }
-    }
-  },
-  {
-    "Beta Beta no Mi": {
-      "id": "46",
-      "href": "/wiki/Beta_Beta_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ベタベタの実",
-        "Official English Name:": "Stick-Stick Fruit (VIZ, Funimation (Episode of Sabo)Sticky-Sticky Fruit (Funimation)",
-        "Meaning:": "Sticky",
-        "Usage Debut:": "Chapter 700; Episode 629[1]",
-        "Type:": "Paramecia[2]",
-        "Current User:": "Trebol"
-      }
-    }
-  },
-  {
-    "Zushi Zushi no Mi": {
-      "id": "47",
-      "href": "/wiki/Zushi_Zushi_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ズシズシの実",
-        "Official English Name:": "Press-Press Fruit[1]",
-        "Meaning:": "Sound of heavy stomps",
-        "Usage Debut:": "Chapter 701; Episode 631[2]",
-        "Type:": "Paramecia",
-        "Current User:": "Issho"
-      }
-    }
-  },
-  {
-    "Bari Bari no Mi": {
-      "id": "48",
-      "href": "/wiki/Bari_Bari_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "バリバリの実",
-        "Official English Name:": "Barrier-Barrier Fruit[N 1]Bari-Bari Fruit[N 2]",
-        "Meaning:": "Barrier",
-        "Usage Debut:": "Chapter 708; Episode 637 (Bartolomeo)[1]Chapter 969; Episode 970 (Kurozumi Semimaru)[2]",
-        "Type:": "Paramecia",
-        "Previous User:": "Kurozumi Semimaru[2]",
-        "Current User:": "Bartolomeo[3]"
-      }
-    }
-  },
-  {
-    "Nui Nui no Mi": {
-      "id": "49",
-      "href": "/wiki/Nui_Nui_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ヌイヌイの実",
-        "Official English Name:": "Stitch-Stitch Power (VIZ and Funimation);Sew-Sew Fruit (One Piece Official YouTube Channel)[1]",
-        "Meaning:": "Sewing",
-        "Usage Debut:": "Chapter 711; Episode 641[2]",
-        "Type:": "Paramecia",
-        "Current User:": "Leo"
-      }
-    }
-  },
-  {
-    "Giro Giro no Mi": {
-      "id": "50",
-      "href": "/wiki/Giro_Giro_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ギロギロの実",
-        "Official English Name:": "Glare-Glare Fruit",
-        "Meaning:": "Glare; Stare",
-        "Usage Debut:": "Chapter 712; Episode 640[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Viola"
-      }
-    }
-  },
-  {
-    "Ato Ato no Mi": {
-      "id": "51",
-      "href": "/wiki/Ato_Ato_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "アトアトの実",
-        "Official English Name:": "Art-Art Fruit",
-        "Meaning:": "Art",
-        "Usage Debut:": "Chapter 714;[1] Episode 635[2]",
-        "Type:": "Paramecia",
-        "Current User:": "Giolla"
-      }
-    }
-  },
-  {
-    "Jake Jake no Mi": {
-      "id": "52",
-      "href": "/wiki/Jake_Jake_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ジャケジャケの実",
-        "Official English Name:": "Jacket-Jacket Fruit",
-        "Meaning:": "Jacket",
-        "Usage Debut:": "Chapter 715; Episode 645[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Kelly Funk"
-      }
-    }
-  },
-  {
-    "Pamu Pamu no Mi": {
-      "id": "53",
-      "href": "/wiki/Pamu_Pamu_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "パムパムの実",
-        "Official English Name:": "Pop-Pop Fruit",
-        "Meaning:": "Rupture",
-        "Usage Debut:": "Chapter 723; Episode 653[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Gladius"
-      }
-    }
-  },
-  {
-    "Sui Sui no Mi": {
-      "id": "54",
-      "href": "/wiki/Sui_Sui_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "スイスイの実",
-        "Official English Name:": "Swim-Swim Fruit",
-        "Meaning:": "Smooth Swim",
-        "Usage Debut:": "Chapter 732; Episode 664[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Senor Pink[2]S-Shark (Artificial)"
-      }
-    }
-  },
-  {
-    "Ton Ton no Mi": {
-      "id": "55",
-      "href": "/wiki/Ton_Ton_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "トントンの実",
-        "Official English Name:": "Ton-Ton Fruit",
-        "Meaning:": "Ton",
-        "Usage Debut:": "Chapter 735; Episode 667[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Machvise"
-      }
-    }
-  },
-  {
-    "Hira Hira no Mi": {
-      "id": "56",
-      "href": "/wiki/Hira_Hira_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ヒラヒラの実",
-        "Official English Name:": "Ripple-Ripple Fruit (VIZ Media, Funimation subs, Funimation dub (main series));Flutter-Flutter Fruit (Funimation dub (Episode of Sabo))",
-        "Meaning:": "Flap; Flutter",
-        "Usage Debut:": "Chapter 736; Episode 668[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Diamante"
-      }
-    }
-  },
-  {
-    "Ishi Ishi no Mi": {
-      "id": "57",
-      "href": "/wiki/Ishi_Ishi_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "イシイシの実",
-        "Official English Name:": "Stone-Stone Fruit",
-        "Meaning:": "Stone",
-        "Usage Debut:": "Chapter 736; Episode 669[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Pica[2]"
-      }
-    }
-  },
-  {
-    "Fude Fude no Mi": {
-      "id": "58",
-      "href": "/wiki/Fude_Fude_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "フデフデの実",
-        "Official English Name:": "Brush-Brush Fruit[1]",
-        "Meaning:": "Brush",
-        "Fruit Debut:": "Chapter 974; Episode 976[2]",
-        "Usage Debut:": "Chapter 754; Episode 691[3]",
-        "Type:": "Paramecia",
-        "Previous User:": "Kurozumi Kanjuro"
-      }
-    }
-  },
-  {
-    "Nagi Nagi no Mi": {
-      "id": "59",
-      "href": "/wiki/Nagi_Nagi_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ナギナギの実",
-        "Official English Name:": "Calm-Calm Fruit",
-        "Meaning:": "Calm",
-        "Usage Debut:": "Chapter 764; Episode 703[1]",
-        "Type:": "Paramecia",
-        "Previous User:": "Donquixote Rosinante"
-      }
-    }
-  },
-  {
-    "Chiyu Chiyu no Mi": {
-      "id": "60",
-      "href": "/wiki/Chiyu_Chiyu_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "チユチユの実",
-        "Official English Name:": "Heal-Heal Fruit",
-        "Meaning:": "Healing",
-        "Usage Debut:": "Chapter 774; Episode 714[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Mansherry"
-      }
-    }
-  },
-  {
-    "Maki Maki no Mi": {
-      "id": "61",
-      "href": "/wiki/Maki_Maki_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "マキマキの実",
-        "Official English Name:": "Scrolling Jutsu (Former);Scroll-Scroll Jutsu;Scroll-Scroll Fruit (One Piece Official YouTube Channel)[1]",
-        "Meaning:": "Scroll",
-        "Usage Debut:": "Chapter 817; Episode 768[2]",
-        "Type:": "Paramecia",
-        "Current User:": "Raizo"
-      }
-    }
-  },
-  {
-    "Soru Soru no Mi": {
-      "id": "62",
-      "href": "/wiki/Soru_Soru_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ソルソルの実",
-        "Official English Name:": "Soul-Soul Fruit",
-        "Meaning:": "Soul",
-        "Usage Debut:": "Chapter 651; Episode 571 (Charlotte Linlin)[1]Chapter 867; Episode 837 (Carmel)[2]",
-        "Type:": "Paramecia",
-        "Previous User:": "Carmel[2]",
-        "Current User:": "Charlotte Linlin[2]"
-      }
-    }
-  },
-  {
-    "Mira Mira no Mi": {
-      "id": "63",
-      "href": "/wiki/Mira_Mira_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ミラミラの実",
-        "Official English Name:": "Mirror-Mirror Fruit",
-        "Meaning:": "Mirror",
-        "Usage Debut:": "Chapter 831; Episode 790[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Charlotte Brûlée"
-      }
-    }
-  },
-  {
-    "Pero Pero no Mi": {
-      "id": "64",
-      "href": "/wiki/Pero_Pero_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ペロペロの実",
-        "Official English Name:": "Lick-Lick Fruit",
-        "Meaning:": "Sound of licking",
-        "Usage Debut:": "Chapter 834; Episode 795[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Charlotte Perospero"
-      }
-    }
-  },
-  {
-    "Bisu Bisu no Mi": {
-      "id": "65",
-      "href": "/wiki/Bisu_Bisu_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ビスビスの実",
-        "Official English Name:": "Bis-Bis Fruit",
-        "Meaning:": "Biscuit",
-        "Usage Debut:": "Chapter 835; Episode 796[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Charlotte Cracker"
-      }
-    }
-  },
-  {
-    "Bata Bata no Mi": {
-      "id": "66",
-      "href": "/wiki/Bata_Bata_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "バタバタの実",
-        "Official English Name:": "Butter-Butter Fruit",
-        "Meaning:": "Butter",
-        "Usage Debut:": "Chapter 846; Episode 811[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Charlotte Galette"
-      }
-    }
-  },
-  {
-    "Buku Buku no Mi": {
-      "id": "67",
-      "href": "/wiki/Buku_Buku_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ブクブクの実",
-        "Official English Name:": "Book-Book Fruit",
-        "Meaning:": "Book",
-        "Usage Debut:": "Chapter 846; Episode 810[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Charlotte Mont-d'Or"
-      }
-    }
-  },
-  {
-    "Kuri Kuri no Mi": {
-      "id": "68",
-      "href": "/wiki/Kuri_Kuri_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "クリクリの実",
-        "Official English Name:": "Cream-Cream Fruit",
-        "Meaning:": "Cream",
-        "Usage Debut:": "Chapter 846; Episode 810[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Charlotte Opera"
-      }
-    }
-  },
-  {
-    "Shibo Shibo no Mi": {
-      "id": "69",
-      "href": "/wiki/Shibo_Shibo_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "シボシボの実",
-        "Official English Name:": "Wring-Wring Fruit",
-        "Meaning:": "Squeeze",
-        "Usage Debut:": "Chapter 846; Episode 812[1]",
-        "Type:": "Paramecia[1]",
-        "Current User:": "Charlotte Smoothie[1]"
-      }
-    }
-  },
-  {
-    "Memo Memo no Mi": {
-      "id": "70",
-      "href": "/wiki/Memo_Memo_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "メモメモの実",
-        "Official English Name:": "Memo-Memo Fruit",
-        "Meaning:": "Memory",
-        "Usage Debut:": "Chapter 851; Episode 818[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Charlotte Pudding"
-      }
-    }
-  },
-  {
-    "Mochi Mochi no Mi": {
-      "id": "71",
-      "href": "/wiki/Mochi_Mochi_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "モチモチの実",
-        "Official English Name:": "Mochi-Mochi Fruit",
-        "Meaning:": "Mochi; Springy",
-        "Fruit Debut:": "One Piece Magazine Vol.14",
-        "Usage Debut:": "Chapter 863; Episode 833[1]",
-        "Type:": "Special Paramecia[1]",
-        "Current User:": "Charlotte Katakuri[1]"
-      }
-    }
-  },
-  {
-    "Hoya Hoya no Mi": {
-      "id": "72",
-      "href": "/wiki/Hoya_Hoya_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ホヤホヤの実",
-        "Official English Name:": "Puff-Puff Fruit",
-        "Meaning:": "Lamp Chimney; Sound of smoke/steam",
-        "Usage Debut:": "Chapter 864, Episode 826[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Charlotte Daifuku[1]"
-      }
-    }
-  },
-  {
-    "Netsu Netsu no Mi": {
-      "id": "73",
-      "href": "/wiki/Netsu_Netsu_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ネツネツの実",
-        "Official English Name:": "Heat-Heat Fruit",
-        "Meaning:": "Heat",
-        "Usage Debut:": "Chapter 864;[1] Episode 827[2]",
-        "Type:": "Paramecia",
-        "Current User:": "Charlotte Oven[1]"
-      }
-    }
-  },
-  {
-    "Kuku Kuku no Mi": {
-      "id": "74",
-      "href": "/wiki/Kuku_Kuku_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ククククの実",
-        "Official English Name:": "Cook-Cook Fruit",
-        "Meaning:": "Cook",
-        "Usage Debut:": "Chapter 868;[1] Episode 832[2]",
-        "Type:": "Paramecia",
-        "Current User:": "Streusen"
-      }
-    }
-  },
-  {
-    "Gocha Gocha no Mi": {
-      "id": "75",
-      "href": "/wiki/Gocha_Gocha_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ゴチャゴチャの実",
-        "Official English Name:": "Pile-Pile Fruit[1]",
-        "Meaning:": "Mix",
-        "Usage Debut:": "Chapter 900; Episode 875[2]",
-        "Type:": "Paramecia[2]",
-        "Current User:": "Charlotte Newshi[2]"
-      }
-    }
-  },
-  {
-    "Oshi Oshi no Mi": {
-      "id": "76",
-      "href": "/wiki/Oshi_Oshi_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "オシオシの実",
-        "Official English Name:": "Push-Push Fruit",
-        "Meaning:": "Push",
-        "Usage Debut:": "Chapter 904, Episode 880[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Morley"
-      }
-    }
-  },
-  {
-    "Kobu Kobu no Mi": {
-      "id": "77",
-      "href": "/wiki/Kobu_Kobu_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "コブコブの実",
-        "Official English Name:": "Pump-Pump Fruit",
-        "Meaning:": "Encouragement",
-        "Usage Debut:": "Chapter 904, Episode 880[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Belo Betty"
-      }
-    }
-  },
-  {
-    "Kibi Kibi no Mi": {
-      "id": "78",
-      "href": "/wiki/Kibi_Kibi_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "キビキビの実",
-        "Official English Name:": "Millet-Millet Fruit[1]",
-        "Meaning:": "Millet",
-        "Usage Debut:": "Chapter 911; Episode 893[2]",
-        "Type:": "Paramecia",
-        "Current User:": "Kurozumi Tama"
-      }
-    }
-  },
-  {
-    "Toki Toki no Mi": {
-      "id": "79",
-      "href": "/wiki/Toki_Toki_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "トキトキの実",
-        "Official English Name:": "Time-Time Ability (VIZ);Time-Time Fruit (Funimation)",
-        "Meaning:": "Time",
-        "Usage Debut:": "Chapter 920; Episode 910[1]",
-        "Type:": "Paramecia",
-        "Previous User:": "Kozuki Toki"
-      }
-    }
-  },
-  {
-    "Juku Juku no Mi": {
-      "id": "80",
-      "href": "/wiki/Juku_Juku_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ジュクジュクの実",
-        "Official English Name:": "Ripe-Ripe Enticement Jutsu (VIZ and Funimation);Ripe-Ripe Fruit (One Piece Official YouTube Channel)[1]",
-        "Meaning:": "Mature",
-        "Usage Debut:": "Chapter 924; Episode 916[2]",
-        "Type:": "Paramecia",
-        "Current User:": "Shinobu"
-      }
-    }
-  },
-  {
-    "Shiku Shiku no Mi": {
-      "id": "81",
-      "href": "/wiki/Shiku_Shiku_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "シクシクの実",
-        "Official English Name:": "Sick-Sick Fruit",
-        "Meaning:": "Sick",
-        "Usage Debut:": "Chapter 1063; Episode 1093[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Doc Q"
-      }
-    }
-  },
-  {
-    "Wapu Wapu no Mi": {
-      "id": "82",
-      "href": "/wiki/Wapu_Wapu_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ワプワプの実",
-        "Official English Name:": "Warp-Warp Fruit",
-        "Meaning:": "Warp",
-        "Usage Debut:": "Chapter 1063; Episode 1093[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Van Augur"
-      }
-    }
-  },
-  {
-    "Riki Riki no Mi": {
-      "id": "83",
-      "href": "/wiki/Riki_Riki_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "リキリキの実",
-        "Official English Name:": "Strong-Strong Fruit",
-        "Meaning:": "Strength",
-        "Usage Debut:": "Chapter 1063; Episode 1093[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Jesus Burgess"
-      }
-    }
-  },
-  {
-    "Nomi Nomi no Mi": {
-      "id": "84",
-      "href": "/wiki/Nomi_Nomi_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ノミノミの実",
-        "Official English Name:": "Brain-Brain Fruit",
-        "Meaning:": "Brains",
-        "Usage Debut:": "Chapter 1066; Episode 1096[1]",
-        "Type:": "Paramecia",
-        "Previous User:": "Vegapunk"
-      }
-    }
-  },
-  {
-    "Shima Shima no Mi": {
-      "id": "85",
-      "href": "/wiki/Shima_Shima_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "シマシマの実",
-        "Official English Name:": "Isle-Isle Fruit",
-        "Meaning:": "Island",
-        "Usage Debut:": "Chapter 1080; Episode 1113[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Avalo Pizarro"
-      }
-    }
-  },
-  {
-    "Gabu Gabu no Mi": {
-      "id": "86",
-      "href": "/wiki/Gabu_Gabu_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ガブガブの実",
-        "Official English Name:": "Glug-Glug Fruit",
-        "Meaning:": "Gulping down a drink",
-        "Usage Debut:": "Chapter 1087[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Vasco Shot"
-      }
-    }
-  },
-  {
-    "Muchi Muchi no Mi": {
-      "id": "87",
-      "href": "/wiki/Muchi_Muchi_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ムチムチの実",
-        "Official English Name:": "Whip-Whip Fruit",
-        "Meaning:": "Whip",
-        "Usage Debut:": "Chapter 1080; Episode 1113[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Kujaku"
-      }
-    }
-  },
-  {
-    "Nori Nori no Mi": {
-      "id": "88",
-      "href": "/wiki/Nori_Nori_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ノリノリの実",
-        "Official English Name:": "Ride-Ride Fruit",
-        "Meaning:": "Ride",
-        "Usage Debut:": "Chapter 1094[1]",
-        "Type:": "Paramecia",
-        "Current User:": "Bluegrass"
-      }
-    }
-  },
-  {
-    "Ushi Ushi no Mi, Model: Bison": {
-      "id": "89",
-      "href": "/wiki/Ushi_Ushi_no_Mi,_Model:_Bison",
-      "Statistics": {
-        "Japanese Name:": "ウシウシの実 モデル 野牛（バイソン）",
-        "Romanized Name:": "Ushi Ushi no Mi, Moderu: Baison",
-        "Official English Name:": "Ox-Ox Fruit (4Kids);Ox-Ox Fruit, Bison Model (Viz);Ox-Ox Fruit, Bison Form (Funimation)",
-        "Meaning:": "Cow",
-        "Fruit Debut:": "Chapter 1070; Episode 1101;[1] One Piece Magazine Vol.12",
-        "Usage Debut:": "Chapter 135; Episode 81[2]",
-        "Type:": "Zoan",
-        "Current User:": "Dalton"
-      }
-    }
-  },
-  {
-    "Hito Hito no Mi": {
-      "id": "90",
-      "href": "/wiki/Hito_Hito_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ヒトヒトの実",
-        "Official English Name:": "Human-Human Fruit",
-        "Meaning:": "Human",
-        "Fruit Debut:": "One Piece Magazine Vol.6",
-        "Usage Debut:": "Chapter 138; Episode 83[1]",
-        "Type:": "Zoan",
-        "Current User:": "Tony Tony Chopper"
-      }
-    }
-  },
-  {
-    "Tori Tori no Mi, Model: Falcon": {
-      "id": "91",
-      "href": "/wiki/Tori_Tori_no_Mi,_Model:_Falcon",
-      "Statistics": {
-        "Japanese Name:": "トリトリの実 モデル “隼（ファルコン）”",
-        "Romanized Name:": "Tori Tori no Mi Moderu \"Farukon\"",
-        "Official English Name:": "Tweet-Tweet Fruit (4Kids);Tweet-Tweet Fruit Falcon Type (Viz);Bird-Bird Fruit Model: The Falcon (Funimation)",
-        "Meaning:": "Bird",
-        "Usage Debut:": "Chapter 169; Episode 106[1]",
-        "Type:": "Zoan",
-        "Current User:": "Pell"
-      }
-    }
-  },
-  {
-    "Inu Inu no Mi, Model: Dachshund": {
-      "id": "92",
-      "href": "/wiki/Inu_Inu_no_Mi,_Model:_Dachshund",
-      "Statistics": {
-        "Japanese Name:": "イヌイヌの実 モデル「ダックスフント」",
-        "Romanized Name:": "Inu Inu no Mi, Moderu: Dakkusufunto",
-        "Official English Name:": "Mutt-Mutt Fruit, Dachshund Type (Viz);Mutt-Mutt Fruit (4Kids);Dog-Dog Fruit, Model: Dachshund (Funimation)",
-        "Meaning:": "Dog",
-        "Usage Debut:": "Chapter 184; Episode 113[1]",
-        "Type:": "Zoan",
-        "Current User:": "Lassoo"
-      }
-    }
-  },
-  {
-    "Mogu Mogu no Mi": {
-      "id": "93",
-      "href": "/wiki/Mogu_Mogu_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "モグモグの実",
-        "Official English Name:": "Mole-Mole Fruit (Funimation);Diggy-Diggy Fruit (Viz, 4Kids)",
-        "Meaning:": "From Mogura (土竜), meaning Mole",
-        "Usage Debut:": "Chapter 184; Episode 113",
-        "Type:": "Zoan",
-        "Current User:": "Drophy"
-      }
-    }
-  },
-  {
-    "Inu Inu no Mi, Model: Jackal": {
-      "id": "94",
-      "href": "/wiki/Inu_Inu_no_Mi,_Model:_Jackal",
-      "Statistics": {
-        "Japanese Name:": "イヌイヌの実 モデル「ジャッカル」",
-        "Romanized Name:": "Inu Inu no Mi, Moderu: Jakkaru",
-        "Official English Name:": "Dog-Dog Fruit, Model: Jackal (Funimation);Mutt-Mutt Fruit: Jackal Model (Viz);Mutt-Mutt Fruit: Jackal Strike (4Kids)",
-        "Meaning:": "Dog",
-        "Usage Debut:": "Chapter 196; Episode 120[1]",
-        "Type:": "Zoan",
-        "Current User:": "Chaka"
-      }
-    }
-  },
-  {
-    "Uma Uma no Mi": {
-      "id": "95",
-      "href": "/wiki/Uma_Uma_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ウマウマの実",
-        "Official English Name:": "Horse-Horse Fruit",
-        "Meaning:": "Horse",
-        "Usage Debut:": "Chapter 238; Episode 153[1]",
-        "Type:": "Zoan",
-        "Current User:": "Pierre"
-      }
-    }
-  },
-  {
-    "Neko Neko no Mi, Model: Leopard": {
-      "id": "96",
-      "href": "/wiki/Neko_Neko_no_Mi,_Model:_Leopard",
-      "Statistics": {
-        "Japanese Name:": "ネコネコの実 モデル“豹（レオパルド）”",
-        "Romanized Name:": "Neko Neko no Mi, Moderu: Reoparudo",
-        "Official English Name:": "Cat-Cat Fruit Leopard Model (VIZ);Cat-Cat Fruit, Model: Leopard (VIZ, Funimation)",
-        "Meaning:": "Cat",
-        "Fruit Debut:": "One Piece Magazine Vol.16; Episode 1101",
-        "Usage Debut:": "Chapter 348; Episode 245[1]",
-        "Type:": "Zoan",
-        "Current User:": "Rob Lucci"
-      }
-    }
-  },
-  {
-    "Zou Zou no Mi": {
-      "id": "97",
-      "href": "/wiki/Zou_Zou_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ゾウゾウの実",
-        "Romanized Name:": "Zō Zō no Mi",
-        "Official English Name:": "Eleph-Eleph Fruit (Viz); Elephant-Elephant Fruit (Funimation, Viz); Eleph-Eleph Fruit (ONE PIECE Official Youtube Channel)",
-        "Meaning:": "Elephant",
-        "Usage Debut:": "Chapter 400; Episode 285[1]",
-        "Type:": "Zoan",
-        "Current User:": "Funkfreed"
-      }
-    }
-  },
-  {
-    "Inu Inu no Mi, Model: Wolf": {
-      "id": "98",
-      "href": "/wiki/Inu_Inu_no_Mi,_Model:_Wolf",
-      "Statistics": {
-        "Japanese Name:": "イヌイヌの実 モデル「狼（ウルフ）」",
-        "Romanized Name:": "Inu Inu no Mi, Moderu: Urufu",
-        "Official English Name:": "Mutt-Mutt Fruit Wolf Model (Viz) Dog-Dog Fruit Model Wolf (Funimation)",
-        "Meaning:": "Dog",
-        "Usage Debut:": "Chapter 401; Episode 286[1]",
-        "Type:": "Zoan",
-        "Current User:": "Jabra"
-      }
-    }
-  },
-  {
-    "Ushi Ushi no Mi, Model: Giraffe": {
-      "id": "99",
-      "href": "/wiki/Ushi_Ushi_no_Mi,_Model:_Giraffe",
-      "Statistics": {
-        "Japanese Name:": "ウシウシの実 モデル“麒麟（ジラフ）”",
-        "Romanized Name:": "Ushi Ushi no Mi, Moderu: Jirafu",
-        "Official English Name:": "Ox-Ox Fruit, Model: Giraffe (Funimation);Ox-Ox Fruit Giraffe Model (VIZ)",
-        "Meaning:": "Cow, Qilin",
-        "Fruit Debut:": "Chapter 379; Episode 266[1]",
-        "Usage Debut:": "Chapter 401; Episode 286 (Kaku)[2]episode A Chapter 3 (New World pirate) (Non-Canon)≠[3]",
-        "Type:": "Zoan",
-        "Previous User:": "Unnamed New World pirate (Non-Canon)≠[3]",
-        "Current User:": "Kaku"
-      }
-    }
-  },
-  {
-    "Hebi Hebi no Mi, Model: King Cobra": {
-      "id": "100",
-      "href": "/wiki/Hebi_Hebi_no_Mi,_Model:_King_Cobra",
-      "Statistics": {
-        "Japanese Name:": "ヘビヘビの実 モデル キングコブラ",
-        "Romanized Name:": "Hebi Hebi no Mi Moderu Kingukobura",
-        "Official English Name:": "Snake-Snake Fruit King Cobra Model (Viz);Snake-Snake Fruit: Model King Cobra (FUNimation)",
-        "Meaning:": "Snake",
-        "Usage Debut:": "Chapter 518; Episode 412[1]",
-        "Type:": "Zoan",
-        "Current User:": "Boa Marigold"
-      }
-    }
-  },
-  {
-    "Hebi Hebi no Mi, Model: Anaconda": {
-      "id": "101",
-      "href": "/wiki/Hebi_Hebi_no_Mi,_Model:_Anaconda",
-      "Statistics": {
-        "Japanese Name:": "ヘビヘビの実 モデル アナコンダ",
-        "Romanized Name:": "Hebi Hebi no Mi, Moderu: Anakonda",
-        "Official English Name:": "Snake-Snake Fruit Anaconda Model (Viz);Snake-Snake Fruit: Model Anaconda (FUNimation)",
-        "Meaning:": "Snake",
-        "Usage Debut:": "Chapter 518; Episode 412[1]",
-        "Type:": "Zoan",
-        "Current User:": "Boa Sandersonia"
-      }
-    }
-  },
-  {
-    "Kame Kame no Mi": {
-      "id": "102",
-      "href": "/wiki/Kame_Kame_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "カメカメの実",
-        "Official English Name:": "Turtle-Turtle Fruit",
-        "Meaning:": "Turtle",
-        "Usage Debut:": "Chapter 652; Episode 572[1]",
-        "Type:": "Zoan",
-        "Current User:": "Pekoms"
-      }
-    }
-  },
-  {
-    "Sara Sara no Mi, Model: Axolotl": {
-      "id": "103",
-      "href": "/wiki/Sara_Sara_no_Mi,_Model:_Axolotl",
-      "Statistics": {
-        "Japanese Name:": "サラサラの実 モデル\"アホロートル\"",
-        "Romanized Name:": "Sara Sara no Mi: Moderu Ahorōtoru",
-        "Official English Name:": "Sala-Sala Fruit, Model: Axolotl",
-        "Meaning:": "Salamander",
-        "Fruit Debut:": "Chapter 676; Episode 602[1]",
-        "Usage Debut:": "Chapter 668; Episode 594[2]",
-        "Type:": "Zoan",
-        "Previous User:": "Smiley[3]"
-      }
-    }
-  },
-  {
-    "Mushi Mushi no Mi, Model: Kabutomushi": {
-      "id": "104",
-      "href": "/wiki/Mushi_Mushi_no_Mi,_Model:_Kabutomushi",
-      "Statistics": {
-        "Japanese Name:": "ムシムシの実 モデルカブトムシ",
-        "Romanized Name:": "Mushi Mushi no Mi, Moderu: Kabutomushi",
-        "Official English Name:": "Bug-Bug Fruit, Model: Rhinoceros beetle",
-        "Meaning:": "Insect; Rhinoceros Beetle",
-        "Usage Debut:": "Chapter 718; Episode 648[1]",
-        "Type:": "Zoan",
-        "Current User:": "Kabu"
-      }
-    }
-  },
-  {
-    "Mushi Mushi no Mi, Model: Suzumebachi": {
-      "id": "105",
-      "href": "/wiki/Mushi_Mushi_no_Mi,_Model:_Suzumebachi",
-      "Statistics": {
-        "Japanese Name:": "ムシムシの実 モデルスズメバチ",
-        "Romanized Name:": "Mushi Mushi no Mi, Moderu: Suzumebachi",
-        "Official English Name:": "Bug-Bug Fruit, Model: Hornet",
-        "Meaning:": "Insect; Hornet",
-        "Usage Debut:": "Chapter 718; Episode 648[1]",
-        "Type:": "Zoan",
-        "Current User:": "Bian"
-      }
-    }
-  },
-  {
-    "Tama Tama no Mi": {
-      "id": "106",
-      "href": "/wiki/Tama_Tama_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "タマタマの実",
-        "Official English Name:": "Egg-Egg Fruit",
-        "Meaning:": "Egg",
-        "Usage Debut:": "Chapter 850; Episode 816[1]",
-        "Type:": "Zoan",
-        "Current User:": "Tamago"
-      }
-    }
-  },
-  {
-    "Tori Tori no Mi, Model: Albatross": {
-      "id": "107",
-      "href": "/wiki/Tori_Tori_no_Mi,_Model:_Albatross",
-      "Statistics": {
-        "Japanese Name:": "トリトリの実 モデル“アルバトロス”",
-        "Romanized Name:": "Tori Tori no Mi Moderu Arubatorosu",
-        "Official English Name:": "Tweet-Tweet Fruit, Albatross Model (Crunchyroll subs)Bird-Bird Fruit, Model: Albatross (One Piece Official YouTube Channel)[1]",
-        "Meaning:": "Bird, Albatross",
-        "Usage Debut:": "Chapter 860; Episode 830[2]",
-        "Type:": "Zoan",
-        "Current User:": "Morgans"
-      }
-    }
-  },
-  {
-    "Inu Inu no Mi, Model: Tanuki": {
-      "id": "108",
-      "href": "/wiki/Inu_Inu_no_Mi,_Model:_Tanuki",
-      "Statistics": {
-        "Japanese Name:": "イヌイヌの実 モデル たぬき",
-        "Romanized Name:": "Inu Inu no Mi, Moderu: Tanuki",
-        "Official English Name:": "Dog-Dog Fruit, Model Tanuki",
-        "Meaning:": "Dog, Tanuki",
-        "Usage Debut:": "Chapter 911; Episode 894[1]",
-        "Type:": "Zoan",
-        "Current User:": "Bunbuku"
-      }
-    }
-  },
-  {
-    "Tori Tori no Mi, Model: Eagle": {
-      "id": "109",
-      "href": "/wiki/Tori_Tori_no_Mi,_Model:_Eagle",
-      "Statistics": {
-        "Japanese Name:": "トリトリの実 モデル\"鷲（イーグル）\"",
-        "Romanized Name:": "Tori Tori no Mi: Moderu \"Īguru\"",
-        "Meaning:": "Bird",
-        "Usage Debut:": "Movie 11",
-        "Type:": "Zoan",
-        "Current User:": "Buzz"
-      }
-    }
-  },
-  {
-    "Ryu Ryu no Mi, Model: Allosaurus": {
-      "id": "110",
-      "href": "/wiki/Ryu_Ryu_no_Mi,_Model:_Allosaurus",
-      "Statistics": {
-        "Japanese Name:": "リュウリュウの実 モデル アロサウルス",
-        "Romanized Name:": "Ryū Ryū no Mi Moderu Arosaurusu",
-        "Official English Name:": "Dragon-Dragon Fruit, Allosaurus Model",
-        "Meaning:": "Dragon, Dinosaur",
-        "Usage Debut:": "Chapter 509; Episode 402[1]",
-        "Type:": "Ancient Zoan",
-        "Current User:": "X Drake"
-      }
-    }
-  },
-  {
-    "Zou Zou no Mi, Model: Mammoth": {
-      "id": "111",
-      "href": "/wiki/Zou_Zou_no_Mi,_Model:_Mammoth",
-      "Statistics": {
-        "Japanese Name:": "ゾウゾウの実 モデル \"マンモス\"",
-        "Romanized Name:": "Zō Zō no Mi Moderu \"Manmosu\"",
-        "Official English Name:": "Eleph-Eleph Fruit Ancient Zoan Model Mammoth[1]",
-        "Meaning:": "Elephant",
-        "Usage Debut:": "Chapter 807; Episode 757[2]",
-        "Type:": "Ancient Zoan",
-        "Current User:": "Jack"
-      }
-    }
-  },
-  {
-    "Ryu Ryu no Mi, Model: Spinosaurus": {
-      "id": "112",
-      "href": "/wiki/Ryu_Ryu_no_Mi,_Model:_Spinosaurus",
-      "Statistics": {
-        "Japanese Name:": "リュウリュウの実 モデル スピノサウルス",
-        "Romanized Name:": "Ryū Ryū no Mi Moderu Supinosaurusu",
-        "Official English Name:": "Dragon-Dragon Fruit, Model: Spinosaurus",
-        "Meaning:": "Dragon, Dinosaur",
-        "Usage Debut:": "Chapter 929; Episode 923",
-        "Type:": "Ancient Zoan",
-        "Current User:": "Page One"
-      }
-    }
-  },
-  {
-    "Ryu Ryu no Mi, Model: Pteranodon": {
-      "id": "113",
-      "href": "/wiki/Ryu_Ryu_no_Mi,_Model:_Pteranodon",
-      "Statistics": {
-        "Japanese Name:": "リュウリュウの実 モデル プテラノドン",
-        "Romanized Name:": "Ryū Ryū no Mi Moderu Puteranodon",
-        "Official English Name:": "Dragon-Dragon Fruit, Pteranodon Model",
-        "Meaning:": "Dragon, Pteranodon",
-        "Usage Debut:": "Chapter 930; Episode 924[1]",
-        "Type:": "Ancient Zoan",
-        "Current User:": "King"
-      }
-    }
-  },
-  {
-    "Ryu Ryu no Mi, Model: Brachiosaurus": {
-      "id": "114",
-      "href": "/wiki/Ryu_Ryu_no_Mi,_Model:_Brachiosaurus",
-      "Statistics": {
-        "Japanese Name:": "リュウリュウの実 モデル ブラキオサウルス",
-        "Romanized Name:": "Ryū Ryū no Mi Moderu Burakiosaurusu",
-        "Official English Name:": "Dragon-Dragon Fruit, Model: Brachiosaurus",
-        "Meaning:": "Dragon, Brachiosaurus",
-        "Usage Debut:": "Chapter 945; Episode 944[1]",
-        "Type:": "Ancient Zoan",
-        "Current User:": "Queen"
-      }
-    }
-  },
-  {
-    "Ryu Ryu no Mi, Model: Pachycephalosaurus": {
-      "id": "115",
-      "href": "/wiki/Ryu_Ryu_no_Mi,_Model:_Pachycephalosaurus",
-      "Statistics": {
-        "Japanese Name:": "リュウリュウの実 モデル パキケファロサウルス",
-        "Romanized Name:": "Ryū Ryū no Mi Moderu Pakikefarosaurusu",
-        "Official English Name:": "Dragon-Dragon Fruit, Pachycephalosaurus Model",
-        "Meaning:": "Dragon, Dinosaur",
-        "Usage Debut:": "Chapter 983; Episode 990[1]",
-        "Type:": "Ancient Zoan",
-        "Current User:": "Ulti"
-      }
-    }
-  },
-  {
-    "Ryu Ryu no Mi, Model: Triceratops": {
-      "id": "116",
-      "href": "/wiki/Ryu_Ryu_no_Mi,_Model:_Triceratops",
-      "Statistics": {
-        "Japanese Name:": "リュウリュウの実 モデル トリケラトプス",
-        "Romanized Name:": "Ryū Ryū no Mi Moderu Torikeratopusu",
-        "Official English Name:": "Dragon-Dragon Fruit, Triceratops Model",
-        "Meaning:": "Dragon, Dinosaur",
-        "Usage Debut:": "Chapter 998; Episode 1012[1]",
-        "Type:": "Ancient Zoan",
-        "Current User:": "Sasaki"
-      }
-    }
-  },
-  {
-    "Kumo Kumo no Mi, Model: Rosamygale Grauvogeli": {
-      "id": "117",
-      "href": "/wiki/Kumo_Kumo_no_Mi,_Model:_Rosamygale_Grauvogeli",
-      "Statistics": {
-        "Japanese Name:": "クモクモの実 モデル ロサミガレ・グラウボゲリィ",
-        "Romanized Name:": "Kumo Kumo no Mi Moderu Rosamigare Guraubogerī",
-        "Official English Name:": "Spider-Spider Fruit, Rosamygale Grauvogeli Model",
-        "Meaning:": "Spider",
-        "Usage Debut:": "Chapter 997; Episode 1011[1]",
-        "Type:": "Ancient Zoan",
-        "Current User:": "Black Maria"
-      }
-    }
-  },
-  {
-    "Neko Neko no Mi, Model: Saber Tiger": {
-      "id": "118",
-      "href": "/wiki/Neko_Neko_no_Mi,_Model:_Saber_Tiger",
-      "Statistics": {
-        "Japanese Name:": "ネコネコの実 モデル サーベルタイガー",
-        "Romanized Name:": "Neko Neko no Mi Moderu Sāberutaigā",
-        "Official English Name:": "Cat-Cat Fruit, Saber-Toothed Tiger Model",
-        "Meaning:": "Cat",
-        "Usage Debut:": "Chapter 998; Episode 1012[1]",
-        "Type:": "Ancient Zoan",
-        "Current User:": "Who's-Who"
-      }
-    }
-  },
-  {
-    "Gomu Gomu no Mi": {
-      "id": "119",
-      "href": "/wiki/Gomu_Gomu_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ゴムゴムの実ヒトヒトの実 モデル「ニカ」",
-        "Romanized Name:": "Gomu Gomu no MiHito Hito no Mi Moderu Nika",
-        "Official English Name:": "Gum-Gum FruitHuman-Human Fruit, Model: Nika",
-        "Meaning:": "RubberHuman; Nika",
-        "Fruit Debut:": "Chapter 1; Episode 4[1]",
-        "Usage Debut:": "Chapter 1;[2] Episode 1[3]",
-        "Type:": "Paramecia[4][5]Mythical Zoan[6][7]",
-        "Previous User:": "Joy Boy[8]",
-        "Current User:": "Monkey D. Luffy[1]"
-      }
-    }
-  },
-  {
-    "Tori Tori no Mi, Model: Phoenix": {
-      "id": "120",
-      "href": "/wiki/Tori_Tori_no_Mi,_Model:_Phoenix",
-      "Statistics": {
-        "Japanese Name:": "トリトリの実 モデル \"不死鳥（フェニックス）\"",
-        "Romanized Name:": "Tori Tori no Mi Moderu \"Fenikkusu\"",
-        "Official English Name:": "Tweet-Tweet Fruit, Phoenix Model (Crunchyroll subs)Bird-Bird Fruit, Model: Phoenix (One Piece Official YouTube Channel)[1]",
-        "Meaning:": "Bird; Phoenix",
-        "Usage Debut:": "Chapter 553; Episode 463[2]",
-        "Type:": "Mythical Zoan",
-        "Current User:": "Marco"
-      }
-    }
-  },
-  {
-    "Hito Hito no Mi, Model: Daibutsu": {
-      "id": "121",
-      "href": "/wiki/Hito_Hito_no_Mi,_Model:_Daibutsu",
-      "Statistics": {
-        "Japanese Name:": "ヒトヒトの実 モデル“大仏”",
-        "Romanized Name:": "Hito Hito no Mi, Moderu: Daibutsu",
-        "Official English Name:": "Human-Human Fruit, Model: Buddha",
-        "Meaning:": "Human, Great Buddha",
-        "Usage Debut:": "Chapter 571; Episode 480[1]",
-        "Type:": "Mythical Zoan",
-        "Current User:": "Sengoku"
-      }
-    }
-  },
-  {
-    "Uo Uo no Mi, Model: Seiryu": {
-      "id": "122",
-      "href": "/wiki/Uo_Uo_no_Mi,_Model:_Seiryu",
-      "Statistics": {
-        "Japanese Name:": "ウオウオの実 モデル \"青龍\"",
-        "Romanized Name:": "Uo Uo no Mi Moderu \"Seiryū\"",
-        "Official English Name:": "Fish-Fish Fruit, Model: Azure Dragon[1]Fish-Fish Fruit, Azure Dragon Model[2]",
-        "Meaning:": "Fish, Azure Dragon",
-        "Fruit Debut:": "Chapter 1070; Episode 1101;[3] One Piece Magazine Vol.13",
-        "Usage Debut:": "Chapter 921; Episode 912[4]",
-        "Type:": "Mythical Zoan",
-        "Current User:": "Kaidou (Natural)Kozuki Momonosuke (Artificial)"
-      }
-    }
-  },
-  {
-    "Inu Inu no Mi, Model: Kyubi no Kitsune": {
-      "id": "123",
-      "href": "/wiki/Inu_Inu_no_Mi,_Model:_Kyubi_no_Kitsune",
-      "Statistics": {
-        "Japanese Name:": "イヌイヌの実 モデル九尾の狐",
-        "Romanized Name:": "Inu Inu no Mi Moderu Kyūbi no Kitsune",
-        "Official English Name:": "Dog-Dog Fruit, Model: Nine Tailed Fox",
-        "Meaning:": "Dog; Nine-tailed fox",
-        "Usage Debut:": "Chapter 925; Episode 917[1]",
-        "Type:": "Mythical Zoan",
-        "Current User:": "Catarina Devon"
-      }
-    }
-  },
-  {
-    "Hebi Hebi no Mi, Model: Yamata no Orochi": {
-      "id": "124",
-      "href": "/wiki/Hebi_Hebi_no_Mi,_Model:_Yamata_no_Orochi",
-      "Statistics": {
-        "Japanese Name:": "ヘビヘビの実 モデル 八岐大蛇",
-        "Romanized Name:": "Hebi Hebi no Mi Moderu Yamata no Orochi",
-        "Official English Name:": "Snake-Snake Fruit, Model: Yamata-no-Orochi",
-        "Meaning:": "Snake; Eight-Headed Snake",
-        "Fruit Debut:": "Chapter 965; Episode 965[1]",
-        "Usage Debut:": "Chapter 927; Episode 921[2]",
-        "Type:": "Mythical Zoan",
-        "Previous User:": "Kurozumi Orochi"
-      }
-    }
-  },
-  {
-    "Hito Hito no Mi, Model: Onyudo": {
-      "id": "125",
-      "href": "/wiki/Hito_Hito_no_Mi,_Model:_Onyudo",
-      "Statistics": {
-        "Japanese Name:": "ヒトヒトの実 モデル“大入道”",
-        "Romanized Name:": "Hito Hito no Mi, Moderu: Ōnyūdō",
-        "Official English Name:": "Human-Human Fruit Model Onyudo[1]",
-        "Meaning:": "Human, Big Monk",
-        "Usage Debut:": "Chapter 936; Episode 932[2]",
-        "Type:": "Mythical Zoan",
-        "Current User:": "Onimaru"
-      }
-    }
-  },
-  {
-    "Inu Inu no Mi, Model: Okuchi no Makami": {
-      "id": "126",
-      "href": "/wiki/Inu_Inu_no_Mi,_Model:_Okuchi_no_Makami",
-      "Statistics": {
-        "Japanese Name:": "イヌイヌの実 モデル 大口真神（オオクチノマカミ）",
-        "Romanized Name:": "Inu Inu no Mi Moderu Ōkuchi no Makami",
-        "Official English Name:": "Dog-Dog Fruit, Model: Okuchi-no-Makami",
-        "Meaning:": "Dog; Large-Mouthed True/Pure God",
-        "Fruit Debut:": "Chapter 1070;[1] Episode 1041;[2] One Piece Magazine Vol.13",
-        "Usage Debut:": "Chapter 996; Episode 1009[3]",
-        "Type:": "Mythical Zoan",
-        "Current User:": "Yamato"
-      }
-    }
-  },
-  {
-    "Uma Uma no Mi, Model: Pegasus": {
-      "id": "127",
-      "href": "/wiki/Uma_Uma_no_Mi,_Model:_Pegasus",
-      "Statistics": {
-        "Japanese Name:": "ウマウマの実 モデル ペガサス",
-        "Romanized Name:": "Uma Uma no Mi, Moderu Pegasasu",
-        "Official English Name:": "Horse-Horse Fruit, Model Pegasus",
-        "Meaning:": "Horse; Pegasus",
-        "Usage Debut:": "Chapter 1063; Episode 1092[1]",
-        "Type:": "Mythical Zoan",
-        "Current User:": "Stronger"
-      }
-    }
-  },
-  {
-    "Inu Inu no Mi, Model: Bake-danuki": {
-      "id": "128",
-      "href": "/wiki/Inu_Inu_no_Mi,_Model:_Bake-danuki",
-      "Statistics": {
-        "Japanese Name:": "イヌイヌの実 モデル化狸",
-        "Romanized Name:": "Inu Inu no Mi: Moderu Bake-danuki",
-        "Official English Name:": "N/A",
-        "Meaning:": "Dog; Monster raccoon dog",
-        "Usage Debut:": "One Piece: Unlimited World Red[1]",
-        "Type:": "Mythical Zoan[2]",
-        "Current User:": "Pato"
-      }
-    }
-  },
-  {
-    "Batto Batto no Mi, Model: Vampire": {
-      "id": "129",
-      "href": "/wiki/Batto_Batto_no_Mi,_Model:_Vampire",
-      "Statistics": {
-        "Japanese Name:": "バットバットの実 モデル“バンパイア”",
-        "Romanized Name:": "Batto Batto no Mi: Moderu Banpaia",
-        "Official English Name:": "Bat-Bat Fruit, Model: Vampire",
-        "Meaning:": "Bat",
-        "Fruit Debut:": "One Piece: Unlimited World Red",
-        "Usage Debut:": "One Piece: Unlimited World Red",
-        "Type:": "Mythical Zoan[1]",
-        "Current User:": "Patrick Redfield"
-      }
-    }
-  },
-  {
-    "Tori Tori no Mi, Model: Nue": {
-      "id": "130",
-      "href": "/wiki/Tori_Tori_no_Mi,_Model:_Nue",
-      "Statistics": {
-        "Japanese Name:": "トリトリの実 モデル ヌエ",
-        "Romanized Name:": "Tori Tori no Mi, Moderu: Nue",
-        "Meaning:": "Bird",
-        "Fruit Debut:": "One Piece Art NUE",
-        "Usage Debut:": "One Piece Art NUE[1]",
-        "Type:": "Mythical Zoan",
-        "Current User:": "Toratsugu"
-      }
-    }
-  },
-  {
-    "SMILE": {
-      "id": "131",
-      "href": "/wiki/SMILE",
-      "Statistics": {
-        "Japanese Name:": "SMILE（スマイル）; 人造悪魔の実（スマイル）",
-        "Romanized Name:": "Sumairu",
-        "Official English Name:": "SMILE",
-        "Fruit Debut:": "Chapter 689; Episode 615[1]",
-        "Usage Debut:": "Chapter 689; Episode 615[1]",
-        "Type:": "Artificial Zoan",
-        "Current User:": "Gifters; Various people"
-      }
-    }
-  },
-  {
-    "Moku Moku no Mi": {
-      "id": "132",
-      "href": "/wiki/Moku_Moku_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "モクモクの実",
-        "Official English Name:": "Smoke-Smoke Fruit (4Kids);Plume-Plume Fruit (VIZ, Funimation);Steam-Steam Fruit (Grand Adventure);Seed of Smoke (Odex)",
-        "Meaning:": "Sound of billowing smoke",
-        "Fruit Debut:": "One Piece Magazine Vol.10",
-        "Usage Debut:": "Chapter 100; Episode 48[1]",
-        "Type:": "Logia",
-        "Current User:": "Smoker"
-      }
-    }
-  },
-  {
-    "Suna Suna no Mi": {
-      "id": "133",
-      "href": "/wiki/Suna_Suna_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "スナスナの実",
-        "Official English Name:": "Sand-Sand Fruit",
-        "Meaning:": "Sand",
-        "Fruit Debut:": "One Piece Magazine Vol.12",
-        "Usage Debut:": "Chapter 127; Episode 77[1]",
-        "Type:": "Logia",
-        "Current User:": "Crocodile"
-      }
-    }
-  },
-  {
-    "Mera Mera no Mi": {
-      "id": "134",
-      "href": "/wiki/Mera_Mera_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "メラメラの実",
-        "Official English Name:": "Flame-Flame Fruit (VIZ, Funimation dub);Flare-Flare Fruit (4Kids, Funimation subs)",
-        "Meaning:": "Sound of fire burning",
-        "Fruit Debut:": "Chapter 700; Episode 629[1]",
-        "Usage Debut:": "Chapter 158; Episode 94 (Portgas D. Ace)[2]Chapter 744; Episode 678 (Sabo)[3]",
-        "Type:": "Logia[4]",
-        "Previous User:": "Portgas D. Ace[5]",
-        "Current User:": "Sabo[3]"
-      }
-    }
-  },
-  {
-    "Goro Goro no Mi": {
-      "id": "135",
-      "href": "/wiki/Goro_Goro_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ゴロゴロの実",
-        "Official English Name:": "Rumble-Rumble Fruit",
-        "Meaning:": "Sound of Thunder",
-        "Fruit Debut:": "One Piece Magazine Vol.17[1]",
-        "Usage Debut:": "Chapter 241; Episode 155[2]",
-        "Type:": "Logia[3]",
-        "Current User:": "Enel"
-      }
-    }
-  },
-  {
-    "Hie Hie no Mi": {
-      "id": "136",
-      "href": "/wiki/Hie_Hie_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ヒエヒエの実",
-        "Official English Name:": "Ice-Ice Fruit (Funimation);[1]Chilly-Chilly Fruit (VIZ manga);Hie-Hie Fruit (One Piece Official YouTube Channel)[2]",
-        "Meaning:": "Chilly",
-        "Usage Debut:": "Chapter 303; Episode 225[3]",
-        "Type:": "Logia[4]",
-        "Current User:": "Kuzan"
-      }
-    }
-  },
-  {
-    "Yami Yami no Mi": {
-      "id": "137",
-      "href": "/wiki/Yami_Yami_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ヤミヤミの実",
-        "Official English Name:": "Dark-Dark Fruit",
-        "Meaning:": "Darkness",
-        "Fruit Debut:": "Chapter 440; Episode 325[1]",
-        "Usage Debut:": "Chapter 440; Episode 325[2]",
-        "Type:": "Logia[3]",
-        "Current User:": "Marshall D. Teach"
-      }
-    }
-  },
-  {
-    "Pika Pika no Mi": {
-      "id": "138",
-      "href": "/wiki/Pika_Pika_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ピカピカの実",
-        "Romanized Name:": "Pika Pika no Mi",
-        "Official English Name:": "Glint-Glint Fruit",
-        "Meaning:": "Glimmer or Light",
-        "Usage Debut:": "Chapter 506; Episode 400[1]",
-        "Type:": "Logia[2]",
-        "Current User:": "Borsalino"
-      }
-    }
-  },
-  {
-    "Magu Magu no Mi": {
-      "id": "139",
-      "href": "/wiki/Magu_Magu_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "マグマグの実",
-        "Official English Name:": "Mag-Mag Fruit (VIZ)Magma-Magma Fruit",
-        "Meaning:": "Magma",
-        "Usage Debut:": "Chapter 554; Episode 463[1]",
-        "Type:": "Logia[2]",
-        "Current User:": "Sakazuki"
-      }
-    }
-  },
-  {
-    "Susu Susu no Mi": {
-      "id": "140",
-      "href": "/wiki/Susu_Susu_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ススススの実",
-        "Official English Name:": "Soot-Soot Fruit",
-        "Meaning:": "Soot",
-        "Usage Debut:": "Chapter 593; Episode 510[1]",
-        "Type:": "Logia",
-        "Current User:": "Karasu"
-      }
-    }
-  },
-  {
-    "Numa Numa no Mi": {
-      "id": "141",
-      "href": "/wiki/Numa_Numa_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ヌマヌマの実",
-        "Official English Name:": "Swamp-Swamp Fruit",
-        "Meaning:": "Swamp",
-        "Usage Debut:": "Chapter 603; Episode 521",
-        "Type:": "Logia[1]",
-        "Current User:": "Caribou"
-      }
-    }
-  },
-  {
-    "Gasu Gasu no Mi": {
-      "id": "142",
-      "href": "/wiki/Gasu_Gasu_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ガスガスの実",
-        "Official English Name:": "Gas-Gas Fruit",
-        "Meaning:": "Gas",
-        "Usage Debut:": "Chapter 658; Episode 581[1]",
-        "Type:": "Logia[2]",
-        "Current User:": "Caesar Clown[3]"
-      }
-    }
-  },
-  {
-    "Yuki Yuki no Mi": {
-      "id": "143",
-      "href": "/wiki/Yuki_Yuki_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "ユキユキの実",
-        "Official English Name:": "Snow-Snow Fruit",
-        "Meaning:": "Snow",
-        "Usage Debut:": "Chapter 681; Episode 607[1]",
-        "Type:": "Logia[2][3]",
-        "Previous User:": "Monet"
-      }
-    }
-  },
-  {
-    "Mori Mori no Mi": {
-      "id": "144",
-      "href": "/wiki/Mori_Mori_no_Mi",
-      "Statistics": {
-        "Japanese Name:": "モリモリの実",
-        "Official English Name:": "Woods-Woods Fruit",
-        "Meaning:": "Forest",
-        "Usage Debut:": "Chapter 1052; Episode 1079[1]",
-        "Type:": "Logia[2]",
-        "Current User:": "Aramaki"
-      }
+    "name": "Gomu Gomu no Mi",
+    "id": "1",
+    "href": "/wiki/Gomu_Gomu_no_Mi",
+    "types": [
+      "Paramecia",
+      "Mythical Zoan"
+    ],
+    "description": "The Gomu Gomu no Mi is a Paramecia-type Devil Fruit that grants the user's body the properties of rubber, effectively making them a Rubber Human (ゴム人間, Gomu Ningen?). Originally, the fruit was called Hito Hito no Mi, Model: Nika and classified as a Mythical Zoan-type fruit that allows one to transform into the legendary \"Sun God\" Nika (and gain his rubbery attributes), before being renamed and reclassified by the World Government to hide the truth. In the present, only a few are aware of the fruit's true nature, and its existence was never known to be recorded anywhere.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/1/12/Gomu_Gomu_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20221108072550",
+    "Statistics": {
+      "Japanese Name": [
+        "ゴムゴムの実",
+        "ヒトヒトの実 モデル「ニカ」"
+      ],
+      "Romanized Name": [
+        "Gomu Gomu no Mi",
+        "Hito Hito no Mi Moderu Nika"
+      ],
+      "Official English Name": [
+        "Gum-Gum Fruit",
+        "Human-Human Fruit, Model: Nika"
+      ],
+      "Meaning": [
+        "Rubber",
+        "Human; Nika"
+      ],
+      "Fruit Debut": "Chapter 1; Episode 4",
+      "Usage Debut": "Chapter 1; Episode 1",
+      "Type": [
+        "Paramecia",
+        "Mythical Zoan"
+      ],
+      "Previous User": "Joy Boy",
+      "Current User": "Monkey D. Luffy"
+    }
+  },
+  {
+    "name": "Bara Bara no Mi",
+    "id": "2",
+    "href": "/wiki/Bara_Bara_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Bara Bara no Mi is a Paramecia-type Devil Fruit that allows the user to split their own body into pieces and control said pieces however they wish, as well as making the user immune to slashing attacks, making the user a Splitting Human (バラバラ人間, Barabara Ningen?). It was eaten by Buggy, albeit by accident as he originally intended to sell it.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/9/9c/Bara_Bara_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20240421082610",
+    "Statistics": {
+      "Japanese Name": "バラバラの実",
+      "Official English Name": [
+        "Chop-Chop Fruit",
+        "The Fruit of Dismemberment (Odex)"
+      ],
+      "Meaning": "Scattered; in pieces",
+      "Fruit Debut": "Chapter 19; Episode 8",
+      "Usage Debut": "Chapter 9; Episode 5",
+      "Type": "Paramecia",
+      "Current User": "Buggy"
+    }
+  },
+  {
+    "name": "Sube Sube no Mi",
+    "id": "3",
+    "href": "/wiki/Sube_Sube_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Sube Sube no Mi is a Paramecia-type Devil Fruit that makes the user's body smooth and slippery, which in turn makes most attacks and objects slide off their body, protecting the user from harm in most situations. As seen with Alvida, if one is overweight in any way they will become slim by having the excess fat \"slip off\". It was eaten by Alvida.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/e/e9/Sube_Sube_no_Mi_Infobox.png/revision/latest?cb=20240728223748",
+    "Statistics": {
+      "Japanese Name": "スベスベの実",
+      "Official English Name": [
+        "Slip-Slip Fruit (Viz, 4Kids);",
+        "Smooth-Smooth Fruit (Funimation)"
+      ],
+      "Meaning": "Smooth",
+      "Fruit Debut": "One Piece Magazine Vol.10",
+      "Usage Debut": "Chapter 51 (cover); Episode 46",
+      "Type": "Paramecia",
+      "Current User": "Alvida"
+    }
+  },
+  {
+    "name": "Bomu Bomu no Mi",
+    "id": "4",
+    "href": "/wiki/Bomu_Bomu_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Bomu Bomu no Mi is a Paramecia-type Devil Fruit that allows the user to make any part of their body explode, whether it be their limbs, hair, mucus, even breath or cough, making the user a Bomb Human (爆弾人間, Bakudan Ningen?, VIZ: \"Human Dynamite\"). It was eaten by Gem, better known by his Baroque Works alias Mr. 5.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/1/1a/Bomu_Bomu_no_Mi_Infobox.png/revision/latest/scale-to-width-down/347?cb=20210204030003",
+    "Statistics": {
+      "Japanese Name": "ボムボムの実",
+      "Official English Name": "Bomb-Bomb Fruit (4Kids, Funimation, Odex); Boom-Boom Fruit (Viz)",
+      "Meaning": "Bomb",
+      "Fruit Debut": "One Piece Magazine Vol.11",
+      "Usage Debut": "Chapter 110; Episode 65",
+      "Type": "Paramecia",
+      "Current User": "Gem"
+    }
+  },
+  {
+    "name": "Kiro Kiro no Mi",
+    "id": "5",
+    "href": "/wiki/Kiro_Kiro_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Kiro Kiro no Mi is a Paramecia-type Devil Fruit that allows the user to change their weight from 1 to 10,000 kilograms without, in any way, affecting the overall size of their body. It was eaten by Mikita.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/8/89/Kiro_Kiro_no_Mi_Infobox.png/revision/latest/scale-to-width-down/326?cb=20210204030042",
+    "Statistics": {
+      "Japanese Name": "キロキロの実",
+      "Official English Name": [
+        "Kilo-Kilo Fruit;",
+        "Pound-Pound Fruit (Odex)"
+      ],
+      "Meaning": "Kilo from Kilogram",
+      "Fruit Debut": "One Piece Magazine Vol.11",
+      "Usage Debut": "Chapter 112; Episode 66",
+      "Type": "Paramecia",
+      "Current User": "Mikita"
+    }
+  },
+  {
+    "name": "Hana Hana no Mi",
+    "id": "6",
+    "href": "/wiki/Hana_Hana_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Hana Hana no Mi is a Paramecia-type Devil Fruit that allows the user to replicate and sprout pieces of their body from the surface of any object or living thing. As further allusion to this, pinkish-white petal-like particles form at and then swirl away from where the parts sprout and vanish, as well as around the user itself. It was eaten by Nico Robin.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/2/21/Hana_Hana_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20191228120242",
+    "Statistics": {
+      "Japanese Name": "ハナハナの実",
+      "Official English Name": [
+        "Hana-Hana Fruit (4Kids);",
+        "Flower-Flower Fruit (VIZ, Funimation)"
+      ],
+      "Meaning": "Flower; Bloom",
+      "Fruit Debut": "One Piece Magazine Vol.6",
+      "Usage Debut": "Chapter 114; Episode 67",
+      "Type": "Paramecia",
+      "Current User": "Nico Robin"
+    }
+  },
+  {
+    "name": "Doru Doru no Mi",
+    "id": "7",
+    "href": "/wiki/Doru_Doru_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Doru Doru no Mi is a Paramecia-type Devil Fruit that allows the user to create large quantities of candle wax from their body and control it, making the user a Candle Human (ろうそく（キャンドル）人間, Kyandoru Ningen?, VIZ: \"Human Candle\", \"Wax Man\"). It was eaten by Galdino, better known by his Baroque Works alias, Mr. 3.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/5/5f/Doru_Doru_no_Mi_Infobox.png/revision/latest/scale-to-width-down/257?cb=20200507205151",
+    "Statistics": {
+      "Japanese Name": "ドルドルの実",
+      "Official English Name": [
+        "Wax-Wax Fruit",
+        "Fruit of the Doru-Doru (Odex)"
+      ],
+      "Meaning": "Candle",
+      "Fruit Debut": "One Piece Magazine Vol.9",
+      "Usage Debut": "Chapter 118; Episode 71",
+      "Type": "Paramecia",
+      "Current User": "Galdino"
+    }
+  },
+  {
+    "name": "Baku Baku no Mi",
+    "id": "8",
+    "href": "/wiki/Baku_Baku_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Baku Baku no Mi is a Paramecia-type Devil Fruit that allows the user to eat otherwise-inedible objects, then later manifesting them from their body. It was eaten by Wapol, king of the Black Drum Kingdom.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/c/c6/Baku_Baku_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20200507163319",
+    "Statistics": {
+      "Japanese Name": "バクバクの実",
+      "Official English Name": [
+        "Munch-Munch Fruit",
+        "Baku Baku Fruit (Manga Entertainment, Odex)*"
+      ],
+      "Meaning": "Sound of Chomping",
+      "Fruit Debut": "One Piece Magazine Vol.9",
+      "Usage Debut": "Chapter 131; Episode 79",
+      "Type": "Paramecia",
+      "Current User": "Wapol"
+    }
+  },
+  {
+    "name": "Mane Mane no Mi",
+    "id": "9",
+    "href": "/wiki/Mane_Mane_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Mane Mane no Mi is a Paramecia-type Devil Fruit that allows the user to turn themselves into a physical double of anyone they touch, making the user an Imitating Human (マネ人間, Mane Ningen?, VIZ: \"Mimic man\"). It was eaten by former Baroque Works agent Bentham, also known by the alias Mr. 2 Bon Kurei.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/1/12/Mane_Mane_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20240605221030",
+    "Statistics": {
+      "Japanese Name": "マネマネの実",
+      "Official English Name": "Clone-Clone Fruit",
+      "Meaning": "Imitation",
+      "Fruit Debut": "One Piece Magazine Special Feature: The Wings -Zoro & Sanji- 018",
+      "Usage Debut": [
+        "Chapter 156; Episode 92 (Bentham)",
+        "Chapter 965; Episode 965 (Kurozumi Higurashi)"
+      ],
+      "Type": "Paramecia",
+      "Previous User": "Kurozumi Higurashi",
+      "Current User": "Bentham"
+    }
+  },
+  {
+    "name": "Supa Supa no Mi",
+    "id": "10",
+    "href": "/wiki/Supa_Supa_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Supa Supa no Mi is a Paramecia-type Devil Fruit that enables the user's body to gain characteristics of a steel blade to attack opponents with, making the user a Full-Body Bladed Human (全身刃物人間, Zenshin Hamono Ningen?, VIZ: \"Human Sword\"). It was eaten by former Baroque Works agent and current Cross Guild member Daz Bonez, also known by his alias Mr. 1.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/f/f9/Supa_Supa_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20240605221022",
+    "Statistics": {
+      "Japanese Name": "スパスパの実",
+      "Official English Name": "Dice-Dice Fruit",
+      "Meaning": "Sound of cutting",
+      "Fruit Debut": "One Piece Magazine Special Feature: The Wings -Zoro & Sanji- 018",
+      "Usage Debut": "Chapter 160; Episode 103",
+      "Type": "Paramecia",
+      "Current User": [
+        "Daz Bonez",
+        "S-Hawk (Artificial)"
+      ]
+    }
+  },
+  {
+    "name": "Toge Toge no Mi",
+    "id": "11",
+    "href": "/wiki/Toge_Toge_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The main strength of this fruit is that it allows the user to sprout long and sharp spikes from their body. This means that the user can transform any of their body parts, be it their arms, feet, facial features or even hair, into a deadly spear and quickly impale anything in their way.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/e/ee/Toge_Toge_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230120173638",
+    "Statistics": {
+      "Japanese Name": "トゲトゲの実",
+      "Official English Name": "Spike-Spike Fruit",
+      "Meaning": "Spike; Thorn",
+      "Usage Debut": "Chapter 190; Episode 117",
+      "Type": "Paramecia",
+      "Current User": "Zala"
+    }
+  },
+  {
+    "name": "Ori Ori no Mi",
+    "id": "12",
+    "href": "/wiki/Ori_Ori_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Ori Ori no Mi is a Paramecia-type Devil Fruit that allows the user to bind their foes in iron shackles created by the user's body. It was eaten by Hina.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/7/7a/Ori_Ori_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20231125033554",
+    "Statistics": {
+      "Japanese Name": "オリオリの実",
+      "Official English Name": [
+        "Bind-Bind Fruit (Viz);",
+        "Cage-Cage Fruit (4Kids, Funimation)"
+      ],
+      "Meaning": "Cage",
+      "Usage Debut": "Chapter 217, Episode 130",
+      "Type": "Paramecia",
+      "Current User": "Hina"
+    }
+  },
+  {
+    "name": "Bane Bane no Mi",
+    "id": "13",
+    "href": "/wiki/Bane_Bane_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Bane Bane no Mi is a Paramecia-type Devil Fruit that allows the user to turn their limbs into springs, making the user a Spring Human (バネ人間, Bane Ningen?). It was eaten by Bellamy.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/1/1d/Bane_Bane_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20160913222919",
+    "Statistics": {
+      "Japanese Name": "バネバネの実",
+      "Official English Name": [
+        "Spring-Spring Fruit",
+        "Boing-Boing Fruit (VIZ, former)"
+      ],
+      "Meaning": "Spring",
+      "Usage Debut": "Chapter 231; Episode 150",
+      "Type": "Paramecia",
+      "Current User": "Bellamy"
+    }
+  },
+  {
+    "name": "Ito Ito no Mi",
+    "id": "14",
+    "href": "/wiki/Ito_Ito_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Ito Ito no Mi is a Paramecia-type Devil Fruit that allows the user to create and manipulate strings, making the user a String Human (糸人間, Ito Ningen?). It was eaten by the former Warlord of the Sea Donquixote Doflamingo.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/a/ae/Ito_Ito_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20151220070449",
+    "Statistics": {
+      "Japanese Name": "イトイトの実",
+      "Official English Name": "String-String Fruit",
+      "Meaning": "String; Thread",
+      "Fruit Debut": "Chapter 782; Episode 723",
+      "Usage Debut": "Chapter 234; Episode 151",
+      "Type": "Paramecia",
+      "Current User": "Donquixote Doflamingo"
+    }
+  },
+  {
+    "name": "Noro Noro no Mi",
+    "id": "15",
+    "href": "/wiki/Noro_Noro_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Noro Noro no Mi is a Paramecia-type Devil Fruit that allows the user to emit beams which temporarily slow down their target, making the user a Noroma Human (ノロマ人間, Noroma Ningen?, Viz: \"Slowpoke Human\"). It was eaten by Foxy the Silver Fox.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/7/7a/Noro_Noro_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230516224102",
+    "Statistics": {
+      "Japanese Name": "ノロノロの実",
+      "Official English Name": "Slow-Slow Fruit",
+      "Meaning": "Slowly; Sluggishly",
+      "Usage Debut": "Chapter 308; Episode 210",
+      "Type": "Paramecia",
+      "Current User": "Foxy"
+    }
+  },
+  {
+    "name": "Doa Doa no Mi",
+    "id": "16",
+    "href": "/wiki/Doa_Doa_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Doa Doa no Mi is a Paramecia-type Devil Fruit that allows the user to create doors through anything they touch, making the user a Door Human (ドア人間, Doa Ningen?). The doors they create can be created from any part of their body, from the palm of their hands to their whole body itself, and usually take the shape and form of the body part creating it. The doors remain as passageways anyone can pass through until closed completely. It was eaten by Blueno.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/0/04/Doa_Doa_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230117020238",
+    "Statistics": {
+      "Japanese Name": "ドアドアの実",
+      "Official English Name": "Door-Door Fruit",
+      "Meaning": "Door",
+      "Usage Debut": "Chapter 326; Episode 231",
+      "Type": "Paramecia",
+      "Current User": "Blueno"
+    }
+  },
+  {
+    "name": "Awa Awa no Mi",
+    "id": "17",
+    "href": "/wiki/Awa_Awa_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Awa Awa no Mi is a Paramecia type Devil Fruit that allows the user to emit and control soap and bubbles that can not only clean off dirt but can also \"clean off\" power, making the user a Soap Human (石鹸人間, Sekken Ningen?). It was eaten by Kalifa, who received it from Spandam.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/5/51/Awa_Awa_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20240612220456",
+    "Statistics": {
+      "Japanese Name": "アワアワの実",
+      "Official English Name": "Bubble-Bubble Fruit",
+      "Meaning": "Bubble",
+      "Fruit Debut": "Chapter 379; Episode 266",
+      "Usage Debut": "Chapter 408; Episode 293",
+      "Type": "Paramecia",
+      "Current User": "Kalifa"
+    }
+  },
+  {
+    "name": "Beri Beri no Mi",
+    "id": "18",
+    "href": "/wiki/Beri_Beri_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Beri Beri no Mi is a Paramecia-type Devil Fruit that allows the user to transform their body parts into a multitude of berry-like balls, making the user a Grape Human (ブドウ人間, Budō Ningen?). It was eaten by Very Good.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/2/27/Beri_Beri_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20130503053935",
+    "Statistics": {
+      "Japanese Name": "ベリベリの実",
+      "Official English Name": "Berry-Berry Fruit",
+      "Meaning": "Berry",
+      "Usage Debut": "Chapter 426; Episode 309",
+      "Type": "Paramecia",
+      "Current User": "Very Good"
+    }
+  },
+  {
+    "name": "Sabi Sabi no Mi",
+    "id": "19",
+    "href": "/wiki/Sabi_Sabi_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Sabi Sabi no Mi is a Paramecia-type Devil Fruit that allows the user to cause metallic items to rust and break, making the user a Rust Human (サビ人間, Sabi Ningen?). It was eaten by Marine Captain Shu.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/7/7c/Sabi_Sabi_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20160708014101",
+    "Statistics": {
+      "Japanese Name": "サビサビの実",
+      "Official English Name": "Rust-Rust Fruit",
+      "Meaning": "Rust",
+      "Usage Debut": "Chapter 426; Episode 309",
+      "Type": "Paramecia",
+      "Current User": "Shu"
+    }
+  },
+  {
+    "name": "Shari Shari no Mi",
+    "id": "20",
+    "href": "/wiki/Shari_Shari_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Shari Shari no Mi is a Paramecia-type Devil Fruit that allows the user to transform their arms and feet into wheels, making the user a Wheel Human (車輪人間, Sharin Ningen?). It was eaten by Sharinguru.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/f/f4/Sharinguru_Manga_Infobox.png/revision/latest?cb=20220723150343",
+    "Statistics": {
+      "Japanese Name": "シャリシャリの実",
+      "Official English Name": "Wheel-Wheel Fruit",
+      "Meaning": "Wheel",
+      "Usage Debut": "Chapter 428",
+      "Type": "Paramecia",
+      "Current User": "Sharinguru"
+    }
+  },
+  {
+    "name": "Horo Horo no Mi",
+    "id": "21",
+    "href": "/wiki/Horo_Horo_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Horo Horo no Mi is a Paramecia-type Devil Fruit that allows the user to conjure ghosts, making the user a Ghost Human (霊体人間, Reitai Ningen?). It was eaten by Perona.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/1/14/Horo_Horo_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230907011956",
+    "Statistics": {
+      "Japanese Name": "ホロホロの実",
+      "Official English Name": "Hollow-Hollow Fruit",
+      "Meaning": "Hollow",
+      "Fruit Debut": "One Piece Magazine Vol.17",
+      "Usage Debut": "Chapter 442; Episode 337",
+      "Type": "Paramecia",
+      "Current User": "Perona"
+    }
+  },
+  {
+    "name": "Yomi Yomi no Mi",
+    "id": "22",
+    "href": "/wiki/Yomi_Yomi_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Yomi Yomi no Mi is a spherical-shaped golden fruit with a green stem. On its bottom, it has four stubby growths, making the shape resemble a skull. As with most Devil Fruits, it has swirl patterns throughout.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/3/3b/Yomi_Yomi_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20201116170233",
+    "Statistics": {
+      "Japanese Name": "ヨミヨミの実",
+      "Official English Name": "Revive-Revive Fruit",
+      "Meaning": "Resurrection",
+      "Fruit Debut": "One Piece Magazine Vol.8",
+      "Usage Debut": "Chapter 442; Episode 337",
+      "Type": "Paramecia",
+      "Current User": "Brook"
+    }
+  },
+  {
+    "name": "Kage Kage no Mi",
+    "id": "23",
+    "href": "/wiki/Kage_Kage_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Kage Kage no Mi is a Paramecia-type Devil Fruit that gives the user the ability to manifest and control shadows of living creatures, including their own, as physical and tangible forms. The user, becoming a Ruler of Shadows (影の支配者, Kage no Shihaisha?, VIZ: Master of Shadows), can steal the shadows of other beings and insert them into different bodies, living or dead, which in the latter case enables the creation of zombies.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/7/7b/Kage_Kage_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20240628055643",
+    "Statistics": {
+      "Japanese Name": "カゲカゲの実",
+      "Official English Name": "Shadow-Shadow Fruit",
+      "Meaning": "Shadow",
+      "Fruit Debut": "One Piece Magazine Vol.8",
+      "Usage Debut": "Chapter 443; Episode 338",
+      "Type": "Paramecia",
+      "Current User": "Gecko Moria"
+    }
+  },
+  {
+    "name": "Suke Suke no Mi",
+    "id": "24",
+    "href": "/wiki/Suke_Suke_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "It was initially eaten by Absalom, and after his death it was transferred to Shiryu.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/b/bb/Suke_Suke_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20200112035251",
+    "Statistics": {
+      "Japanese Name": "スケスケの実",
+      "Official English Name": "Clear-Clear Fruit",
+      "Meaning": "See-through; Sheer",
+      "Usage Debut": [
+        "Chapter 444; Episode 339 (Absalom)",
+        "Chapter 925; Episode 917  (Shiryu)"
+      ],
+      "Type": "Paramecia",
+      "Previous User": "Absalom",
+      "Current User": "Shiryu"
+    }
+  },
+  {
+    "name": "Nikyu Nikyu no Mi",
+    "id": "25",
+    "href": "/wiki/Nikyu_Nikyu_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "This fruit's abilities were duplicated in the Seraph S-Bear, via a transfusion of Green Blood.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/e/e4/Nikyu_Nikyu_no_Mi_Infobox.png/revision/latest?cb=20231111200903",
+    "Statistics": {
+      "Japanese Name": "ニキュニキュの実",
+      "Official English Name": "Paw-Paw Fruit",
+      "Meaning": "Paw",
+      "Fruit Debut": "Chapter 1096",
+      "Usage Debut": "Chapter 473; Episode 368",
+      "Type": "Paramecia",
+      "Current User": [
+        "Bartholomew Kuma",
+        "S-Bear (Artificial)"
+      ]
+    }
+  },
+  {
+    "name": "Toshi Toshi no Mi",
+    "id": "26",
+    "href": "/wiki/Toshi_Toshi_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Toshi Toshi no Mi is a Paramecia-type Devil Fruit that allows the user to manipulate the ages of people or objects, making them an Age Manipulation Human (年齢自在人間, Nenrei Jizai Ningen?). As part of an experiment, Jaygarcia Saturn administered an extract of the fruit to Jewelry Bonney when she was an infant.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/b/b7/Toshi_Toshi_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20220916035306",
+    "Statistics": {
+      "Japanese Name": "トシトシの実",
+      "Official English Name": "Age-Age Fruit",
+      "Meaning": "Age; Year",
+      "Usage Debut": "Chapter 499; Episode 393",
+      "Type": "Paramecia",
+      "Current User": "Jewelry Bonney"
+    }
+  },
+  {
+    "name": "Jiki Jiki no Mi",
+    "id": "27",
+    "href": "/wiki/Jiki_Jiki_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Jiki Jiki no Mi is a Paramecia-type Devil Fruit which allows the user to create magnetic forces and use them to control metal. It was eaten by Eustass Kid.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/1/13/Jiki_Jiki_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20240505021030",
+    "Statistics": {
+      "Japanese Name": "ジキジキの実",
+      "Official English Name": "Magnet-Magnet Fruit",
+      "Meaning": "Magnetism",
+      "Fruit Debut": "Episode 1103; One Piece Magazine Vol.14",
+      "Usage Debut": "Chapter 504; Episode 398",
+      "Type": "Paramecia",
+      "Current User": "Eustass Kid"
+    }
+  },
+  {
+    "name": "Ope Ope no Mi",
+    "id": "28",
+    "href": "/wiki/Ope_Ope_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Ope Ope no Mi is a Paramecia-type Devil Fruit whose ability is to create a spherical domain in which the user can freely rearrange, take apart (without harm), and generally remodel the structure/anatomy of anything and anyone (themself included) in a \"surgical\" way, making the user a Free Modification Human (改造自在人間, Kaizō Jizai Ningen?). The fruit was eaten by Trafalgar D. Water Law, having been force-fed to him by Donquixote Rosinante. Before Law, the fruit's powers were held by a certain famous doctor.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/0/0e/Ope_Ope_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20210409181034",
+    "Statistics": {
+      "Japanese Name": "オペオペの実",
+      "Official English Name": "Op-Op Fruit",
+      "Meaning": "Operation",
+      "Fruit Debut": "Chapter 765; Episode 704",
+      "Usage Debut": "Chapter 504; Episode 398",
+      "Type": "Paramecia",
+      "Previous User": "A certain doctor",
+      "Current User": "Trafalgar D. Water Law"
+    }
+  },
+  {
+    "name": "Shiro Shiro no Mi",
+    "id": "29",
+    "href": "/wiki/Shiro_Shiro_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Shiro Shiro no Mi is a Paramecia-type Devil Fruit that allows the user to become a living fortress, making the user a Castle Human (城人間, Shiro Ningen?). It was eaten by Capone Bege. Its powers were first revealed in the Sabaody Archipelago Arc, but the name of the fruit was not given until the Zou Arc.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/e/e8/Shiro_Shiro_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20160115065100",
+    "Statistics": {
+      "Japanese Name": "シロシロの実",
+      "Official English Name": "Castle-Castle Fruit",
+      "Meaning": "Castle",
+      "Usage Debut": "Chapter 508; Episode 401",
+      "Type": "Paramecia",
+      "Current User": "Capone Bege"
+    }
+  },
+  {
+    "name": "Wara Wara no Mi",
+    "id": "30",
+    "href": "/wiki/Wara_Wara_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Wara Wara no Mi is a Paramecia-type Devil Fruit that allows the user to create and manipulate straw at will, with the straw having damage-redirecting properties. It was eaten by Basil Hawkins.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/b/b4/Wara_Wara_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20180803070246",
+    "Statistics": {
+      "Japanese Name": "ワラワラの実",
+      "Official English Name": "Straw-Straw Fruit",
+      "Meaning": "Straw",
+      "Usage Debut": "Chapter 508; Episode 401",
+      "Type": "Paramecia",
+      "Current User": "Basil Hawkins"
+    }
+  },
+  {
+    "name": "Oto Oto no Mi",
+    "id": "31",
+    "href": "/wiki/Oto_Oto_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Oto Oto no Mi is a Paramecia-type Devil Fruit which allows the user to transform parts of their body into musical instruments and play music with a variety of destructive effects. It was eaten by Scratchmen Apoo.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/1/16/Oto_Oto_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230625231507",
+    "Statistics": {
+      "Japanese Name": "オトオトの実",
+      "Official English Name": "Tone-Tone Fruit",
+      "Meaning": "Sound",
+      "Usage Debut": "Chapter 509; Episode 402",
+      "Type": "Paramecia",
+      "Current User": "Scratchmen Apoo"
+    }
+  },
+  {
+    "name": "Mero Mero no Mi",
+    "id": "32",
+    "href": "/wiki/Mero_Mero_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Mero Mero no Mi is a Paramecia-type Devil Fruit that allows a range of attacks which use emotions of love, lust or adoration to transform opponents into stone. It was eaten by the former Warlord Boa Hancock, who was force-fed it by a World Noble.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/9/98/Mero_Mero_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230306202058",
+    "Statistics": {
+      "Japanese Name": "メロメロの実",
+      "Official English Name": "Love-Love Fruit",
+      "Meaning": "Fall in Love",
+      "Fruit Debut": "Episode 1101; One Piece Magazine Vol.16",
+      "Usage Debut": "Chapter 516; Episode 410",
+      "Type": "Paramecia",
+      "Current User": [
+        "Boa Hancock",
+        "S-Snake (Artificial)"
+      ]
+    }
+  },
+  {
+    "name": "Doku Doku no Mi",
+    "id": "33",
+    "href": "/wiki/Doku_Doku_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Doku Doku no Mi is a Paramecia-type Devil Fruit that grants the user the ability to produce and control different types of poison, as well as grants immunity to all forms of poison, making the user a Poison Human (毒人間, Doku Ningen?). It was eaten by Magellan.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/2/21/Doku_Doku_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20160129102538",
+    "Statistics": {
+      "Japanese Name": "ドクドクの実",
+      "Official English Name": "Venom-Venom Fruit",
+      "Meaning": "Poison",
+      "Usage Debut": "Chapter 528; Episode 425",
+      "Type": "Paramecia",
+      "Current User": "Magellan"
+    }
+  },
+  {
+    "name": "Horu Horu no Mi",
+    "id": "34",
+    "href": "/wiki/Horu_Horu_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Horu Horu no Mi is a Paramecia-type Devil Fruit that grants the user the ability to create a variety of special hormones that can alter the recipient's body in any way the user desires, making the user a Hormone Controlling Human (ホルモン自在人間, Horumon Jizai Ningen?). It was eaten by Emporio Ivankov sometime after the God Valley Incident.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/5/53/Horu_Horu_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20231111060110",
+    "Statistics": {
+      "Japanese Name": "ホルホルの実",
+      "Official English Name": [
+        "Horm-Horm Fruit (VIZ and Funimation);",
+        "Hor-Hor Fruit (One Piece Official YouTube Channel)"
+      ],
+      "Meaning": "Hormones",
+      "Usage Debut": "Chapter 537; Episode 439",
+      "Type": "Paramecia",
+      "Current User": "Emporio Ivankov"
+    }
+  },
+  {
+    "name": "Choki Choki no Mi",
+    "id": "35",
+    "href": "/wiki/Choki_Choki_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Choki Choki no Mi is a Paramecia-type Devil Fruit that allows the user to transform parts of their body into scissors and cut solid objects as if they were paper, making the user a Scissors Human (ハサミ人間, Hasami Ningen?). It was eaten by Inazuma.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/0/0f/Choki_Choki_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20130224140928",
+    "Statistics": {
+      "Japanese Name": "チョキチョキの実",
+      "Official English Name": [
+        "Snip-Snip Fruit (VIZ and Funimation);",
+        "Shear-Shear Fruit (One Piece Official YouTube Channel)"
+      ],
+      "Meaning": "Sound of scissors",
+      "Usage Debut": "Chapter 540; Episode 442",
+      "Type": "Paramecia",
+      "Current User": "Inazuma"
+    }
+  },
+  {
+    "name": "Gura Gura no Mi",
+    "id": "36",
+    "href": "/wiki/Gura_Gura_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Gura Gura no Mi is a Paramecia-type Devil Fruit which allows the user to create vibrations, or \"quakes\", making the user a Tremor Human (震動人間, Shindō Ningen?). It was eaten by Edward Newgate, but upon his death, its power was stolen by Marshall D. Teach.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/e/e3/Gura_Gura_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230301220936",
+    "Statistics": {
+      "Japanese Name": "グラグラの実",
+      "Official English Name": "Tremor-Tremor Fruit or Quake-Quake Fruit",
+      "Meaning": "Sound of shaking",
+      "Usage Debut": [
+        "Chapter 552; Episode 461 (Edward Newgate)",
+        "Chapter 577; Episode 486 (Marshall D. Teach)"
+      ],
+      "Type": "Paramecia",
+      "Previous User": "Edward Newgate",
+      "Current User": "Marshall D. Teach"
+    }
+  },
+  {
+    "name": "Kira Kira no Mi",
+    "id": "37",
+    "href": "/wiki/Kira_Kira_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Kira Kira no Mi is a Paramecia-type Devil Fruit which allows the user to transform their body into diamond. It was eaten by Jozu.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/a/ad/Kira_Kira_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20240320175137",
+    "Statistics": {
+      "Japanese Name": "キラキラの実",
+      "Official English Name": "Twinkle-Twinkle Fruit",
+      "Meaning": "Sparkle",
+      "Usage Debut": "Chapter 553; Episode 463",
+      "Type": "Paramecia",
+      "Current User": "Jozu"
+    }
+  },
+  {
+    "name": "Poke Poke no Mi",
+    "id": "38",
+    "href": "/wiki/Poke_Poke_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The main strength of this fruit is that it allows the user to store various things inside pockets in their body. The objects stored inside can be much larger than the opening of the pocket, as they change size accordingly. It is stated that the user can have infinite pockets in their person, effectively giving them limitless storage capacity.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/2/26/Poke_Poke_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20220426093454",
+    "Statistics": {
+      "Japanese Name": "ポケポケの実",
+      "Official English Name": "Pocket-Pocket Fruit",
+      "Meaning": "Pocket",
+      "Usage Debut": "Chapter 553; Episode 461",
+      "Type": "Paramecia",
+      "Current User": "Blamenco"
+    }
+  },
+  {
+    "name": "Woshu Woshu no Mi",
+    "id": "39",
+    "href": "/wiki/Woshu_Woshu_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Woshu Woshu no Mi is a Paramecia-type Devil Fruit that allows the user to literally \"wash and hang out to dry\" people and objects as if they were clothes, making the user a Laundry Human (洗濯人間, Sentaku Ningen?, VIZ: \"Washer Human\"). It was eaten by Tsuru.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/4/4c/Woshu_Woshu_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20220818020619",
+    "Statistics": {
+      "Japanese Name": "ウォシュウォシュの実",
+      "Official English Name": "Wash-Wash Fruit",
+      "Meaning": "Wash",
+      "Usage Debut": "Chapter 556; Episode 465",
+      "Type": "Paramecia",
+      "Current User": "Tsuru"
+    }
+  },
+  {
+    "name": "Fuwa Fuwa no Mi",
+    "id": "40",
+    "href": "/wiki/Fuwa_Fuwa_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Fuwa Fuwa no Mi is a Paramecia-type Devil Fruit that allows the user to levitate themselves and non-living things into the air. It was eaten by Shiki.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/d/df/Fuwa_Fuwa_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20130323001748",
+    "Statistics": {
+      "Japanese Name": "フワフワの実",
+      "Official English Name": "Float-Float Fruit",
+      "Meaning": "Float",
+      "Usage Debut": "Chapter 0; Episode 426",
+      "Type": "Paramecia",
+      "Current User": "Shiki"
+    }
+  },
+  {
+    "name": "Deka Deka no Mi",
+    "id": "41",
+    "href": "/wiki/Deka_Deka_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Deka Deka  no Mi is a Paramecia-type Devil Fruit that allows its user to drastically enlarge their body, making them a Gigantification Human (巨大化人間, Kyodai-ka Ningen?). It was eaten by Sanjuan Wolf.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/b/b4/Deka_Deka_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20240728021026",
+    "Statistics": {
+      "Japanese Name": "デカデカの実",
+      "Official English Name": "Huge-Huge Fruit",
+      "Meaning": "Huge",
+      "Usage Debut": "Chapter 575; Episode 484",
+      "Type": "Paramecia",
+      "Current User": "Sanjuan Wolf"
+    }
+  },
+  {
+    "name": "Mato Mato no Mi",
+    "id": "42",
+    "href": "/wiki/Mato_Mato_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Mato Mato no Mi is a Paramecia-type Devil Fruit that makes the user capable of aiming at whichever \"target\" he decides upon from any location and at any time with anything at ease. It was eaten by Flying Pirates captain Vander Decken IX.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/b/b7/Mato_Mato_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20220920042704",
+    "Statistics": {
+      "Japanese Name": "マトマトの実",
+      "Official English Name": "Mark-Mark Fruit",
+      "Meaning": "Target",
+      "Usage Debut": "Chapter 613; Episode 532",
+      "Type": "Paramecia",
+      "Current User": "Vander Decken IX"
+    }
+  },
+  {
+    "name": "Fuku Fuku no Mi",
+    "id": "43",
+    "href": "/wiki/Fuku_Fuku_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Fuku Fuku no Mi is a Paramecia-type Devil Fruit which allows the user to create clothing and other apparel out of leaves or stones by visualizing them. It was eaten by Kin'emon.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/9/9c/Fuku_Fuku_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20181020010802",
+    "Statistics": {
+      "Japanese Name": "フクフクの実",
+      "Official English Name": [
+        "Garb-Garb Jutsu (VIZ and Funimation);",
+        "Garb-Garb Fruit (One Piece Official YouTube Channel)"
+      ],
+      "Meaning": "Clothing",
+      "Usage Debut": "Chapter 663; Episode 588",
+      "Type": "Paramecia",
+      "Current User": "Kin'emon"
+    }
+  },
+  {
+    "name": "Hobi Hobi no Mi",
+    "id": "44",
+    "href": "/wiki/Hobi_Hobi_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Hobi Hobi no Mi is a Paramecia-type Devil Fruit that allows the user to transform living people into toys, and erase memories of their existence from others. It has a secondary side effect of granting the eater eternal youth. It was eaten by Sugar.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/3/3d/Hobi_Hobi_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230911073220",
+    "Statistics": {
+      "Japanese Name": "ホビホビの実",
+      "Official English Name": "Hobby-Hobby Fruit",
+      "Meaning": "Hobby",
+      "Usage Debut": "Chapter 701; Episode 630",
+      "Type": "Paramecia",
+      "Current User": "Sugar"
+    }
+  },
+  {
+    "name": "Buki Buki no Mi",
+    "id": "45",
+    "href": "/wiki/Buki_Buki_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Buki Buki no Mi is a Paramecia type Devil Fruit that gives the user the ability to change their body parts into any weapon, which lets the user become a Full-Body Weapon Human (全身武器人間, Zenshin Buki Ningen?). It was eaten by Baby 5.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/3/3e/Buki_Buki_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20240706141021",
+    "Statistics": {
+      "Japanese Name": "ブキブキの実",
+      "Romanized Name": "Buki Buki no Mi",
+      "Official English Name": "Arms-Arms Fruit",
+      "Meaning": "Weapon",
+      "Usage Debut": "Chapter 682; Episode 608",
+      "Type": "Paramecia",
+      "Current User": "Baby 5"
+    }
+  },
+  {
+    "name": "Guru Guru no Mi",
+    "id": "46",
+    "href": "/wiki/Guru_Guru_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Guru Guru no Mi is a Paramecia-type Devil Fruit that allows the user to transform any part of their body or piece of worn clothing into propellers capable of rotation at high speed, becoming a Rotation Human (回転人間, Kaiten Ningen?). It was eaten by Buffalo.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/0/0a/Guru_Guru_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230825080411",
+    "Statistics": {
+      "Japanese Name": "グルグルの実",
+      "Official English Name": "Spin-Spin Fruit",
+      "Meaning": "Sound of rotating",
+      "Usage Debut": "Chapter 692; Episode 618",
+      "Type": "Paramecia",
+      "Current User": "Buffalo"
+    }
+  },
+  {
+    "name": "Beta Beta no Mi",
+    "id": "47",
+    "href": "/wiki/Beta_Beta_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Beta Beta no Mi is a Paramecia-type Devil Fruit that allows the user to create and control mucus, making the user a Mucus Human (粘液人間, Nen'eki Ningen?, VIZ: \"Mucus-Man\"). It was eaten by Trebol.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/d/d9/Beta_Beta_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20231017083240",
+    "Statistics": {
+      "Japanese Name": "ベタベタの実",
+      "Official English Name": [
+        "Stick-Stick Fruit (VIZ, Funimation (Episode of Sabo)",
+        "Sticky-Sticky Fruit (Funimation)"
+      ],
+      "Meaning": "Sticky",
+      "Usage Debut": "Chapter 700; Episode 629",
+      "Type": "Paramecia",
+      "Current User": "Trebol"
+    }
+  },
+  {
+    "name": "Zushi Zushi no Mi",
+    "id": "48",
+    "href": "/wiki/Zushi_Zushi_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Zushi Zushi no Mi is a Paramecia-type Devil Fruit which allows the user to create and manipulate gravitational forces. It was eaten by Issho, better known as Admiral Fujitora.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/b/ba/Zushi_Zushi_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230320032400",
+    "Statistics": {
+      "Japanese Name": "ズシズシの実",
+      "Official English Name": "Press-Press Fruit",
+      "Meaning": "Sound of heavy stomps",
+      "Usage Debut": "Chapter 701; Episode 631",
+      "Type": "Paramecia",
+      "Current User": "Issho"
+    }
+  },
+  {
+    "name": "Bari Bari no Mi",
+    "id": "49",
+    "href": "/wiki/Bari_Bari_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Bari Bari no Mi is a Paramecia-type Devil Fruit that allows the user to generate barriers, making them a Barrier Human (バリア人間, Baria Ningen?). It was previously eaten by Kurozumi Semimaru, and upon its reincarnation it was eaten by Bartolomeo.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/d/de/Bari_Bari_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20160212174221",
+    "Statistics": {
+      "Japanese Name": "バリバリの実",
+      "Official English Name": [
+        "Barrier-Barrier Fruit",
+        "Bari-Bari Fruit"
+      ],
+      "Meaning": "Barrier",
+      "Usage Debut": [
+        "Chapter 708; Episode 637 (Bartolomeo)",
+        "Chapter 969; Episode 970 (Kurozumi Semimaru)"
+      ],
+      "Type": "Paramecia",
+      "Previous User": "Kurozumi Semimaru",
+      "Current User": "Bartolomeo"
+    }
+  },
+  {
+    "name": "Nui Nui no Mi",
+    "id": "50",
+    "href": "/wiki/Nui_Nui_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Nui Nui no Mi is a Paramecia-type Devil Fruit that grants the user the ability to stitch things together and un-stitch them like if nothing had happened. It was eaten by Leo.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/0/00/Nui_Nui_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20190526000026",
+    "Statistics": {
+      "Japanese Name": "ヌイヌイの実",
+      "Official English Name": [
+        "Stitch-Stitch Power (VIZ and Funimation);",
+        "Sew-Sew Fruit (One Piece Official YouTube Channel)"
+      ],
+      "Meaning": "Sewing",
+      "Usage Debut": "Chapter 711; Episode 641",
+      "Type": "Paramecia",
+      "Current User": "Leo"
+    }
+  },
+  {
+    "name": "Giro Giro no Mi",
+    "id": "51",
+    "href": "/wiki/Giro_Giro_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Giro Giro no Mi is a Paramecia-type Devil Fruit that allows the user to see through everything and read the minds of others, allowing the user to become an Insight Human (眼力人間, Ganriki Ningen?, Viz: Eagle-Eyed Seer). It was eaten by Viola.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/2/23/Giro_Giro_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20201101164342",
+    "Statistics": {
+      "Japanese Name": "ギロギロの実",
+      "Official English Name": "Glare-Glare Fruit",
+      "Meaning": "Glare; Stare",
+      "Usage Debut": "Chapter 712; Episode 640",
+      "Type": "Paramecia",
+      "Current User": "Viola"
+    }
+  },
+  {
+    "name": "Ato Ato no Mi",
+    "id": "52",
+    "href": "/wiki/Ato_Ato_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Ato Ato no Mi is a Paramecia-type Devil Fruit that allows the user to turn people or objects into abstract art, turning the user into an Art Human (芸術（アート）人間, Āto Ningen?). It was eaten by Giolla.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/0/0f/Ato_Ato_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20240312130350",
+    "Statistics": {
+      "Japanese Name": "アトアトの実",
+      "Official English Name": "Art-Art Fruit",
+      "Meaning": "Art",
+      "Usage Debut": "Chapter 714; Episode 635",
+      "Type": "Paramecia",
+      "Current User": "Giolla"
+    }
+  },
+  {
+    "name": "Jake Jake no Mi",
+    "id": "53",
+    "href": "/wiki/Jake_Jake_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Jake Jake no Mi is a Paramecia-type Devil Fruit that allows the user to become a jacket and be worn by others, which makes them a Jacket Human (ジャケット人間, Jaketto Ningen?). It was eaten by Kelly Funk.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/a/a1/Jake_Jake_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20170607182134",
+    "Statistics": {
+      "Japanese Name": "ジャケジャケの実",
+      "Official English Name": "Jacket-Jacket Fruit",
+      "Meaning": "Jacket",
+      "Usage Debut": "Chapter 715; Episode 645",
+      "Type": "Paramecia",
+      "Current User": "Kelly Funk"
+    }
+  },
+  {
+    "name": "Pamu Pamu no Mi",
+    "id": "54",
+    "href": "/wiki/Pamu_Pamu_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Pamu Pamu no Mi is a Paramecia-type Devil Fruit that allows the user to cause their own body or any inorganic object they touch to rupture and explode, turning them into a Puncture Human (破裂（パンク）人間, Panku Ningen?, Viz: \"Rupture-Man\"; Funimation: \"Rupture Man\"). It was eaten by Gladius.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/a/a9/Pamu_Pamu_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20231025225145",
+    "Statistics": {
+      "Japanese Name": "パムパムの実",
+      "Official English Name": "Pop-Pop Fruit",
+      "Meaning": "Rupture",
+      "Usage Debut": "Chapter 723; Episode 653",
+      "Type": "Paramecia",
+      "Current User": "Gladius"
+    }
+  },
+  {
+    "name": "Sui Sui no Mi",
+    "id": "55",
+    "href": "/wiki/Sui_Sui_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Sui Sui no Mi is a Paramecia-type Devil Fruit that allows the user to swim in the ground or walls, making the user a Free-Swimming Human (遊泳自由人間, Yūei Jiyū Ningen?, Viz: Free Swimmer). It was eaten by Senor Pink.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/9/9d/Sui_Sui_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20240630232023",
+    "Statistics": {
+      "Japanese Name": "スイスイの実",
+      "Official English Name": "Swim-Swim Fruit",
+      "Meaning": "Smooth Swim",
+      "Usage Debut": "Chapter 732; Episode 664",
+      "Type": "Paramecia",
+      "Current User": [
+        "Senor Pink",
+        "S-Shark (Artificial)"
+      ]
+    }
+  },
+  {
+    "name": "Ton Ton no Mi",
+    "id": "56",
+    "href": "/wiki/Ton_Ton_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Ton Ton no Mi is a Paramecia-type Devil Fruit which allows the user to increase their weight, making them a Super Weight Human (超体重（スーパーウエイト）人間, Sūpā Weito Ningen?). It was eaten by the former Donquixote Family combatant Machvise.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/4/40/Ton_Ton_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20240211235111",
+    "Statistics": {
+      "Japanese Name": "トントンの実",
+      "Official English Name": "Ton-Ton Fruit",
+      "Meaning": "Ton",
+      "Usage Debut": "Chapter 735; Episode 667",
+      "Type": "Paramecia",
+      "Current User": "Machvise"
+    }
+  },
+  {
+    "name": "Hira Hira no Mi",
+    "id": "57",
+    "href": "/wiki/Hira_Hira_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Hira Hira no Mi is a Paramecia-type Devil Fruit that allows the user to make their body and any object they touch become flat and flexible, letting solid objects ripple, billow, and flutter like a piece of cloth or a flag. The user is described as a Flag Human (旗（フラッグ）人間, Furaggu Ningen?, VIZ: Flag-Man) due to the visual effect of these powers. It was eaten by Diamante.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/5/5a/Hira_Hira_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20151110020239",
+    "Statistics": {
+      "Japanese Name": "ヒラヒラの実",
+      "Official English Name": [
+        "Ripple-Ripple Fruit (VIZ Media, Funimation subs, Funimation dub (main series));",
+        "Flutter-Flutter Fruit (Funimation dub (Episode of Sabo))"
+      ],
+      "Meaning": "Flap; Flutter",
+      "Usage Debut": "Chapter 736; Episode 668",
+      "Type": "Paramecia",
+      "Current User": "Diamante"
+    }
+  },
+  {
+    "name": "Ishi Ishi no Mi",
+    "id": "58",
+    "href": "/wiki/Ishi_Ishi_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Ishi Ishi no Mi is a Paramecia-type Devil Fruit that allows the user to merge with and manipulate stone, making the user a Stone Assimilation Human (岩石同化人間, Ganseki Dōka Ningen?, VIZ: \"Stone-Assimilation Man\"). It was eaten by Pica.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/9/90/Ishi_Ishi_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20180529180105",
+    "Statistics": {
+      "Japanese Name": "イシイシの実",
+      "Official English Name": "Stone-Stone Fruit",
+      "Meaning": "Stone",
+      "Usage Debut": "Chapter 736; Episode 669",
+      "Type": "Paramecia",
+      "Current User": "Pica"
+    }
+  },
+  {
+    "name": "Fude Fude no Mi",
+    "id": "59",
+    "href": "/wiki/Fude_Fude_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The fruit is shaped like the lower part of a gourd, having a very narrow top before widening out significantly. It notably possesses two colors, with its top half being dark-colored and the bottom being light-colored (the exact colors are currently unknown as the anime scene where the fruit was shown was in black and white). While the bottom half possesses normal Devil Fruit spirals, the top half possesses a more unusual fishhook-shaped pattern set. The fruit has a horizontal-shaped stem which curves in an upward spiral on the left side and a downward spiral on the right.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/b/b4/Fude_Fude_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20210710161433",
+    "Statistics": {
+      "Japanese Name": "フデフデの実",
+      "Official English Name": "Brush-Brush Fruit",
+      "Meaning": "Brush",
+      "Fruit Debut": "Chapter 974; Episode 976",
+      "Usage Debut": "Chapter 754; Episode 691",
+      "Type": "Paramecia",
+      "Previous User": "Kurozumi Kanjuro"
+    }
+  },
+  {
+    "name": "Nagi Nagi no Mi",
+    "id": "60",
+    "href": "/wiki/Nagi_Nagi_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Nagi Nagi no Mi is a Paramecia-class Devil Fruit that allows the user to create a soundproof field and to cancel all noises, making the user a Soundless Human (無音人間, Muon Ningen?, Funimation dub: \"Silent Man\"). It was eaten by Donquixote Rosinante, but with his death, the fruit has returned to circulation.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/3/37/Nagi_Nagi_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20150802120152",
+    "Statistics": {
+      "Japanese Name": "ナギナギの実",
+      "Official English Name": "Calm-Calm Fruit",
+      "Meaning": "Calm",
+      "Usage Debut": "Chapter 764; Episode 703",
+      "Type": "Paramecia",
+      "Previous User": "Donquixote Rosinante"
+    }
+  },
+  {
+    "name": "Chiyu Chiyu no Mi",
+    "id": "61",
+    "href": "/wiki/Chiyu_Chiyu_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Chiyu Chiyu no Mi is a Paramecia-type Devil Fruit that grants the user the ability to heal any wound or injury through the use of liquid that comes from the user's body, such as tears. It was eaten by Mansherry.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/b/b2/Chiyu_Chiyu_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20151129192854",
+    "Statistics": {
+      "Japanese Name": "チユチユの実",
+      "Official English Name": "Heal-Heal Fruit",
+      "Meaning": "Healing",
+      "Usage Debut": "Chapter 774; Episode 714",
+      "Type": "Paramecia",
+      "Current User": "Mansherry"
+    }
+  },
+  {
+    "name": "Maki Maki no Mi",
+    "id": "62",
+    "href": "/wiki/Maki_Maki_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Maki Maki no Mi is a Paramecia-type Devil Fruit that allows the user to create and control scrolls at will, which have special properties including storing objects and generating drawings. It was eaten by Raizo.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/d/d1/Maki_Maki_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230820124033",
+    "Statistics": {
+      "Japanese Name": "マキマキの実",
+      "Official English Name": [
+        "Scrolling Jutsu (Former);",
+        "Scroll-Scroll Jutsu;",
+        "Scroll-Scroll Fruit (One Piece Official YouTube Channel)"
+      ],
+      "Meaning": "Scroll",
+      "Usage Debut": "Chapter 817; Episode 768",
+      "Type": "Paramecia",
+      "Current User": "Raizo"
+    }
+  },
+  {
+    "name": "Soru Soru no Mi",
+    "id": "63",
+    "href": "/wiki/Soru_Soru_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Soru Soru no Mi is a Paramecia-type Devil Fruit that allows the user to interact with and manipulate souls. It was formerly eaten by Carmel, but the ability was somehow transferred to Charlotte Linlin after Carmel's death.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/9/9d/Soru_Soru_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230113122808",
+    "Statistics": {
+      "Japanese Name": "ソルソルの実",
+      "Official English Name": "Soul-Soul Fruit",
+      "Meaning": "Soul",
+      "Usage Debut": [
+        "Chapter 651; Episode 571 (Charlotte Linlin)",
+        "Chapter 867; Episode 837 (Carmel)"
+      ],
+      "Type": "Paramecia",
+      "Previous User": "Carmel",
+      "Current User": "Charlotte Linlin"
+    }
+  },
+  {
+    "name": "Mira Mira no Mi",
+    "id": "64",
+    "href": "/wiki/Mira_Mira_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The foremost strength of the fruit is that it allows the user to create multiple mirrors in their own vicinity with their own hands. These mirrors can be used as a shield against enemy attacks, absorbing them and reflecting them back at the attacker, turning their own power against them.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/c/c3/Mira_Mira_no_Mi_Infobox.png/revision/latest/scale-to-width-down/334?cb=20170709205701",
+    "Statistics": {
+      "Japanese Name": "ミラミラの実",
+      "Official English Name": "Mirror-Mirror Fruit",
+      "Meaning": "Mirror",
+      "Usage Debut": "Chapter 831; Episode 790",
+      "Type": "Paramecia",
+      "Current User": "Charlotte Brûlée"
+    }
+  },
+  {
+    "name": "Pero Pero no Mi",
+    "id": "65",
+    "href": "/wiki/Pero_Pero_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "This fruit allows the user to create and control seemingly limitless amounts of candy, even being able to make it move as if it were a mechanical construct, like escalators and prostheses. The candy created by the user is edible.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/7/77/Pero_Pero_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230707021540",
+    "Statistics": {
+      "Japanese Name": "ペロペロの実",
+      "Official English Name": "Lick-Lick Fruit",
+      "Meaning": "Sound of licking",
+      "Usage Debut": "Chapter 834; Episode 795",
+      "Type": "Paramecia",
+      "Current User": "Charlotte Perospero"
+    }
+  },
+  {
+    "name": "Bisu Bisu no Mi",
+    "id": "66",
+    "href": "/wiki/Bisu_Bisu_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Bisu Bisu no Mi is a Paramecia-type Devil Fruit that allows the user to generate and manipulate biscuits at will, making them a Biscuit Human (ビスケット人間, Bisuketto Ningen?, VIZ: \"Biscuitman\"). It was eaten by Charlotte Cracker.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/8/8b/Bisu_Bisu_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20170730022308",
+    "Statistics": {
+      "Japanese Name": "ビスビスの実",
+      "Official English Name": "Bis-Bis Fruit",
+      "Meaning": "Biscuit",
+      "Usage Debut": "Chapter 835; Episode 796",
+      "Type": "Paramecia",
+      "Current User": "Charlotte Cracker"
+    }
+  },
+  {
+    "name": "Bata Bata no Mi",
+    "id": "67",
+    "href": "/wiki/Bata_Bata_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "This fruit allows the user to control seemingly limitless amounts of butter. Despite butter usually making objects slippery, the created butter has been shown to be quite sticky and adhesive when in semi-liquid form, capable of immobilizing an opponent by wrapping it around their hands or bodies.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/6/61/Bata_Bata_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20240112231955",
+    "Statistics": {
+      "Japanese Name": "バタバタの実",
+      "Official English Name": "Butter-Butter Fruit",
+      "Meaning": "Butter",
+      "Usage Debut": "Chapter 846; Episode 811",
+      "Type": "Paramecia",
+      "Current User": "Charlotte Galette"
+    }
+  },
+  {
+    "name": "Buku Buku no Mi",
+    "id": "68",
+    "href": "/wiki/Buku_Buku_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Buku Buku no Mi is a Paramecia-type Devil Fruit that allows the user to manipulate books, making them a Book Human (書籍人間, Shoseki Ningen?, VIZ: \"Bookkeeper\"). It was eaten by Charlotte Mont-d'Or.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/4/44/Buku_Buku_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230228052953",
+    "Statistics": {
+      "Japanese Name": "ブクブクの実",
+      "Official English Name": "Book-Book Fruit",
+      "Meaning": "Book",
+      "Usage Debut": "Chapter 846; Episode 810",
+      "Type": "Paramecia",
+      "Current User": "Charlotte Mont-d'Or"
+    }
+  },
+  {
+    "name": "Kuri Kuri no Mi",
+    "id": "69",
+    "href": "/wiki/Kuri_Kuri_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Kuri Kuri no Mi is a Paramecia-type Devil Fruit that allows the user to create and manipulate cream at will, making them a Cream Human (クリーム人間, Kurīmu Ningen?). It was eaten by Charlotte Opera.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/7/73/Kuri_Kuri_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20180913105124",
+    "Statistics": {
+      "Japanese Name": "クリクリの実",
+      "Official English Name": "Cream-Cream Fruit",
+      "Meaning": "Cream",
+      "Usage Debut": "Chapter 846; Episode 810",
+      "Type": "Paramecia",
+      "Current User": "Charlotte Opera"
+    }
+  },
+  {
+    "name": "Shibo Shibo no Mi",
+    "id": "70",
+    "href": "/wiki/Shibo_Shibo_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "This fruit's main strength is the ability to extract liquid from both living creatures (the user included) and inanimate objects, with the user's hands. The user simply has to squeeze and twist the chosen target (akin to wringing out a soaked cloth) to extract liquid from them. Notably, she requires physical contact to squeeze them, posing a problem if her target is particularly fast. The wringing itself does not seem to cause any physical damage, no matter how severe, and actually seems to even bring a pleasurable sensation rather than a painful one. However, living beings that are wrung out this way still suffer from dangerous dehydration, and can be left as thoroughly shriveled pale husks.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/d/d7/Shibo_Shibo_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230702183856",
+    "Statistics": {
+      "Japanese Name": "シボシボの実",
+      "Official English Name": "Wring-Wring Fruit",
+      "Meaning": "Squeeze",
+      "Usage Debut": "Chapter 846; Episode 812",
+      "Type": "Paramecia",
+      "Current User": "Charlotte Smoothie"
+    }
+  },
+  {
+    "name": "Memo Memo no Mi",
+    "id": "71",
+    "href": "/wiki/Memo_Memo_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Memo Memo no Mi is a Paramecia-type Devil Fruit that allows the user to turn people's memories into strips of film and manipulate them. It was eaten by Charlotte Pudding.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/c/c0/Memo_Memo_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20171217105138",
+    "Statistics": {
+      "Japanese Name": "メモメモの実",
+      "Official English Name": "Memo-Memo Fruit",
+      "Meaning": "Memory",
+      "Usage Debut": "Chapter 851; Episode 818",
+      "Type": "Paramecia",
+      "Current User": "Charlotte Pudding"
+    }
+  },
+  {
+    "name": "Mochi Mochi no Mi",
+    "id": "72",
+    "href": "/wiki/Mochi_Mochi_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Mochi Mochi no Mi is a Special Paramecia-type Devil Fruit that allows the user to create, control, and transform into mochi. It was eaten by Charlotte Katakuri.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/2/2c/Mochi_Mochi_no_Mi_Infobox.png/revision/latest?cb=20220525022420",
+    "Statistics": {
+      "Japanese Name": "モチモチの実",
+      "Official English Name": "Mochi-Mochi Fruit",
+      "Meaning": "Mochi; Springy",
+      "Fruit Debut": "One Piece Magazine Vol.14",
+      "Usage Debut": "Chapter 863; Episode 833",
+      "Type": "Special Paramecia",
+      "Current User": "Charlotte Katakuri"
+    }
+  },
+  {
+    "name": "Hoya Hoya no Mi",
+    "id": "73",
+    "href": "/wiki/Hoya_Hoya_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Hoya Hoya no Mi is a Paramecia-type Devil Fruit that allows the user to summon a genie from their body, making the user a Lamp Human (ランプ人間, Ranpu Ningen?, Viz: \"Lampman\"). It was eaten by Charlotte Daifuku.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/9/97/Hoya_Hoya_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20210208063127",
+    "Statistics": {
+      "Japanese Name": "ホヤホヤの実",
+      "Official English Name": "Puff-Puff Fruit",
+      "Meaning": "Lamp Chimney; Sound of smoke/steam",
+      "Usage Debut": "Chapter 864, Episode 826",
+      "Type": "Paramecia",
+      "Current User": "Charlotte Daifuku"
+    }
+  },
+  {
+    "name": "Netsu Netsu no Mi",
+    "id": "74",
+    "href": "/wiki/Netsu_Netsu_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Netsu Netsu no Mi is a Paramecia-type Devil Fruit that allows the user to emanate heat from their body, making the user a High Heat Human (高熱人間, Kōnetsu Ningen?, Viz: \"Bakeman\"). It was eaten by Charlotte Oven.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/c/c5/Netsu_Netsu_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20210208063018",
+    "Statistics": {
+      "Japanese Name": "ネツネツの実",
+      "Official English Name": "Heat-Heat Fruit",
+      "Meaning": "Heat",
+      "Usage Debut": "Chapter 864; Episode 827",
+      "Type": "Paramecia",
+      "Current User": "Charlotte Oven"
+    }
+  },
+  {
+    "name": "Kuku Kuku no Mi",
+    "id": "75",
+    "href": "/wiki/Kuku_Kuku_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Kuku Kuku no Mi is a Paramecia-type Devil Fruit that allows the user to turn objects into food. It was eaten by Streusen.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/4/47/Kuku_Kuku_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20180527032147",
+    "Statistics": {
+      "Japanese Name": "ククククの実",
+      "Official English Name": "Cook-Cook Fruit",
+      "Meaning": "Cook",
+      "Usage Debut": "Chapter 868; Episode 832",
+      "Type": "Paramecia",
+      "Current User": "Streusen"
+    }
+  },
+  {
+    "name": "Gocha Gocha no Mi",
+    "id": "76",
+    "href": "/wiki/Gocha_Gocha_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Gocha Gocha no Mi is a Paramecia-type Devil Fruit that allows the user to merge themselves with other people. It was eaten by Big Mom Pirates member Charlotte Newshi.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/4/47/Gocha_Gocha_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20190324125515",
+    "Statistics": {
+      "Japanese Name": "ゴチャゴチャの実",
+      "Official English Name": "Pile-Pile Fruit",
+      "Meaning": "Mix",
+      "Usage Debut": "Chapter 900; Episode 875",
+      "Type": "Paramecia",
+      "Current User": "Charlotte Newshi"
+    }
+  },
+  {
+    "name": "Oshi Oshi no Mi",
+    "id": "77",
+    "href": "/wiki/Oshi_Oshi_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Oshi Oshi no Mi is a Paramecia-type Devil Fruit that allows the user to freely move and shape the ground as though it was malleable like clay. It was eaten by Morley.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/1/1f/Oshi_Oshi_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20220721051214",
+    "Statistics": {
+      "Japanese Name": "オシオシの実",
+      "Official English Name": "Push-Push Fruit",
+      "Meaning": "Push",
+      "Usage Debut": "Chapter 904, Episode 880",
+      "Type": "Paramecia",
+      "Current User": "Morley"
+    }
+  },
+  {
+    "name": "Kobu Kobu no Mi",
+    "id": "78",
+    "href": "/wiki/Kobu_Kobu_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Kobu Kobu no Mi is a Paramecia-type Devil Fruit that allows the user to encourage and rally other people to awaken their latent potential to fight. It was eaten by Belo Betty.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/7/75/Kobu_Kobu_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20190414130522",
+    "Statistics": {
+      "Japanese Name": "コブコブの実",
+      "Official English Name": "Pump-Pump Fruit",
+      "Meaning": "Encouragement",
+      "Usage Debut": "Chapter 904, Episode 880",
+      "Type": "Paramecia",
+      "Current User": "Belo Betty"
+    }
+  },
+  {
+    "name": "Kibi Kibi no Mi",
+    "id": "79",
+    "href": "/wiki/Kibi_Kibi_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Kibi Kibi no Mi is a Paramecia-type Devil Fruit which allows the user to create \"dango\" from their cheeks that can tame animals and those of part-animal nature. It was eaten by Kurozumi Tama.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/3/35/Kibi_Kibi_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20190819140148",
+    "Statistics": {
+      "Japanese Name": "キビキビの実",
+      "Official English Name": "Millet-Millet Fruit",
+      "Meaning": "Millet",
+      "Usage Debut": "Chapter 911; Episode 893",
+      "Type": "Paramecia",
+      "Current User": "Kurozumi Tama"
+    }
+  },
+  {
+    "name": "Toki Toki no Mi",
+    "id": "80",
+    "href": "/wiki/Toki_Toki_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Toki Toki no Mi is a Paramecia-type Devil Fruit that allows the user to send themselves and others forward in time. It was eaten by Kozuki Toki, but with her death, the fruit has returned into circulation.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/6/6b/Toki_Toki_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20210221040316",
+    "Statistics": {
+      "Japanese Name": "トキトキの実",
+      "Official English Name": [
+        "Time-Time Ability (VIZ);",
+        "Time-Time Fruit (Funimation)"
+      ],
+      "Meaning": "Time",
+      "Usage Debut": "Chapter 920; Episode 910",
+      "Type": "Paramecia",
+      "Previous User": "Kozuki Toki"
+    }
+  },
+  {
+    "name": "Juku Juku no Mi",
+    "id": "81",
+    "href": "/wiki/Juku_Juku_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Juku Juku no Mi is a Paramecia-type Devil Fruit which allows the user to mature and decay anything they touch. It was eaten by Shinobu.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/f/f1/Juku_Juku_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20200412160241",
+    "Statistics": {
+      "Japanese Name": "ジュクジュクの実",
+      "Official English Name": [
+        "Ripe-Ripe Enticement Jutsu (VIZ and Funimation);",
+        "Ripe-Ripe Fruit (One Piece Official YouTube Channel)"
+      ],
+      "Meaning": "Mature",
+      "Usage Debut": "Chapter 924; Episode 916",
+      "Type": "Paramecia",
+      "Current User": "Shinobu"
+    }
+  },
+  {
+    "name": "Shiku Shiku no Mi",
+    "id": "82",
+    "href": "/wiki/Shiku_Shiku_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Shiku Shiku no Mi is a Paramecia-type Devil Fruit that allows the user to afflict others with diseases. It was eaten by Doc Q.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/a/a2/Shiku_Shiku_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20240211021532",
+    "Statistics": {
+      "Japanese Name": "シクシクの実",
+      "Official English Name": "Sick-Sick Fruit",
+      "Meaning": "Sick",
+      "Usage Debut": "Chapter 1063; Episode 1093",
+      "Type": "Paramecia",
+      "Current User": "Doc Q"
+    }
+  },
+  {
+    "name": "Wapu Wapu no Mi",
+    "id": "83",
+    "href": "/wiki/Wapu_Wapu_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Wapu Wapu no Mi grants the power of teleportation (瞬間移動, shunkan idō?): the user can warp from place to place instantaneously, as well as teleport other people after touching them.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/5/5e/Wapu_Wapu_no_Mi.gif/revision/latest?cb=20240215015054",
+    "Statistics": {
+      "Japanese Name": "ワプワプの実",
+      "Official English Name": "Warp-Warp Fruit",
+      "Meaning": "Warp",
+      "Usage Debut": "Chapter 1063; Episode 1093",
+      "Type": "Paramecia",
+      "Current User": "Van Augur"
+    }
+  },
+  {
+    "name": "Riki Riki no Mi",
+    "id": "84",
+    "href": "/wiki/Riki_Riki_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Riki Riki no Mi is a Paramecia-type Devil Fruit that grants its user incredible strength. It was eaten by Jesus Burgess.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/e/e0/Riki_Riki_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20240211021706",
+    "Statistics": {
+      "Japanese Name": "リキリキの実",
+      "Official English Name": "Strong-Strong Fruit",
+      "Meaning": "Strength",
+      "Usage Debut": "Chapter 1063; Episode 1093",
+      "Type": "Paramecia",
+      "Current User": "Jesus Burgess"
+    }
+  },
+  {
+    "name": "Nomi Nomi no Mi",
+    "id": "85",
+    "href": "/wiki/Nomi_Nomi_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Nomi Nomi no Mi is a Paramecia-type Devil Fruit that allows the user's brain to expand indefinitely with new knowledge, making the user a Brains Human (脳ミソ人間, Nōmiso Ningen?, English: \"Brain-Man\"). It was eaten by Vegapunk, but with the death of his main body, the status of the fruit is currently unknown.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/8/86/Nomi_Nomi_no_Mi_Infobox.png/revision/latest/scale-to-width-down/210?cb=20240317020525",
+    "Statistics": {
+      "Japanese Name": "ノミノミの実",
+      "Official English Name": "Brain-Brain Fruit",
+      "Meaning": "Brains",
+      "Usage Debut": "Chapter 1066; Episode 1096",
+      "Type": "Paramecia",
+      "Previous User": "Vegapunk"
+    }
+  },
+  {
+    "name": "Shima Shima no Mi",
+    "id": "86",
+    "href": "/wiki/Shima_Shima_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "A user of the Shima Shima no Mi's power can assimilate themselves with the environment of any island, be it natural or artificial, and then manipulate said environment freely. For example, the user can similarly merge themselves with a mountainside or floors built from wood, as long as they are in contact with them.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/4/40/Shima_Shima_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230717161136",
+    "Statistics": {
+      "Japanese Name": "シマシマの実",
+      "Official English Name": "Isle-Isle Fruit",
+      "Meaning": "Island",
+      "Usage Debut": "Chapter 1080; Episode 1113",
+      "Type": "Paramecia",
+      "Current User": "Avalo Pizarro"
+    }
+  },
+  {
+    "name": "Gabu Gabu no Mi",
+    "id": "87",
+    "href": "/wiki/Gabu_Gabu_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Gabu Gabu no Mi is a Paramecia-type Devil Fruit that makes the user a Liquor Human (酒人間, Sake Ningen?, VIZ: \"Booze-Man\"). It was eaten by Vasco Shot.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/e/ea/Shot_Spits_Fire_at_Garp.png/revision/latest/scale-to-width-down/350?cb=20231018043232",
+    "Statistics": {
+      "Japanese Name": "ガブガブの実",
+      "Official English Name": "Glug-Glug Fruit",
+      "Meaning": "Gulping down a drink",
+      "Usage Debut": "Chapter 1087",
+      "Type": "Paramecia",
+      "Current User": "Vasco Shot"
+    }
+  },
+  {
+    "name": "Muchi Muchi no Mi",
+    "id": "88",
+    "href": "/wiki/Muchi_Muchi_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Muchi Muchi no Mi is a Paramecia-type Devil Fruit that allows the user to use whips to command anything they hit, turning the user into a Training Human (調教人間, Chōkyō Ningen?, VIZ: \"Discipline-Woman\"). It was eaten by Kujaku.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/0/0f/Muchi_Muchi_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20240728225755",
+    "Statistics": {
+      "Japanese Name": "ムチムチの実",
+      "Official English Name": "Whip-Whip Fruit",
+      "Meaning": "Whip",
+      "Usage Debut": "Chapter 1080; Episode 1113",
+      "Type": "Paramecia",
+      "Current User": "Kujaku"
+    }
+  },
+  {
+    "name": "Nori Nori no Mi",
+    "id": "89",
+    "href": "/wiki/Nori_Nori_no_Mi",
+    "types": [
+      "Paramecia"
+    ],
+    "description": "The Nori Nori no Mi is a Paramecia-type Devil Fruit that allows the user to control anything they ride, turning them into a Driving Human (ドライブ人間, Doraibu Ningen?, VIZ: \"Driver\"). It was eaten by Bluegrass.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/6/68/Nori_Nori_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20231009224156",
+    "Statistics": {
+      "Japanese Name": "ノリノリの実",
+      "Official English Name": "Ride-Ride Fruit",
+      "Meaning": "Ride",
+      "Usage Debut": "Chapter 1094",
+      "Type": "Paramecia",
+      "Current User": "Bluegrass"
+    }
+  },
+  {
+    "name": "Ushi Ushi no Mi, Model: Bison",
+    "id": "90",
+    "href": "/wiki/Ushi_Ushi_no_Mi,_Model:_Bison",
+    "types": [
+      "Standard Zoan"
+    ],
+    "description": "The Ushi Ushi no Mi, Model: Bison is a Zoan-type Devil Fruit that allows its user to transform into a full bison or a half-bison hybrid at will. It was eaten by Dalton.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/b/bf/Ushi_Ushi_no_Mi%2C_Model_Bison_Infobox.png/revision/latest/scale-to-width-down/350?cb=20220408131623",
+    "Statistics": {
+      "Japanese Name": "ウシウシの実 モデル 野牛（バイソン）",
+      "Romanized Name": "Ushi Ushi no Mi, Moderu: Baison",
+      "Official English Name": [
+        "Ox-Ox Fruit (4Kids);",
+        "Ox-Ox Fruit, Bison Model (Viz);",
+        "Ox-Ox Fruit, Bison Form (Funimation)"
+      ],
+      "Meaning": "Cow",
+      "Fruit Debut": "Chapter 1070; Episode 1101; One Piece Magazine Vol.12",
+      "Usage Debut": "Chapter 135; Episode 81",
+      "Type": "Zoan",
+      "Current User": "Dalton"
+    }
+  },
+  {
+    "name": "Hito Hito no Mi",
+    "id": "91",
+    "href": "/wiki/Hito_Hito_no_Mi",
+    "types": [
+      "Standard Zoan"
+    ],
+    "description": "The Hito Hito no Mi is a Zoan-type Devil Fruit that allows its user to transform into a human hybrid or a human at will. It was eaten by the reindeer Tony Tony Chopper, turning him into a Human Reindeer (人間トナカイ, Ningen Tonakai?).",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/3/38/Hito_Hito_no_Mi_Infobox.png/revision/latest/scale-to-width-down/317?cb=20191228120250",
+    "Statistics": {
+      "Japanese Name": "ヒトヒトの実",
+      "Official English Name": "Human-Human Fruit",
+      "Meaning": "Human",
+      "Fruit Debut": "One Piece Magazine Vol.6",
+      "Usage Debut": "Chapter 138; Episode 83",
+      "Type": "Zoan",
+      "Current User": "Tony Tony Chopper"
+    }
+  },
+  {
+    "name": "Tori Tori no Mi, Model: Falcon",
+    "id": "92",
+    "href": "/wiki/Tori_Tori_no_Mi,_Model:_Falcon",
+    "types": [
+      "Standard Zoan"
+    ],
+    "description": "The Tori Tori no Mi, Model: Falcon is a Zoan-type Devil Fruit that allows its user to transform into a falcon hybrid and a full falcon at will. It was eaten by Pell, and according to him, it is one of the only five types of flying powers ever discovered.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/e/ea/Tori_Tori_no_Mi%2C_Model_Falcon_Beast_Form.png/revision/latest/scale-to-width-down/350?cb=20230916035747",
+    "Statistics": {
+      "Japanese Name": "トリトリの実 モデル “隼（ファルコン）”",
+      "Romanized Name": "Tori Tori no Mi Moderu \"Farukon\"",
+      "Official English Name": [
+        "Tweet-Tweet Fruit (4Kids);",
+        "Tweet-Tweet Fruit Falcon Type (Viz);",
+        "Bird-Bird Fruit Model: The Falcon (Funimation)"
+      ],
+      "Meaning": "Bird",
+      "Usage Debut": "Chapter 169; Episode 106",
+      "Type": "Zoan",
+      "Current User": "Pell"
+    }
+  },
+  {
+    "name": "Inu Inu no Mi, Model: Dachshund",
+    "id": "93",
+    "href": "/wiki/Inu_Inu_no_Mi,_Model:_Dachshund",
+    "types": [
+      "Standard Zoan"
+    ],
+    "description": "The Inu Inu no Mi, Model: Dachshund is a Zoan-type Devil Fruit that allows its user to transform into a dachshund hybrid and a full dachshund at will. It was \"eaten\" by Mr. 4's bazooka, Lassoo, through the process developed by Vegapunk.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/d/d0/Inu_Inu_no_Mi%2C_Model_Dachshund_Infobox.png/revision/latest/scale-to-width-down/350?cb=20200625092631",
+    "Statistics": {
+      "Japanese Name": "イヌイヌの実 モデル「ダックスフント」",
+      "Romanized Name": "Inu Inu no Mi, Moderu: Dakkusufunto",
+      "Official English Name": [
+        "Mutt-Mutt Fruit, Dachshund Type (Viz);",
+        "Mutt-Mutt Fruit (4Kids);",
+        "Dog-Dog Fruit, Model: Dachshund (Funimation)"
+      ],
+      "Meaning": "Dog",
+      "Usage Debut": "Chapter 184; Episode 113",
+      "Type": "Zoan",
+      "Current User": "Lassoo"
+    }
+  },
+  {
+    "name": "Mogu Mogu no Mi",
+    "id": "94",
+    "href": "/wiki/Mogu_Mogu_no_Mi",
+    "types": [
+      "Standard Zoan"
+    ],
+    "description": "The Mogu Mogu no Mi is a Zoan-type Devil Fruit that allows its user to transform into a mole hybrid and a full mole at will, making the user a Mole Human (モグラ人間, Mogura Ningen?). It was eaten by Drophy, better known by her Baroque Works alias Miss Merry Christmas.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/9/95/Mogu_Mogu_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230624124000",
+    "Statistics": {
+      "Japanese Name": "モグモグの実",
+      "Official English Name": [
+        "Mole-Mole Fruit (Funimation);",
+        "Diggy-Diggy Fruit (Viz, 4Kids)"
+      ],
+      "Meaning": "From Mogura (土竜), meaning Mole",
+      "Usage Debut": "Chapter 184; Episode 113",
+      "Type": "Zoan",
+      "Current User": "Drophy"
+    }
+  },
+  {
+    "name": "Inu Inu no Mi, Model: Jackal",
+    "id": "95",
+    "href": "/wiki/Inu_Inu_no_Mi,_Model:_Jackal",
+    "types": [
+      "Standard Zoan"
+    ],
+    "description": "The Inu Inu no Mi, Model: Jackal is a Zoan-type Devil Fruit that allows its user to transform into a jackal hybrid and a full jackal at will. It was eaten by Chaka.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/4/4f/Inu_Inu_no_Mi%2C_Model_Jackal_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230913193627",
+    "Statistics": {
+      "Japanese Name": "イヌイヌの実 モデル「ジャッカル」",
+      "Romanized Name": "Inu Inu no Mi, Moderu: Jakkaru",
+      "Official English Name": [
+        "Dog-Dog Fruit, Model: Jackal (Funimation);",
+        "Mutt-Mutt Fruit: Jackal Model (Viz);",
+        "Mutt-Mutt Fruit: Jackal Strike (4Kids)"
+      ],
+      "Meaning": "Dog",
+      "Usage Debut": "Chapter 196; Episode 120",
+      "Type": "Zoan",
+      "Current User": "Chaka"
+    }
+  },
+  {
+    "name": "Uma Uma no Mi",
+    "id": "96",
+    "href": "/wiki/Uma_Uma_no_Mi",
+    "types": [
+      "Standard Zoan"
+    ],
+    "description": "The Uma Uma no Mi is a Zoan-type Devil Fruit that allows its user to transform into a horse hybrid and a full horse at will. It was eaten by Gan Fall's bird, Pierre.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/3/39/Uma_Uma_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20220713111132",
+    "Statistics": {
+      "Japanese Name": "ウマウマの実",
+      "Official English Name": "Horse-Horse Fruit",
+      "Meaning": "Horse",
+      "Usage Debut": "Chapter 238; Episode 153",
+      "Type": "Zoan",
+      "Current User": "Pierre"
+    }
+  },
+  {
+    "name": "Neko Neko no Mi, Model: Leopard",
+    "id": "97",
+    "href": "/wiki/Neko_Neko_no_Mi,_Model:_Leopard",
+    "types": [
+      "Standard Zoan"
+    ],
+    "description": "The Neko Neko no Mi, Model: Leopard is a Zoan-type Devil Fruit that allows its user to transform into a leopard hybrid and a full leopard at will, making the user a Leopard Human (ヒョウ人間, Hyō Ningen?). It was eaten by Rob Lucci.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/9/98/Neko_Neko_no_Mi%2C_Model_Leopard_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230306213909",
+    "Statistics": {
+      "Japanese Name": "ネコネコの実 モデル“豹（レオパルド）”",
+      "Romanized Name": "Neko Neko no Mi, Moderu: Reoparudo",
+      "Official English Name": [
+        "Cat-Cat Fruit Leopard Model (VIZ);",
+        "Cat-Cat Fruit, Model: Leopard (VIZ, Funimation)"
+      ],
+      "Meaning": "Cat",
+      "Fruit Debut": "One Piece Magazine Vol.16; Episode 1101",
+      "Usage Debut": "Chapter 348; Episode 245",
+      "Type": "Zoan",
+      "Current User": "Rob Lucci"
+    }
+  },
+  {
+    "name": "Zou Zou no Mi",
+    "id": "98",
+    "href": "/wiki/Zou_Zou_no_Mi",
+    "types": [
+      "Standard Zoan"
+    ],
+    "description": "The Zou Zou no Mi is a Zoan-type Devil Fruit that allows the user to transform into an elephant hybrid and a full elephant at will. It was \"eaten\" by Spandam's sword, Funkfreed, through the process developed by Vegapunk.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/c/c1/Funkfreed_Anime_Infobox.png/revision/latest/scale-to-width-down/350?cb=20160816232853",
+    "Statistics": {
+      "Japanese Name": "ゾウゾウの実",
+      "Romanized Name": "Zō Zō no Mi",
+      "Official English Name": "Eleph-Eleph Fruit (Viz); Elephant-Elephant Fruit (Funimation, Viz); Eleph-Eleph Fruit (ONE PIECE Official Youtube Channel)",
+      "Meaning": "Elephant",
+      "Usage Debut": "Chapter 400; Episode 285",
+      "Type": "Zoan",
+      "Current User": "Funkfreed"
+    }
+  },
+  {
+    "name": "Inu Inu no Mi, Model: Wolf",
+    "id": "99",
+    "href": "/wiki/Inu_Inu_no_Mi,_Model:_Wolf",
+    "types": [
+      "Standard Zoan"
+    ],
+    "description": "The Inu Inu no Mi, Model: Wolf is a Zoan-type Devil Fruit that allows its user to transform into a wolf hybrid (which almost resembles a werewolf) and a full wolf at will, making the user a Wolf Human (狼人間, Ōkami Ningen?). It was eaten by Jabra.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/e/e1/Full-Beast_Form_of_Jabra%27s_fruit.png/revision/latest/scale-to-width-down/350?cb=20240303202356",
+    "Statistics": {
+      "Japanese Name": "イヌイヌの実 モデル「狼（ウルフ）」",
+      "Romanized Name": "Inu Inu no Mi, Moderu: Urufu",
+      "Official English Name": "Mutt-Mutt Fruit Wolf Model (Viz) Dog-Dog Fruit Model Wolf (Funimation)",
+      "Meaning": "Dog",
+      "Usage Debut": "Chapter 401; Episode 286",
+      "Type": "Zoan",
+      "Current User": "Jabra"
+    }
+  },
+  {
+    "name": "Ushi Ushi no Mi, Model: Giraffe",
+    "id": "100",
+    "href": "/wiki/Ushi_Ushi_no_Mi,_Model:_Giraffe",
+    "types": [
+      "Standard Zoan"
+    ],
+    "description": "The Ushi Ushi no Mi, Model: Giraffe is a Zoan-type Devil Fruit that allows its user to transform into a giraffe hybrid and a full giraffe at will, making the user a Giraffe Human (キリン人間, Kirin Ningen?). It was eaten by Kaku, who received it from Spandam. In One Piece episode A, an unknown New World pirate used this fruit, before he was defeated by Portgas D. Ace and finished off by Marshall D. Teach.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/8/8c/Ushi_Ushi_no_Mi%2C_Model_Giraffe_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230120040539",
+    "Statistics": {
+      "Japanese Name": "ウシウシの実 モデル“麒麟（ジラフ）”",
+      "Romanized Name": "Ushi Ushi no Mi, Moderu: Jirafu",
+      "Official English Name": [
+        "Ox-Ox Fruit, Model: Giraffe (Funimation);",
+        "Ox-Ox Fruit Giraffe Model (VIZ)"
+      ],
+      "Meaning": "Cow, Qilin",
+      "Fruit Debut": "Chapter 379; Episode 266",
+      "Usage Debut": [
+        "Chapter 401; Episode 286 (Kaku)",
+        "episode A Chapter 3 (New World pirate) (Non-Canon)≠"
+      ],
+      "Type": "Zoan",
+      "Previous User": "Unnamed New World pirate (Non-Canon)≠",
+      "Current User": "Kaku"
+    }
+  },
+  {
+    "name": "Hebi Hebi no Mi, Model: King Cobra",
+    "id": "101",
+    "href": "/wiki/Hebi_Hebi_no_Mi,_Model:_King_Cobra",
+    "types": [
+      "Standard Zoan"
+    ],
+    "description": "The Hebi Hebi no Mi, Model: King Cobra is a Zoan-type Devil Fruit that allows its user to turn into a king cobra hybrid and a full king cobra at will. It can also give the user the ability to create and spit venom. It was eaten by Boa Marigold, who was force-fed it by a World Noble.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/3/33/Hebi_Hebi_no_Mi%2C_Model_King_Cobra_Infobox.png/revision/latest/scale-to-width-down/350?cb=20220408224556",
+    "Statistics": {
+      "Japanese Name": "ヘビヘビの実 モデル キングコブラ",
+      "Romanized Name": "Hebi Hebi no Mi Moderu Kingukobura",
+      "Official English Name": [
+        "Snake-Snake Fruit King Cobra Model (Viz);",
+        "Snake-Snake Fruit: Model King Cobra (FUNimation)"
+      ],
+      "Meaning": "Snake",
+      "Usage Debut": "Chapter 518; Episode 412",
+      "Type": "Zoan",
+      "Current User": "Boa Marigold"
+    }
+  },
+  {
+    "name": "Hebi Hebi no Mi, Model: Anaconda",
+    "id": "102",
+    "href": "/wiki/Hebi_Hebi_no_Mi,_Model:_Anaconda",
+    "types": [
+      "Standard Zoan"
+    ],
+    "description": "The Hebi Hebi no Mi, Model: Anaconda is a Zoan-type Devil Fruit that allows its user to transform into an anaconda hybrid and a full anaconda at will. It was eaten by Boa Sandersonia, who was force-fed it by a World Noble.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/3/3c/Hebi_Hebi_no_Mi%2C_Model_Anaconda_Infobox.png/revision/latest/scale-to-width-down/350?cb=20210908193532",
+    "Statistics": {
+      "Japanese Name": "ヘビヘビの実 モデル アナコンダ",
+      "Romanized Name": "Hebi Hebi no Mi, Moderu: Anakonda",
+      "Official English Name": [
+        "Snake-Snake Fruit Anaconda Model (Viz);",
+        "Snake-Snake Fruit: Model Anaconda (FUNimation)"
+      ],
+      "Meaning": "Snake",
+      "Usage Debut": "Chapter 518; Episode 412",
+      "Type": "Zoan",
+      "Current User": "Boa Sandersonia"
+    }
+  },
+  {
+    "name": "Kame Kame no Mi",
+    "id": "103",
+    "href": "/wiki/Kame_Kame_no_Mi",
+    "types": [
+      "Standard Zoan"
+    ],
+    "description": "The primary ability of this fruit grants is the ability to transform into a turtle at will. This turtle has a nearly-impenetrable protective shell (hard as diamond, according to Pekoms), being able to protect against bullets and collapsing buildings.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/7/74/Kame_Kame_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20160120235204",
+    "Statistics": {
+      "Japanese Name": "カメカメの実",
+      "Official English Name": "Turtle-Turtle Fruit",
+      "Meaning": "Turtle",
+      "Usage Debut": "Chapter 652; Episode 572",
+      "Type": "Zoan",
+      "Current User": "Pekoms"
+    }
+  },
+  {
+    "name": "Sara Sara no Mi, Model: Axolotl",
+    "id": "104",
+    "href": "/wiki/Sara_Sara_no_Mi,_Model:_Axolotl",
+    "types": [
+      "Standard Zoan"
+    ],
+    "description": "Following the death of Smiley, the Sara Sara no Mi, Model: Axolotl has taken the form of an apple, as Smiley was near a bag of apples when it was killed. It is a relatively-small, indigo round fruit with a swirl pattern. It also has a curly stem, which curled when the apple was transformed.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/d/db/Sara_Sara_no_Mi%2C_Model_Axolotl_Infobox.png/revision/latest/scale-to-width-down/350?cb=20130630175803",
+    "Statistics": {
+      "Japanese Name": "サラサラの実 モデル\"アホロートル\"",
+      "Romanized Name": "Sara Sara no Mi: Moderu Ahorōtoru",
+      "Official English Name": "Sala-Sala Fruit, Model: Axolotl",
+      "Meaning": "Salamander",
+      "Fruit Debut": "Chapter 676; Episode 602",
+      "Usage Debut": "Chapter 668; Episode 594",
+      "Type": "Zoan",
+      "Previous User": "Smiley"
+    }
+  },
+  {
+    "name": "Mushi Mushi no Mi, Model: Kabutomushi",
+    "id": "105",
+    "href": "/wiki/Mushi_Mushi_no_Mi,_Model:_Kabutomushi",
+    "types": [
+      "Standard Zoan"
+    ],
+    "description": "The Mushi Mushi no Mi, Model: Kabutomushi is a Zoan-type Devil Fruit that allows its user to transform into a rhinoceros beetle hybrid and full rhinoceros beetle at will. It was eaten by Kabu.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/c/ce/Mushi_Mushi_no_Mi%2C_Model_Kabutomushi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20141006011335",
+    "Statistics": {
+      "Japanese Name": "ムシムシの実 モデルカブトムシ",
+      "Romanized Name": "Mushi Mushi no Mi, Moderu: Kabutomushi",
+      "Official English Name": "Bug-Bug Fruit, Model: Rhinoceros beetle",
+      "Meaning": "Insect; Rhinoceros Beetle",
+      "Usage Debut": "Chapter 718; Episode 648",
+      "Type": "Zoan",
+      "Current User": "Kabu"
+    }
+  },
+  {
+    "name": "Mushi Mushi no Mi, Model: Suzumebachi",
+    "id": "106",
+    "href": "/wiki/Mushi_Mushi_no_Mi,_Model:_Suzumebachi",
+    "types": [
+      "Standard Zoan"
+    ],
+    "description": "The Mushi Mushi no Mi, Model: Suzumebachi is a Zoan-type Devil Fruit that allows its user to transform into a hornet hybrid and full hornet at will. It was eaten by Bian.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/d/d4/Mushi_Mushi_no_Mi%2C_Model_Suzumebachi_Infobox.png/revision/latest?cb=20140609062408",
+    "Statistics": {
+      "Japanese Name": "ムシムシの実 モデルスズメバチ",
+      "Romanized Name": "Mushi Mushi no Mi, Moderu: Suzumebachi",
+      "Official English Name": "Bug-Bug Fruit, Model: Hornet",
+      "Meaning": "Insect; Hornet",
+      "Usage Debut": "Chapter 718; Episode 648",
+      "Type": "Zoan",
+      "Current User": "Bian"
+    }
+  },
+  {
+    "name": "Tama Tama no Mi",
+    "id": "107",
+    "href": "/wiki/Tama_Tama_no_Mi",
+    "types": [
+      "Standard Zoan"
+    ],
+    "description": "The Tama Tama no Mi is a Zoan-type Devil Fruit that turns the user's body composition into that of an egg, which if cracked open will cause the user to regenerate into a stronger body that features more and more chicken-like features each time. It was eaten by Tamago.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/a/a9/Tama_Tama_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20171203040745",
+    "Statistics": {
+      "Japanese Name": "タマタマの実",
+      "Official English Name": "Egg-Egg Fruit",
+      "Meaning": "Egg",
+      "Usage Debut": "Chapter 850; Episode 816",
+      "Type": "Zoan",
+      "Current User": "Tamago"
+    }
+  },
+  {
+    "name": "Tori Tori no Mi, Model: Albatross",
+    "id": "108",
+    "href": "/wiki/Tori_Tori_no_Mi,_Model:_Albatross",
+    "types": [
+      "Standard Zoan"
+    ],
+    "description": "The Tori Tori no Mi, Model: Albatross is a Zoan-type Devil Fruit that allows its user to transform into an albatross hybrid and a full albatross at will. It was eaten by Morgans.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/8/87/Morgans_Anime_Infobox.png/revision/latest/scale-to-width-down/350?cb=20240526034406",
+    "Statistics": {
+      "Japanese Name": "トリトリの実 モデル“アルバトロス”",
+      "Romanized Name": "Tori Tori no Mi Moderu Arubatorosu",
+      "Official English Name": [
+        "Tweet-Tweet Fruit, Albatross Model (Crunchyroll subs)",
+        "Bird-Bird Fruit, Model: Albatross (One Piece Official YouTube Channel)"
+      ],
+      "Meaning": "Bird, Albatross",
+      "Usage Debut": "Chapter 860; Episode 830",
+      "Type": "Zoan",
+      "Current User": "Morgans"
+    }
+  },
+  {
+    "name": "Inu Inu no Mi, Model: Tanuki",
+    "id": "109",
+    "href": "/wiki/Inu_Inu_no_Mi,_Model:_Tanuki",
+    "types": [
+      "Standard Zoan"
+    ],
+    "description": "The Inu Inu no Mi, Model: Tanuki is a Zoan-type Devil Fruit that allows its user to transform into a tanuki hybrid and a full tanuki at will. It was \"eaten\" by Tenguyama Hitetsu's teapot, Bunbuku.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/3/33/Bunbuku_Manga_Infobox.png/revision/latest/scale-to-width-down/350?cb=20210405204206",
+    "Statistics": {
+      "Japanese Name": "イヌイヌの実 モデル たぬき",
+      "Romanized Name": "Inu Inu no Mi, Moderu: Tanuki",
+      "Official English Name": "Dog-Dog Fruit, Model Tanuki",
+      "Meaning": "Dog, Tanuki",
+      "Usage Debut": "Chapter 911; Episode 894",
+      "Type": "Zoan",
+      "Current User": "Bunbuku"
+    }
+  },
+  {
+    "name": "Tori Tori no Mi, Model: Eagle",
+    "id": "110",
+    "href": "/wiki/Tori_Tori_no_Mi,_Model:_Eagle",
+    "types": [
+      "Standard Zoan"
+    ],
+    "description": "The Tori Tori no Mi, Model: Eagle is an anime-only Zoan-type Devil Fruit that allows its user to transform into an eagle hybrid and a full eagle at will. It was eaten by Buzz.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/d/df/Tori_Tori_no_Mi%2C_Model_Eagle_Infobox.png/revision/latest/scale-to-width-down/350?cb=20130628213413",
+    "Statistics": {
+      "Japanese Name": "トリトリの実 モデル\"鷲（イーグル）\"",
+      "Romanized Name": "Tori Tori no Mi: Moderu \"Īguru\"",
+      "Meaning": "Bird",
+      "Usage Debut": "Movie 11",
+      "Type": "Zoan",
+      "Current User": "Buzz"
+    }
+  },
+  {
+    "name": "Ryu Ryu no Mi, Model: Allosaurus",
+    "id": "111",
+    "href": "/wiki/Ryu_Ryu_no_Mi,_Model:_Allosaurus",
+    "types": [
+      "Ancient Zoan"
+    ],
+    "description": "The Ryu Ryu no Mi, Model: Allosaurus is an Ancient Zoan-type Devil Fruit that allows the user to transform into an allosaurus hybrid and a full allosaurus at will. It was eaten by X Drake.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/a/a3/Ryu_Ryu_no_Mi%2C_Model_Allosaurus_Beast_Form.png/revision/latest/scale-to-width-down/350?cb=20220301122130",
+    "Statistics": {
+      "Japanese Name": "リュウリュウの実 モデル アロサウルス",
+      "Romanized Name": "Ryū Ryū no Mi Moderu Arosaurusu",
+      "Official English Name": "Dragon-Dragon Fruit, Allosaurus Model",
+      "Meaning": "Dragon, Dinosaur",
+      "Usage Debut": "Chapter 509; Episode 402",
+      "Type": "Ancient Zoan",
+      "Current User": "X Drake"
+    }
+  },
+  {
+    "name": "Zou Zou no Mi, Model: Mammoth",
+    "id": "112",
+    "href": "/wiki/Zou_Zou_no_Mi,_Model:_Mammoth",
+    "types": [
+      "Ancient Zoan"
+    ],
+    "description": "The Zou Zou no Mi, Model: Mammoth is an Ancient Zoan-type Devil Fruit, which allows the user to transform into a mammoth hybrid and full mammoth at will. It was eaten by Jack.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/d/d4/Zou_Zou_no_Mi%2C_Model_Mammoth_Beast_Form.png/revision/latest/scale-to-width-down/350?cb=20211212162937",
+    "Statistics": {
+      "Japanese Name": "ゾウゾウの実 モデル \"マンモス\"",
+      "Romanized Name": "Zō Zō no Mi Moderu \"Manmosu\"",
+      "Official English Name": "Eleph-Eleph Fruit Ancient Zoan Model Mammoth",
+      "Meaning": "Elephant",
+      "Usage Debut": "Chapter 807; Episode 757",
+      "Type": "Ancient Zoan",
+      "Current User": "Jack"
+    }
+  },
+  {
+    "name": "Ryu Ryu no Mi, Model: Spinosaurus",
+    "id": "113",
+    "href": "/wiki/Ryu_Ryu_no_Mi,_Model:_Spinosaurus",
+    "types": [
+      "Ancient Zoan"
+    ],
+    "description": "The Ryu Ryu no Mi, Model: Spinosaurus is an Ancient Zoan-type Devil Fruit that allows the user to transform into a spinosaurus hybrid and a full spinosaurus at will. It was eaten by Page One.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/9/92/Ryu_Ryu_no_Mi%2C_Model_Spinosaurus_Beast_Form.png/revision/latest/scale-to-width-down/350?cb=20220807021957",
+    "Statistics": {
+      "Japanese Name": "リュウリュウの実 モデル スピノサウルス",
+      "Romanized Name": "Ryū Ryū no Mi Moderu Supinosaurusu",
+      "Official English Name": "Dragon-Dragon Fruit, Model: Spinosaurus",
+      "Meaning": "Dragon, Dinosaur",
+      "Usage Debut": "Chapter 929; Episode 923",
+      "Type": "Ancient Zoan",
+      "Current User": "Page One"
+    }
+  },
+  {
+    "name": "Ryu Ryu no Mi, Model: Pteranodon",
+    "id": "114",
+    "href": "/wiki/Ryu_Ryu_no_Mi,_Model:_Pteranodon",
+    "types": [
+      "Ancient Zoan"
+    ],
+    "description": "The Ryu Ryu no Mi, Model: Pteranodon is an Ancient Zoan-type Devil Fruit that allows the user to transform into a pteranodon hybrid and a full pteranodon at will. It was eaten by King.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/9/96/Ryu_Ryu_no_Mi%2C_Model_Pteranodon_Beast_Form.png/revision/latest/scale-to-width-down/350?cb=20220418123709",
+    "Statistics": {
+      "Japanese Name": "リュウリュウの実 モデル プテラノドン",
+      "Romanized Name": "Ryū Ryū no Mi Moderu Puteranodon",
+      "Official English Name": "Dragon-Dragon Fruit, Pteranodon Model",
+      "Meaning": "Dragon, Pteranodon",
+      "Usage Debut": "Chapter 930; Episode 924",
+      "Type": "Ancient Zoan",
+      "Current User": "King"
+    }
+  },
+  {
+    "name": "Ryu Ryu no Mi, Model: Brachiosaurus",
+    "id": "115",
+    "href": "/wiki/Ryu_Ryu_no_Mi,_Model:_Brachiosaurus",
+    "types": [
+      "Ancient Zoan"
+    ],
+    "description": "The Ryu Ryu no Mi, Model: Brachiosaurus is an Ancient Zoan-type Devil Fruit that allows the user to transform into a brachiosaurus hybrid and a full brachiosaurus at will. It was eaten by Queen.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/4/40/Ryu_Ryu_no_Mi%2C_Model_Brachiosaurus_Beast_Form.png/revision/latest/scale-to-width-down/350?cb=20221106024038",
+    "Statistics": {
+      "Japanese Name": "リュウリュウの実 モデル ブラキオサウルス",
+      "Romanized Name": "Ryū Ryū no Mi Moderu Burakiosaurusu",
+      "Official English Name": "Dragon-Dragon Fruit, Model: Brachiosaurus",
+      "Meaning": "Dragon, Brachiosaurus",
+      "Usage Debut": "Chapter 945; Episode 944",
+      "Type": "Ancient Zoan",
+      "Current User": "Queen"
+    }
+  },
+  {
+    "name": "Ryu Ryu no Mi, Model: Pachycephalosaurus",
+    "id": "116",
+    "href": "/wiki/Ryu_Ryu_no_Mi,_Model:_Pachycephalosaurus",
+    "types": [
+      "Ancient Zoan"
+    ],
+    "description": "The Ryu Ryu no Mi, Model: Pachycephalosaurus is an Ancient Zoan-type Devil Fruit that allows the user to transform into a hybrid and full version of a pachycephalosaurus at will. It was eaten by Ulti.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/4/4b/Ryu_Ryu_no_Mi%2C_Model_Pachycephalosaurus_Beast_Form.png/revision/latest/scale-to-width-down/350?cb=20220227070532",
+    "Statistics": {
+      "Japanese Name": "リュウリュウの実 モデル パキケファロサウルス",
+      "Romanized Name": "Ryū Ryū no Mi Moderu Pakikefarosaurusu",
+      "Official English Name": "Dragon-Dragon Fruit, Pachycephalosaurus Model",
+      "Meaning": "Dragon, Dinosaur",
+      "Usage Debut": "Chapter 983; Episode 990",
+      "Type": "Ancient Zoan",
+      "Current User": "Ulti"
+    }
+  },
+  {
+    "name": "Ryu Ryu no Mi, Model: Triceratops",
+    "id": "117",
+    "href": "/wiki/Ryu_Ryu_no_Mi,_Model:_Triceratops",
+    "types": [
+      "Ancient Zoan"
+    ],
+    "description": "The Ryu Ryu no Mi, Model: Triceratops is an Ancient Zoan-type Devil Fruit that allows the user to transform into a hybrid and full version of a triceratops at will. It was eaten by Sasaki.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/5/58/Ryu_Ryu_no_Mi%2C_Model_Triceratops_Beast_Form.png/revision/latest/scale-to-width-down/350?cb=20220529042151",
+    "Statistics": {
+      "Japanese Name": "リュウリュウの実 モデル トリケラトプス",
+      "Romanized Name": "Ryū Ryū no Mi Moderu Torikeratopusu",
+      "Official English Name": "Dragon-Dragon Fruit, Triceratops Model",
+      "Meaning": "Dragon, Dinosaur",
+      "Usage Debut": "Chapter 998; Episode 1012",
+      "Type": "Ancient Zoan",
+      "Current User": "Sasaki"
+    }
+  },
+  {
+    "name": "Kumo Kumo no Mi, Model: Rosamygale Grauvogeli",
+    "id": "118",
+    "href": "/wiki/Kumo_Kumo_no_Mi,_Model:_Rosamygale_Grauvogeli",
+    "types": [
+      "Ancient Zoan"
+    ],
+    "description": "The Kumo Kumo no Mi, Model: Rosamygale Grauvogeli is an Ancient Zoan-type Devil Fruit that allows the user to transform into a hybrid and full version of a Rosamygale grauvogeli, an ancient species of spider. It was eaten by Black Maria.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/7/7c/Kumo_Kumo_no_Mi_Model_Rosamygale_Grauvogeli_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230818050241",
+    "Statistics": {
+      "Japanese Name": "クモクモの実 モデル ロサミガレ・グラウボゲリィ",
+      "Romanized Name": "Kumo Kumo no Mi Moderu Rosamigare Guraubogerī",
+      "Official English Name": "Spider-Spider Fruit, Rosamygale Grauvogeli Model",
+      "Meaning": "Spider",
+      "Usage Debut": "Chapter 997; Episode 1011",
+      "Type": "Ancient Zoan",
+      "Current User": "Black Maria"
+    }
+  },
+  {
+    "name": "Neko Neko no Mi, Model: Saber Tiger",
+    "id": "119",
+    "href": "/wiki/Neko_Neko_no_Mi,_Model:_Saber_Tiger",
+    "types": [
+      "Ancient Zoan"
+    ],
+    "description": "The Neko Neko no Mi, Model: Saber Tiger is an  Ancient Zoan-type Devil Fruit that allows the user to transform into a hybrid and full version of a saber-toothed tiger at will. It was eaten by Who's-Who.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/2/2a/Neko_Neko_no_Mi%2C_Model_Saber_Tiger_Beast_Form.png/revision/latest/scale-to-width-down/350?cb=20230416152814",
+    "Statistics": {
+      "Japanese Name": "ネコネコの実 モデル サーベルタイガー",
+      "Romanized Name": "Neko Neko no Mi Moderu Sāberutaigā",
+      "Official English Name": "Cat-Cat Fruit, Saber-Toothed Tiger Model",
+      "Meaning": "Cat",
+      "Usage Debut": "Chapter 998; Episode 1012",
+      "Type": "Ancient Zoan",
+      "Current User": "Who's-Who"
+    }
+  },
+  {
+    "name": "Tori Tori no Mi, Model: Phoenix",
+    "id": "121",
+    "href": "/wiki/Tori_Tori_no_Mi,_Model:_Phoenix",
+    "types": [
+      "Mythical Zoan"
+    ],
+    "description": "The Tori Tori no Mi, Model: Phoenix is a Mythical Zoan-type Devil Fruit which bestows the power to transform into a phoenix (and phoenix hybrid) at will. It was eaten by Marco.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/1/1f/Tori_Tori_no_Mi%2C_Model_Phoenix_Beast_Form.png/revision/latest/scale-to-width-down/350?cb=20211210062841",
+    "Statistics": {
+      "Japanese Name": "トリトリの実 モデル \"不死鳥（フェニックス）\"",
+      "Romanized Name": "Tori Tori no Mi Moderu \"Fenikkusu\"",
+      "Official English Name": [
+        "Tweet-Tweet Fruit, Phoenix Model (Crunchyroll subs)",
+        "Bird-Bird Fruit, Model: Phoenix (One Piece Official YouTube Channel)"
+      ],
+      "Meaning": "Bird; Phoenix",
+      "Usage Debut": "Chapter 553; Episode 463",
+      "Type": "Mythical Zoan",
+      "Current User": "Marco"
+    }
+  },
+  {
+    "name": "Hito Hito no Mi, Model: Daibutsu",
+    "id": "122",
+    "href": "/wiki/Hito_Hito_no_Mi,_Model:_Daibutsu",
+    "types": [
+      "Mythical Zoan"
+    ],
+    "description": "The Hito Hito no Mi, Model: Daibutsu is a Mythical Zoan-type Devil Fruit that allows its user to transform into a Daibutsu (a giant gold Buddha) at will. It was eaten by Sengoku, the former fleet admiral of the Marines.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/4/45/Hito_Hito_no_Mi%2C_Model_Daibutsu_Infobox.png/revision/latest/scale-to-width-down/350?cb=20160818203351",
+    "Statistics": {
+      "Japanese Name": "ヒトヒトの実 モデル“大仏”",
+      "Romanized Name": "Hito Hito no Mi, Moderu: Daibutsu",
+      "Official English Name": "Human-Human Fruit, Model: Buddha",
+      "Meaning": "Human, Great Buddha",
+      "Usage Debut": "Chapter 571; Episode 480",
+      "Type": "Mythical Zoan",
+      "Current User": "Sengoku"
+    }
+  },
+  {
+    "name": "Uo Uo no Mi, Model: Seiryu",
+    "id": "123",
+    "href": "/wiki/Uo_Uo_no_Mi,_Model:_Seiryu",
+    "types": [
+      "Mythical Zoan"
+    ],
+    "description": "The Uo Uo no Mi, Model: Seiryu is a Mythical Zoan-type Devil Fruit that allows its user to transform into a hybrid and full Azure Dragon at will. Described as the \"strongest class of Devil Fruit\", it was once a World Noble treasure before being eaten by Kaidou, after Big Mom had stolen it during the God Valley Incident 38 years ago.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/f/f9/Uo_Uo_no_Mi%2C_Model_Seiryu_Infobox.png/revision/latest/scale-to-width-down/294?cb=20211204205430",
+    "Statistics": {
+      "Japanese Name": "ウオウオの実 モデル \"青龍\"",
+      "Romanized Name": "Uo Uo no Mi Moderu \"Seiryū\"",
+      "Official English Name": [
+        "Fish-Fish Fruit, Model: Azure Dragon",
+        "Fish-Fish Fruit, Azure Dragon Model"
+      ],
+      "Meaning": "Fish, Azure Dragon",
+      "Fruit Debut": "Chapter 1070; Episode 1101; One Piece Magazine Vol.13",
+      "Usage Debut": "Chapter 921; Episode 912",
+      "Type": "Mythical Zoan",
+      "Current User": [
+        "Kaidou (Natural)",
+        "Kozuki Momonosuke (Artificial)"
+      ]
+    }
+  },
+  {
+    "name": "Inu Inu no Mi, Model: Kyubi no Kitsune",
+    "id": "124",
+    "href": "/wiki/Inu_Inu_no_Mi,_Model:_Kyubi_no_Kitsune",
+    "types": [
+      "Mythical Zoan"
+    ],
+    "description": "The Inu Inu no Mi, Model: Kyubi no Kitsune is a Mythical Zoan-type Devil Fruit that allows the user to transform into a nine-tailed fox. It was eaten by Catarina Devon.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/4/4d/Inu_Inu_no_Mi%2C_Model_Kyubi_no_Kitsune_Infobox.png/revision/latest/scale-to-width-down/350?cb=20210717170215",
+    "Statistics": {
+      "Japanese Name": "イヌイヌの実 モデル九尾の狐",
+      "Romanized Name": "Inu Inu no Mi Moderu Kyūbi no Kitsune",
+      "Official English Name": "Dog-Dog Fruit, Model: Nine Tailed Fox",
+      "Meaning": "Dog; Nine-tailed fox",
+      "Usage Debut": "Chapter 925; Episode 917",
+      "Type": "Mythical Zoan",
+      "Current User": "Catarina Devon"
+    }
+  },
+  {
+    "name": "Hebi Hebi no Mi, Model: Yamata no Orochi",
+    "id": "125",
+    "href": "/wiki/Hebi_Hebi_no_Mi,_Model:_Yamata_no_Orochi",
+    "types": [
+      "Mythical Zoan"
+    ],
+    "description": "The Hebi Hebi no Mi, Model: Yamata no Orochi is a Mythical Zoan-type Devil Fruit that allows the user to transform into a hybrid and full version of the Yamata no Orochi, an eight-headed snake or dragon in Japanese mythology. It was eaten by Kurozumi Orochi, but with his death, the fruit has returned to circulation.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/3/3e/Hebi_Hebi_no_Mi%2C_Model_Yamata_no_Orochi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20210307032049",
+    "Statistics": {
+      "Japanese Name": "ヘビヘビの実 モデル 八岐大蛇",
+      "Romanized Name": "Hebi Hebi no Mi Moderu Yamata no Orochi",
+      "Official English Name": "Snake-Snake Fruit, Model: Yamata-no-Orochi",
+      "Meaning": "Snake; Eight-Headed Snake",
+      "Fruit Debut": "Chapter 965; Episode 965",
+      "Usage Debut": "Chapter 927; Episode 921",
+      "Type": "Mythical Zoan",
+      "Previous User": "Kurozumi Orochi"
+    }
+  },
+  {
+    "name": "Hito Hito no Mi, Model: Onyudo",
+    "id": "126",
+    "href": "/wiki/Hito_Hito_no_Mi,_Model:_Onyudo",
+    "types": [
+      "Mythical Zoan"
+    ],
+    "description": "The Hito Hito no Mi, Model: Onyudo is a Mythical Zoan-type Devil Fruit that allows its user to transform into an onyudo, a large monk yokai, at will. It was eaten by Onimaru.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/d/d2/Onimaru_as_Gyukimaru.png/revision/latest/scale-to-width-down/350?cb=20200712035243",
+    "Statistics": {
+      "Japanese Name": "ヒトヒトの実 モデル“大入道”",
+      "Romanized Name": "Hito Hito no Mi, Moderu: Ōnyūdō",
+      "Official English Name": "Human-Human Fruit Model Onyudo",
+      "Meaning": "Human, Big Monk",
+      "Usage Debut": "Chapter 936; Episode 932",
+      "Type": "Mythical Zoan",
+      "Current User": "Onimaru"
+    }
+  },
+  {
+    "name": "Inu Inu no Mi, Model: Okuchi no Makami",
+    "id": "127",
+    "href": "/wiki/Inu_Inu_no_Mi,_Model:_Okuchi_no_Makami",
+    "types": [
+      "Mythical Zoan"
+    ],
+    "description": "The Inu Inu no Mi, Model: Okuchi no Makami is a Mythical Zoan-type Devil Fruit that allows the user to transform into a hybrid and full version of an ancient wolf deity at will. It was accidentally eaten by Yamato.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/1/1d/Inu_Inu_no_Mi%2C_Model_Okuchi_no_Makami_Infobox.png/revision/latest/scale-to-width-down/350?cb=20221120062131",
+    "Statistics": {
+      "Japanese Name": "イヌイヌの実 モデル 大口真神（オオクチノマカミ）",
+      "Romanized Name": "Inu Inu no Mi Moderu Ōkuchi no Makami",
+      "Official English Name": "Dog-Dog Fruit, Model: Okuchi-no-Makami",
+      "Meaning": "Dog; Large-Mouthed True/Pure God",
+      "Fruit Debut": "Chapter 1070; Episode 1041; One Piece Magazine Vol.13",
+      "Usage Debut": "Chapter 996; Episode 1009",
+      "Type": "Mythical Zoan",
+      "Current User": "Yamato"
+    }
+  },
+  {
+    "name": "Uma Uma no Mi, Model: Pegasus",
+    "id": "128",
+    "href": "/wiki/Uma_Uma_no_Mi,_Model:_Pegasus",
+    "types": [
+      "Mythical Zoan"
+    ],
+    "description": "The Uma Uma no Mi, Model: Pegasus is a Mythical Zoan-type Devil Fruit that allows its user to transform into a Pegasus hybrid and a full Pegasus at will. It was eaten by Stronger.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/7/7e/Uma_Uma_no_Mi%2C_Model_Pegasus_Infobox.png/revision/latest/scale-to-width-down/350?cb=20240211024057",
+    "Statistics": {
+      "Japanese Name": "ウマウマの実 モデル ペガサス",
+      "Romanized Name": "Uma Uma no Mi, Moderu Pegasasu",
+      "Official English Name": "Horse-Horse Fruit, Model Pegasus",
+      "Meaning": "Horse; Pegasus",
+      "Usage Debut": "Chapter 1063; Episode 1092",
+      "Type": "Mythical Zoan",
+      "Current User": "Stronger"
+    }
+  },
+  {
+    "name": "Inu Inu no Mi, Model: Bake-danuki",
+    "id": "129",
+    "href": "/wiki/Inu_Inu_no_Mi,_Model:_Bake-danuki",
+    "types": [
+      "Mythical Zoan"
+    ],
+    "description": "The Inu Inu no Mi, Model: Bake-danuki is a video game exclusive Mythical Zoan-type Devil Fruit. It allows the user to transform into a bake-danuki, a type of tanuki monster. It was \"eaten\" by a pen that became Pato.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/0/05/Inu_Inu_no_Mi%2C_Model_Bake-danuki_Infobox.png/revision/latest?cb=20130929013736",
+    "Statistics": {
+      "Japanese Name": "イヌイヌの実 モデル化狸",
+      "Romanized Name": "Inu Inu no Mi: Moderu Bake-danuki",
+      "Official English Name": "N/A",
+      "Meaning": "Dog; Monster raccoon dog",
+      "Usage Debut": "One Piece: Unlimited World Red",
+      "Type": "Mythical Zoan",
+      "Current User": "Pato"
+    }
+  },
+  {
+    "name": "Batto Batto no Mi, Model: Vampire",
+    "id": "130",
+    "href": "/wiki/Batto_Batto_no_Mi,_Model:_Vampire",
+    "types": [
+      "Mythical Zoan"
+    ],
+    "description": "The Batto Batto no Mi, Model: Vampire is a game-exclusive, Mythical Zoan-type Devil Fruit that gives the user the ability to turn into a vampire. It was eaten by Patrick Redfield.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/5/57/Batto_Batto_no_Mi%2C_Model_Vampire_Infobox.png/revision/latest/scale-to-width-down/350?cb=20220329093540",
+    "Statistics": {
+      "Japanese Name": "バットバットの実 モデル“バンパイア”",
+      "Romanized Name": "Batto Batto no Mi: Moderu Banpaia",
+      "Official English Name": "Bat-Bat Fruit, Model: Vampire",
+      "Meaning": "Bat",
+      "Fruit Debut": "One Piece: Unlimited World Red",
+      "Usage Debut": "One Piece: Unlimited World Red",
+      "Type": "Mythical Zoan",
+      "Current User": "Patrick Redfield"
+    }
+  },
+  {
+    "name": "Tori Tori no Mi, Model: Nue",
+    "id": "131",
+    "href": "/wiki/Tori_Tori_no_Mi,_Model:_Nue",
+    "types": [
+      "Mythical Zoan"
+    ],
+    "description": "The Tori Tori no Mi, Model: Nue is a non-canon Mythical Zoan-type Devil Fruit that allows its user to transform into a nue hybrid and a full nue at will. It was eaten by Toratsugu.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/f/f9/Tori_Tori_no_Mi%2C_Model_Nue_Infobox.png/revision/latest/scale-to-width-down/350?cb=20171001124834",
+    "Statistics": {
+      "Japanese Name": "トリトリの実 モデル ヌエ",
+      "Romanized Name": "Tori Tori no Mi, Moderu: Nue",
+      "Meaning": "Bird",
+      "Fruit Debut": "One Piece Art NUE",
+      "Usage Debut": "One Piece Art NUE",
+      "Type": "Mythical Zoan",
+      "Current User": "Toratsugu"
+    }
+  },
+  {
+    "name": "SMILE",
+    "id": "132",
+    "href": "/wiki/SMILE",
+    "types": [
+      "Artificial Zoan"
+    ],
+    "description": "SMILEs are artificial Zoan Devil Fruits created with SAD. They were formerly manufactured by Donquixote Doflamingo and Caesar Clown and were monopolized and consumed by the members of the Beasts Pirates, which created the classifications of the Gifters, Pleasures, and Waiters within the crew.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/e/e5/SMILE_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230211084435",
+    "Statistics": {
+      "Japanese Name": "SMILE（スマイル）; 人造悪魔の実（スマイル）",
+      "Romanized Name": "Sumairu",
+      "Official English Name": "SMILE",
+      "Fruit Debut": "Chapter 689; Episode 615",
+      "Usage Debut": "Chapter 689; Episode 615",
+      "Type": "Artificial Zoan",
+      "Current User": "Gifters; Various people"
+    }
+  },
+  {
+    "name": "Moku Moku no Mi",
+    "id": "133",
+    "href": "/wiki/Moku_Moku_no_Mi",
+    "types": [
+      "Logia"
+    ],
+    "description": "The Moku Moku no Mi is a Logia-type Devil Fruit that allows the user to create, control, and transform into smoke at will, making the user a Smoke Human (煙人間, Kemuri Ningen?). It was eaten by Smoker.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/8/8d/Moku_Moku_no_Mi_Infobox.png/revision/latest?cb=20200912191830",
+    "Statistics": {
+      "Japanese Name": "モクモクの実",
+      "Official English Name": [
+        "Smoke-Smoke Fruit (4Kids);",
+        "Plume-Plume Fruit (VIZ, Funimation);",
+        "Steam-Steam Fruit (Grand Adventure);",
+        "Seed of Smoke (Odex)"
+      ],
+      "Meaning": "Sound of billowing smoke",
+      "Fruit Debut": "One Piece Magazine Vol.10",
+      "Usage Debut": "Chapter 100; Episode 48",
+      "Type": "Logia",
+      "Current User": "Smoker"
+    }
+  },
+  {
+    "name": "Suna Suna no Mi",
+    "id": "134",
+    "href": "/wiki/Suna_Suna_no_Mi",
+    "types": [
+      "Logia"
+    ],
+    "description": "The Suna Suna no Mi is a Logia-type Devil Fruit that allows the user to create, control, and transform into sand at will, turning the user into a Sand Human (砂人間, Suna Ningen?). It was eaten by Crocodile.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/7/7d/Suna_Suna_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20220408131752",
+    "Statistics": {
+      "Japanese Name": "スナスナの実",
+      "Official English Name": "Sand-Sand Fruit",
+      "Meaning": "Sand",
+      "Fruit Debut": "One Piece Magazine Vol.12",
+      "Usage Debut": "Chapter 127; Episode 77",
+      "Type": "Logia",
+      "Current User": "Crocodile"
+    }
+  },
+  {
+    "name": "Mera Mera no Mi",
+    "id": "135",
+    "href": "/wiki/Mera_Mera_no_Mi",
+    "types": [
+      "Logia"
+    ],
+    "description": "The Mera Mera no Mi is a Logia-type Devil Fruit that allows the user to create, control, and transform into fire at will. It was previously eaten by Portgas D. Ace, and currently by Sabo.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/8/8c/Mera_Mera_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20240710204632",
+    "Statistics": {
+      "Japanese Name": "メラメラの実",
+      "Official English Name": [
+        "Flame-Flame Fruit (VIZ, Funimation dub);",
+        "Flare-Flare Fruit (4Kids, Funimation subs)"
+      ],
+      "Meaning": "Sound of fire burning",
+      "Fruit Debut": "Chapter 700; Episode 629",
+      "Usage Debut": [
+        "Chapter 158; Episode 94 (Portgas D. Ace)",
+        "Chapter 744; Episode 678 (Sabo)"
+      ],
+      "Type": "Logia",
+      "Previous User": "Portgas D. Ace",
+      "Current User": "Sabo"
+    }
+  },
+  {
+    "name": "Goro Goro no Mi",
+    "id": "136",
+    "href": "/wiki/Goro_Goro_no_Mi",
+    "types": [
+      "Logia"
+    ],
+    "description": "The Goro Goro no Mi is a Logia-type Devil Fruit that grants the power to create, control, and become lightning at will, making the user a Lightning Human (雷人間, Kaminari Ningen?); it is one of the few abilities touted as \"invincible\" according to Nico Robin. The fruit was eaten by Enel.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/d/d2/Goro_Goro_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230907005154",
+    "Statistics": {
+      "Japanese Name": "ゴロゴロの実",
+      "Official English Name": "Rumble-Rumble Fruit",
+      "Meaning": "Sound of Thunder",
+      "Fruit Debut": "One Piece Magazine Vol.17",
+      "Usage Debut": "Chapter 241; Episode 155",
+      "Type": "Logia",
+      "Current User": "Enel"
+    }
+  },
+  {
+    "name": "Hie Hie no Mi",
+    "id": "137",
+    "href": "/wiki/Hie_Hie_no_Mi",
+    "types": [
+      "Logia"
+    ],
+    "description": "The Hie Hie no Mi is a Logia-type Devil Fruit that allows the user to create, control, and transform into ice at will, turning them into a Freezing Human (氷結人間, Hyōketsu Ningen?). It was eaten by Kuzan, better known as former Admiral Aokiji.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/5/56/Hie_Hie_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20221101155813",
+    "Statistics": {
+      "Japanese Name": "ヒエヒエの実",
+      "Official English Name": [
+        "Ice-Ice Fruit (Funimation);",
+        "Chilly-Chilly Fruit (VIZ manga);",
+        "Hie-Hie Fruit (One Piece Official YouTube Channel)"
+      ],
+      "Meaning": "Chilly",
+      "Usage Debut": "Chapter 303; Episode 225",
+      "Type": "Logia",
+      "Current User": "Kuzan"
+    }
+  },
+  {
+    "name": "Yami Yami no Mi",
+    "id": "138",
+    "href": "/wiki/Yami_Yami_no_Mi",
+    "types": [
+      "Logia"
+    ],
+    "description": "The Yami Yami no Mi is a Logia-type Devil Fruit that allows the user to create, control, and transform into darkness at will, making the user a Darkness Human (闇人間, Yami Ningen?). It was eaten by Marshall D. Teach, also known as \"Blackbeard\", who stole it from Commander Thatch of the Whitebeard Pirates' 4th division after murdering him.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/f/f5/Yami_Yami_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20240627010252",
+    "Statistics": {
+      "Japanese Name": "ヤミヤミの実",
+      "Official English Name": "Dark-Dark Fruit",
+      "Meaning": "Darkness",
+      "Fruit Debut": "Chapter 440; Episode 325",
+      "Usage Debut": "Chapter 440; Episode 325",
+      "Type": "Logia",
+      "Current User": "Marshall D. Teach"
+    }
+  },
+  {
+    "name": "Pika Pika no Mi",
+    "id": "139",
+    "href": "/wiki/Pika_Pika_no_Mi",
+    "types": [
+      "Logia"
+    ],
+    "description": "The Pika Pika no Mi is a Logia-type Devil Fruit that allows the user to create, control, and transform into light at will, turning the user into a Light Human (光人間, Hikari Ningen?). It enables the user to move at the speed of light and transport themself by means of reflection. It was eaten by Borsalino, also known as Admiral Kizaru.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/6/66/Pika_Pika_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230524010145",
+    "Statistics": {
+      "Japanese Name": "ピカピカの実",
+      "Romanized Name": "Pika Pika no Mi",
+      "Official English Name": "Glint-Glint Fruit",
+      "Meaning": "Glimmer or Light",
+      "Usage Debut": "Chapter 506; Episode 400",
+      "Type": "Logia",
+      "Current User": "Borsalino"
+    }
+  },
+  {
+    "name": "Magu Magu no Mi",
+    "id": "140",
+    "href": "/wiki/Magu_Magu_no_Mi",
+    "types": [
+      "Logia"
+    ],
+    "description": "The fruit's power was first shown during the Summit War of Marineford, but its name was not revealed until SBS Volume 62.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/0/07/Magu_Magu_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20231013044624",
+    "Statistics": {
+      "Japanese Name": "マグマグの実",
+      "Official English Name": [
+        "Mag-Mag Fruit (VIZ)",
+        "Magma-Magma Fruit"
+      ],
+      "Meaning": "Magma",
+      "Usage Debut": "Chapter 554; Episode 463",
+      "Type": "Logia",
+      "Current User": "Sakazuki"
+    }
+  },
+  {
+    "name": "Susu Susu no Mi",
+    "id": "141",
+    "href": "/wiki/Susu_Susu_no_Mi",
+    "types": [
+      "Logia"
+    ],
+    "description": "The Susu Susu no Mi is a Logia-type Devil Fruit that allows the user to create, control, and transform into soot at will. It was eaten by Karasu.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/0/0c/Susu_Susu_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230518160741",
+    "Statistics": {
+      "Japanese Name": "ススススの実",
+      "Official English Name": "Soot-Soot Fruit",
+      "Meaning": "Soot",
+      "Usage Debut": "Chapter 593; Episode 510",
+      "Type": "Logia",
+      "Current User": "Karasu"
+    }
+  },
+  {
+    "name": "Numa Numa no Mi",
+    "id": "142",
+    "href": "/wiki/Numa_Numa_no_Mi",
+    "types": [
+      "Logia"
+    ],
+    "description": "With the Numa Numa no Mi, Caribou can create bottomless swamps which are impossible to escape from. If someone is caught by the swamp created by Caribou, they will sink more if they struggle. The swamp also serves as a storage space, allowing Caribou to store an infinite amount of whatever he has captured inside his body. The storage space can also be used to help carry a large surplus of food which remains edible over long periods of time, with Caribou noting that he has a month's worth of rations stored within himself. He is able to keep several weapons within himself and bring them out when he needs them. While he can keep creatures alive when they are in his swamp, he can also use the swamp to drown his opponents if he wishes to.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/d/d3/Numa_Numa_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230715142546",
+    "Statistics": {
+      "Japanese Name": "ヌマヌマの実",
+      "Official English Name": "Swamp-Swamp Fruit",
+      "Meaning": "Swamp",
+      "Usage Debut": "Chapter 603; Episode 521",
+      "Type": "Logia",
+      "Current User": "Caribou"
+    }
+  },
+  {
+    "name": "Gasu Gasu no Mi",
+    "id": "143",
+    "href": "/wiki/Gasu_Gasu_no_Mi",
+    "types": [
+      "Logia"
+    ],
+    "description": "The Gasu Gasu no Mi is a Logia-type Devil Fruit that allows the user to create, control, and transform into  gas at will. It was eaten by Caesar Clown.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/c/cf/Gasu_Gasu_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20230902035324",
+    "Statistics": {
+      "Japanese Name": "ガスガスの実",
+      "Official English Name": "Gas-Gas Fruit",
+      "Meaning": "Gas",
+      "Usage Debut": "Chapter 658; Episode 581",
+      "Type": "Logia",
+      "Current User": "Caesar Clown"
+    }
+  },
+  {
+    "name": "Yuki Yuki no Mi",
+    "id": "144",
+    "href": "/wiki/Yuki_Yuki_no_Mi",
+    "types": [
+      "Logia"
+    ],
+    "description": "The Yuki Yuki no Mi is a Logia-type Devil Fruit that allows the user to create, control, and transform into snow at will, turning the user into a Snow Human (雪人間, Yuki Ningen?). The fruit was eaten by Monet, but has returned to circulation following her accidental death at the hands of Caesar Clown.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/a/a9/Yuki_Yuki_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20240221181209",
+    "Statistics": {
+      "Japanese Name": "ユキユキの実",
+      "Official English Name": "Snow-Snow Fruit",
+      "Meaning": "Snow",
+      "Usage Debut": "Chapter 681; Episode 607",
+      "Type": "Logia",
+      "Previous User": "Monet"
+    }
+  },
+  {
+    "name": "Mori Mori no Mi",
+    "id": "145",
+    "href": "/wiki/Mori_Mori_no_Mi",
+    "types": [
+      "Logia"
+    ],
+    "description": "The Mori Mori no Mi is a Logia-type Devil Fruit that grants the power to create, control, and transform into flora at will, making the user a Forest Human (森人間, Mori Ningen?, English adaptations: \"Woodsman\"). It was eaten by Aramaki, better known as Admiral Ryokugyu.",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/2/23/Mori_Mori_no_Mi_Infobox.png/revision/latest/scale-to-width-down/350?cb=20231105024916",
+    "Statistics": {
+      "Japanese Name": "モリモリの実",
+      "Official English Name": "Woods-Woods Fruit",
+      "Meaning": "Forest",
+      "Usage Debut": "Chapter 1052; Episode 1079",
+      "Type": "Logia",
+      "Current User": "Aramaki"
     }
   }
 ]

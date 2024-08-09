@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "description": "One Piece GraphQL",
   "scripts": {
-    "docker:dev": "docker-compose -f docker-compose.yml -f docker-compose.dev.yml up -d"
+    "docker:dev": "docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d"
   }
 }
