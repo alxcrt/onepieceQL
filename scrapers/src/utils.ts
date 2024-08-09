@@ -43,7 +43,8 @@ export async function getInfoFromAside(url: string) {
 
   // Get the image URL
   const img = aside.find("img").attr("src");
-  img && (info["image"] = img);
+  // remove all after .pnm
+  img && (info["image"] = img.split(".png")[0] + ".png");
 
   // Iterate through each section in the aside
   aside.find("aside > section").each((_, sectionBody) => {

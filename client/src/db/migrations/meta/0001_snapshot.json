@@ -1,0 +1,253 @@
+{
+  "id": "bf6827f9-2a61-4a74-8120-c00e0541962b",
+  "prevId": "778a2864-493f-4333-a525-79d401011878",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.characters": {
+      "name": "characters",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "birthday": {
+          "name": "birthday",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "image": {
+          "name": "image",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "blood_type": {
+          "name": "blood_type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "origin": {
+          "name": "origin",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "public.characters_to_devil_fruits": {
+      "name": "characters_to_devil_fruits",
+      "schema": "",
+      "columns": {
+        "character_id": {
+          "name": "character_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "devil_fruit_id": {
+          "name": "devil_fruit_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "characters_to_devil_fruits_character_id_characters_id_fk": {
+          "name": "characters_to_devil_fruits_character_id_characters_id_fk",
+          "tableFrom": "characters_to_devil_fruits",
+          "tableTo": "characters",
+          "columnsFrom": [
+            "character_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "characters_to_devil_fruits_devil_fruit_id_devil_fruits_id_fk": {
+          "name": "characters_to_devil_fruits_devil_fruit_id_devil_fruits_id_fk",
+          "tableFrom": "characters_to_devil_fruits",
+          "tableTo": "devil_fruits",
+          "columnsFrom": [
+            "devil_fruit_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "public.devil_fruit_types": {
+      "name": "devil_fruit_types",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "type": {
+          "name": "type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sub_type": {
+          "name": "sub_type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "public.devil_fruits": {
+      "name": "devil_fruits",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "meaning": {
+          "name": "meaning",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "image": {
+          "name": "image",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "public.devil_fruits_to_devil_fruit_types": {
+      "name": "devil_fruits_to_devil_fruit_types",
+      "schema": "",
+      "columns": {
+        "devil_fruit_id": {
+          "name": "devil_fruit_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "devil_fruit_type_id": {
+          "name": "devil_fruit_type_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "devil_fruits_to_devil_fruit_types_devil_fruit_id_devil_fruits_id_fk": {
+          "name": "devil_fruits_to_devil_fruit_types_devil_fruit_id_devil_fruits_id_fk",
+          "tableFrom": "devil_fruits_to_devil_fruit_types",
+          "tableTo": "devil_fruits",
+          "columnsFrom": [
+            "devil_fruit_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "devil_fruits_to_devil_fruit_types_devil_fruit_type_id_devil_fruit_types_id_fk": {
+          "name": "devil_fruits_to_devil_fruit_types_devil_fruit_type_id_devil_fruit_types_id_fk",
+          "tableFrom": "devil_fruits_to_devil_fruit_types",
+          "tableTo": "devil_fruit_types",
+          "columnsFrom": [
+            "devil_fruit_type_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "enums": {
+    "public.sub_type": {
+      "name": "sub_type",
+      "schema": "public",
+      "values": [
+        "Ancient",
+        "Mythical",
+        "Artificial"
+      ]
+    },
+    "public.type": {
+      "name": "type",
+      "schema": "public",
+      "values": [
+        "Paramecia",
+        "Zoan",
+        "Logia"
+      ]
+    }
+  },
+  "schemas": {},
+  "sequences": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}

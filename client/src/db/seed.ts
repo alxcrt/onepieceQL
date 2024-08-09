@@ -6,13 +6,13 @@ import {
   charactersToDevilFruits,
 } from "./schema";
 
-import { db } from ".";
 import devilFruitsInfo from "../../../scrapers/devilFruitsInfo.json" assert { type: "json" };
 import charactersInfo from "../../../scrapers/charactersInfo.json" assert { type: "json" };
 import { inArray, or, sql } from "drizzle-orm";
-import { joinIfArray } from "../utils";
+import { joinIfArray } from "@/utils";
+import db from ".";
 
-const main = async () => {
+(async () => {
   try {
     console.log("Seeding database");
 
@@ -20,6 +20,8 @@ const main = async () => {
     await seedDevilFruitsTypes();
     await seedDevilFruits();
     await seedCharacters();
+
+    console.log("Database seeded successfully");
   } catch (error) {
     console.error(error);
     throw new Error("Failed to seed database");
@@ -28,7 +30,7 @@ const main = async () => {
   console.log("Database seeded successfully");
 
   process.exit(0);
-};
+})();
 
 async function clearDatabase() {
   // Clear the relationships first
@@ -79,7 +81,7 @@ async function seedDevilFruits() {
       .where(
         or(
           inArray(
-            sql`CONCAT(COALESCE(${devilFruitTypes.subType}, ''), ' ', ${devilFruitTypes.type})`,
+            sql`CONCAT(${devilFruitTypes.subType}, ' ', ${devilFruitTypes.type})`,
             devilFruitType
           ),
           inArray(devilFruitTypes.type, devilFruitType)
@@ -167,5 +169,3 @@ async function seedCharacters() {
     }
   }
 }
-
-await main();
