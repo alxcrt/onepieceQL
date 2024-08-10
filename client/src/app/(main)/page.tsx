@@ -1,4 +1,5 @@
 import Character from "@/components/Character";
+import Marine from "@/components/Marine";
 
 export default function Home() {
   return (
@@ -19,7 +20,8 @@ export default function Home() {
         can fulfill his dream... and maybe even his appetite!
       </p>
 
-      {/* <Character /> */}
+      <Character />
+      <Marine />
     </main>
   );
 }

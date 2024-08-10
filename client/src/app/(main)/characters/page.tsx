@@ -1,5 +1,6 @@
 "use client";
 import Character from "@/components/Character";
+import Marine from "@/components/Marine";
 import { useQuery, gql } from "@apollo/client";
 
 const QUERY = gql`
@@ -35,13 +36,21 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
       <div className="grid grid-cols-3 gap-4">
-        {data.characters.map((character) => (
+        {data.characters.map((character, i) => (
           <div key={character.name} className="flex flex-col items-center">
-            <Character
-              name={character.name}
-              image={character.image}
-              bounty="5,000,000,000"
-            />
+            {i % 2 === 0 ? (
+              <Character
+                name={character.name}
+                image={character.image}
+                bounty="5,000,000,000"
+              />
+            ) : (
+              <Marine
+                name={character.name}
+                image={character.image}
+                bounty="5,000,000,000"
+              />
+            )}
           </div>
         ))}
       </div>
