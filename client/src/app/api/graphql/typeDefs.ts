@@ -7,13 +7,15 @@ const typeDefs = `#graphql
   type Character{
     name: String!
     description: String!
-    devilFruit: [DevilFruit!]
+    image: String!
+    devilFruits: [DevilFruit!]
   }
 
   type DevilFruit{
     name: String!
     description: String!
-    type: [DevilFruitType!]
+    image: String!
+    types: [DevilFruitType!]
   }
 
   type DevilFruitType{

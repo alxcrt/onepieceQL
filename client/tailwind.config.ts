@@ -8,10 +8,24 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      // backgroundImage: {
+      //   "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+      //   "gradient-conic":
+      //     "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      // },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        bg: "url('/bg.webp')",
+        wanted: "url('/wanted-sm.png')",
+      },
+      backgroundSize: {
+        landing: "120rem",
+      },
+      fontFamily: {
+        playfair: ["var(--font-playfair)"],
+        alwaysInMyHeart: ["var(--font-always-in-my-heart)"],
+      },
+      objectPosition: {
+        "center-top": "center top",
       },
     },
   },

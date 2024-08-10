@@ -10,7 +10,7 @@ import {
 
 const resolvers = {
   DevilFruit: {
-    type: async (parent: any) => {
+    types: async (parent: any) => {
       const devilFruitTypes =
         await db.query.devilFruitsToDevilFruitTypes.findMany({
           where: eq(devilFruitsToDevilFruitTypes.devilFruitId, parent.id),
@@ -26,7 +26,7 @@ const resolvers = {
     },
   },
   Character: {
-    devilFruit: async (parent: any) => {
+    devilFruits: async (parent: any) => {
       const characterDevilFruits =
         await db.query.charactersToDevilFruits.findMany({
           where: eq(charactersToDevilFruits.characterId, parent.id),
