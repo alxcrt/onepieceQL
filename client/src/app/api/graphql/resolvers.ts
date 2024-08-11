@@ -1,4 +1,4 @@
-import { eq, inArray } from "drizzle-orm";
+import { desc, eq, getTableColumns, inArray, sql } from "drizzle-orm";
 
 import db from "@/db";
 import {
@@ -43,8 +43,65 @@ const resolvers = {
   },
   Query: {
     me: () => "Hello, world!",
-    characters: async () => await db.select().from(characters),
-    devilFruits: async () => await db.select().from(devilFruits),
+    // characters: async () => await db.select().from(characters).limit(10),
+    characters: async (_: any, { filter }: any) => {
+      if (filter.search) {
+        const matchQuery = sql`(
+          setweight(to_tsvector('english', ${characters.name}), 'A') ||
+          setweight(to_tsvector('english', ${characters.origin}), 'B') ||
+          setweight(to_tsvector('english', ${characters.birthday}), 'C') ||
+          setweight(to_tsvector('english', ${characters.bloodType}), 'D') ||
+          setweight(to_tsvector('english', ${characters.description}), 'D'))
+          , websearch_to_tsquery('english', ${filter.search}
+        )`;
+
+        // return await db.query.characters.findMany({
+        //   where: sql`to_tsvector('english', ${characters.name}) @@ websearch_to_tsquery('english', ${filter.name})`,
+        // });
+
+        // setweight(to_tsvector('english', ${table.name}), 'A') ||
+        // setweight(to_tsvector('english', ${table.origin}), 'B') ||
+        // setweight(to_tsvector('english', ${table.birthday}), 'C') ||
+        // setweight(to_tsvector('english', ${table.description}), 'D') ||
+        // setweight(to_tsvector('english', ${table.bloodType}), 'D'
+
+        // return await db.query.characters.select().findMany({
+
+        //   where: sql`(
+        //     setweight(to_tsvector('english', ${characters.name}), 'A') ||
+        //     setweight(to_tsvector('english', ${characters.origin}), 'B') ||
+        //     setweight(to_tsvector('english', ${characters.birthday}), 'C') ||
+        //     setweight(to_tsvector('english', ${characters.bloodType}), 'D'))
+        //     @@ websearch_to_tsquery('english', ${filter.search}
+        //   )`,
+        //   limit: 10,
+        // });
+
+        return await db
+          .select({
+            ...getTableColumns(characters),
+            rank: sql`ts_rank(${matchQuery})`,
+            rankCd: sql`ts_rank_cd(${matchQuery})`,
+          })
+          .from(characters)
+          .where(
+            sql`(
+              setweight(to_tsvector('english', ${characters.name}), 'A') ||
+              setweight(to_tsvector('english', ${characters.origin}), 'B') ||
+              setweight(to_tsvector('english', ${characters.birthday}), 'C') ||
+              setweight(to_tsvector('english', ${characters.bloodType}), 'D') ||
+              setweight(to_tsvector('english', ${characters.description}), 'D'))
+              @@ websearch_to_tsquery('english', ${filter.search}
+            )`
+          )
+          .orderBy((t) => desc(t.rank));
+      }
+
+      return await db.query.characters.findMany({
+        limit: 10,
+      });
+    },
+    devilFruits: async () => await db.select().from(devilFruits).limit(10),
   },
 };
 

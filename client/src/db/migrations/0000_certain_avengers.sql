@@ -12,7 +12,12 @@ END $$;
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "characters" (
 	"id" serial PRIMARY KEY NOT NULL,
-	"name" text NOT NULL
+	"origin" text,
+	"name" text NOT NULL,
+	"birthday" text,
+	"description" text NOT NULL,
+	"image" text NOT NULL,
+	"blood_type" text
 );
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "characters_to_devil_fruits" (
@@ -29,7 +34,9 @@ CREATE TABLE IF NOT EXISTS "devil_fruit_types" (
 CREATE TABLE IF NOT EXISTS "devil_fruits" (
 	"id" serial PRIMARY KEY NOT NULL,
 	"name" text NOT NULL,
-	"meaning" text NOT NULL
+	"meaning" text,
+	"description" text NOT NULL,
+	"image" text NOT NULL
 );
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "devil_fruits_to_devil_fruit_types" (
@@ -60,3 +67,11 @@ DO $$ BEGIN
 EXCEPTION
  WHEN duplicate_object THEN null;
 END $$;
+--> statement-breakpoint
+CREATE INDEX IF NOT EXISTS "name_search_index" ON "characters" USING gin ((
+        setweight(to_tsvector('simple', "name"), 'A') ||
+        setweight(to_tsvector('simple', "origin"), 'B') ||
+        setweight(to_tsvector('simple', "birthday"), 'C') ||
+        setweight(to_tsvector('simple', "description"), 'D') ||
+        setweight(to_tsvector('simple', "blood_type"), 'D')
+      ));

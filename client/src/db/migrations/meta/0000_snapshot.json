@@ -1,5 +1,5 @@
 {
-  "id": "778a2864-493f-4333-a525-79d401011878",
+  "id": "e8ebfdc0-9dda-47a4-884d-acfa4911a7a7",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -14,14 +14,60 @@
           "primaryKey": true,
           "notNull": true
         },
+        "origin": {
+          "name": "origin",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
         "name": {
           "name": "name",
           "type": "text",
           "primaryKey": false,
           "notNull": true
+        },
+        "birthday": {
+          "name": "birthday",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "image": {
+          "name": "image",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "blood_type": {
+          "name": "blood_type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
         }
       },
-      "indexes": {},
+      "indexes": {
+        "name_search_index": {
+          "name": "name_search_index",
+          "columns": [
+            {
+              "expression": "(\n        setweight(to_tsvector('simple', \"name\"), 'A') ||\n        setweight(to_tsvector('simple', \"origin\"), 'B') ||\n        setweight(to_tsvector('simple', \"birthday\"), 'C') ||\n        setweight(to_tsvector('simple', \"description\"), 'D') ||\n        setweight(to_tsvector('simple', \"blood_type\"), 'D')\n      )",
+              "asc": true,
+              "isExpression": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "gin",
+          "with": {}
+        }
+      },
       "foreignKeys": {},
       "compositePrimaryKeys": {},
       "uniqueConstraints": {}
@@ -121,6 +167,18 @@
         },
         "meaning": {
           "name": "meaning",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "image": {
+          "name": "image",
           "type": "text",
           "primaryKey": false,
           "notNull": true

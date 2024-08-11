@@ -1,14 +1,16 @@
 const typeDefs = `#graphql
-  input CharacterInput{
-    name: String!
+  input CharacterFilter{
+    search: String!
   }
-
 
   type Character{
     name: String!
     description: String!
     image: String!
     devilFruits: [DevilFruit!]
+    origin: String
+    birthday: String
+    bloodType: String
   }
 
   type DevilFruit{
@@ -25,7 +27,8 @@ const typeDefs = `#graphql
 
   type Query {
     me: String!
-    characters: [Character]
+    # characters: [Character]
+    characters(filter: CharacterFilter): [Character]
     devilFruits: [DevilFruit]
   }
 

@@ -13,7 +13,7 @@ export default function Character({
   bounty = "5,000,000,000",
 }: CharacterProps) {
   return (
-    <div className="w-[351px] h-[496px] bg-wanted flex flex-col text-black gap-2 p-2 relative">
+    <div className="w-[351px] h-[496px] bg-wanted flex flex-col text-black gap-2 p-2 relative overflow-hidden">
       {/* 351 × 496 */}
       <h1 className="uppercase text-7xl text-center font-playfair font-bold mix-blend-overlay">
         Wanted

@@ -1,6 +1,6 @@
 {
-  "id": "bf6827f9-2a61-4a74-8120-c00e0541962b",
-  "prevId": "778a2864-493f-4333-a525-79d401011878",
+  "id": "92719b4d-305e-41d9-bcf7-b0497a831546",
+  "prevId": "e8ebfdc0-9dda-47a4-884d-acfa4911a7a7",
   "version": "7",
   "dialect": "postgresql",
   "tables": {
@@ -13,6 +13,12 @@
           "type": "serial",
           "primaryKey": true,
           "notNull": true
+        },
+        "origin": {
+          "name": "origin",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
         },
         "name": {
           "name": "name",
@@ -43,15 +49,25 @@
           "type": "text",
           "primaryKey": false,
           "notNull": false
-        },
-        "origin": {
-          "name": "origin",
-          "type": "text",
-          "primaryKey": false,
-          "notNull": false
         }
       },
-      "indexes": {},
+      "indexes": {
+        "name_search_index": {
+          "name": "name_search_index",
+          "columns": [
+            {
+              "expression": "(\n        setweight(to_tsvector('english', \"name\"), 'A') ||\n        setweight(to_tsvector('english', \"origin\"), 'B') ||\n        setweight(to_tsvector('english', \"birthday\"), 'C') ||\n        setweight(to_tsvector('english', \"description\"), 'D') ||\n        setweight(to_tsvector('english', \"blood_type\"), 'D')\n      )",
+              "asc": true,
+              "isExpression": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "gin",
+          "with": {}
+        }
+      },
       "foreignKeys": {},
       "compositePrimaryKeys": {},
       "uniqueConstraints": {}

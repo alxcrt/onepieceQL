@@ -1,5 +1,12 @@
-import { integer, serial, text, pgTable, pgEnum } from "drizzle-orm/pg-core";
-import { desc, relations } from "drizzle-orm";
+import {
+  integer,
+  serial,
+  text,
+  pgTable,
+  pgEnum,
+  index,
+} from "drizzle-orm/pg-core";
+import { desc, relations, sql } from "drizzle-orm";
 
 export const type = pgEnum("type", ["Paramecia", "Zoan", "Logia"]);
 export const subType = pgEnum("sub_type", [
@@ -16,15 +23,33 @@ export const devilFruits = pgTable("devil_fruits", {
   image: text("image").notNull(),
 });
 
-export const characters = pgTable("characters", {
-  id: serial("id").primaryKey(),
-  origin: text("origin"),
-  name: text("name").notNull(),
-  birthday: text("birthday"),
-  description: text("description").notNull(),
-  image: text("image").notNull(),
-  bloodType: text("blood_type"),
-});
+export const characters = pgTable(
+  "characters",
+  {
+    id: serial("id").primaryKey(),
+    origin: text("origin"),
+    name: text("name").notNull(),
+    birthday: text("birthday"),
+    description: text("description").notNull(),
+    image: text("image").notNull(),
+    bloodType: text("blood_type"),
+  },
+  (table) => ({
+    nameSearchIndex: index("name_search_index").using(
+      "gin",
+      // sql`to_tsvector('english', ${table.name})`
+      sql`(
+        setweight(to_tsvector('english', ${table.name}), 'A') ||
+        setweight(to_tsvector('english', ${table.origin}), 'B') ||
+        setweight(to_tsvector('english', ${table.birthday}), 'C') ||
+        setweight(to_tsvector('english', ${table.description}), 'D') ||
+        setweight(to_tsvector('english', ${table.bloodType}), 'D')
+      )`
+    ),
+  })
+);
+
+export type CharacterType = typeof characters.$inferSelect;
 
 export const devilFruitTypes = pgTable("devil_fruit_types", {
   id: serial("id").primaryKey(),

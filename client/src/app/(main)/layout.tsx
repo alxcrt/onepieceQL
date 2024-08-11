@@ -1,4 +1,5 @@
 import Nav from "@/components/Nav";
+import NavMobile from "@/components/NavMobile";
 
 export default function MainLayout({
   children, // will be a page or nested layout
@@ -8,6 +9,7 @@ export default function MainLayout({
   return (
     <section className="min-h-screen container mx-auto">
       {/* Include shared UI here e.g. a header or sidebar */}
+      {/* <Nav /> */}
       <Nav />
 
       {children}

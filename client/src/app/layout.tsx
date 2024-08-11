@@ -1,27 +1,21 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { ApolloWrapper } from "@/providers/apollo-provider";
 import localFont from "next/font/local";
 
-// const inter = Inter({ subsets: ["latin"] });
-
 const playfair = localFont({
   src: [
     {
-      // path: "..//fonts/PlayfairDisplay-Regular.ttf",
       path: "../../public/fonts/PlayfairDisplay-Regular.ttf",
       weight: "400",
       style: "normal",
     },
     {
-      // path: "/fonts/PlayfairDisplay-Bold.ttf",
       path: "../../public/fonts/PlayfairDisplay-Bold.ttf",
       weight: "700",
       style: "normal",
     },
     {
-      // black
       path: "../../public/fonts/PlayfairDisplay-Black.ttf",
       weight: "900",
       style: "normal",
@@ -33,7 +27,6 @@ const playfair = localFont({
 const alwaysInMyHeart = localFont({
   src: [
     {
-      // path: "..//fonts/PlayfairDisplay-Regular.ttf",
       path: "../../public/fonts/Always In My Heart.ttf",
       weight: "400",
       style: "normal",
@@ -55,7 +48,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${playfair.variable} ${alwaysInMyHeart.variable} bg-bg backdrop-grayscale dark:backdrop-brightness-50 backdrop-contrast-50 dark:backdrop-contrast-200`}
+        className={`${playfair.variable} ${alwaysInMyHeart.variable} bg-bg backdrop-grayscale backdrop-brightness-50 backdrop-contrast-200`}
       >
         <ApolloWrapper>{children}</ApolloWrapper>
       </body>
