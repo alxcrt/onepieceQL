@@ -71,6 +71,17 @@ export async function getInfoFromAside(url: string) {
         $(row)
           .find("div")
           .each((_, el) => {
+            // Find ul and li elements
+            let list = $(el).find("ul li").toArray();
+
+            // If there are list elements, extract the text content
+            if (list.length > 0) {
+              // remove footnotes
+              values = list.map((li) => removeFootnotes($(li).text()));
+              values = values.filter((v: string) => v.trim().length > 0);
+              return;
+            }
+
             // Extract the text content
             let value = $(el)
               .find("br")
@@ -88,6 +99,7 @@ export async function getInfoFromAside(url: string) {
             if (value.split("\n").length > 1) {
               // Split multiple values into an array
               values = value.split("\n").map((v: string) => v.trim());
+              values = values.filter((v: string) => v.length > 0);
             } else {
               values = value;
             }

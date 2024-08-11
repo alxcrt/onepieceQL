@@ -1,5 +1,5 @@
 {
-  "id": "e8ebfdc0-9dda-47a4-884d-acfa4911a7a7",
+  "id": "6b6bca0e-1f65-4584-a633-a877f9437a68",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -49,6 +49,24 @@
           "type": "text",
           "primaryKey": false,
           "notNull": false
+        },
+        "affiliations": {
+          "name": "affiliations",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "occupations": {
+          "name": "occupations",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "bounty": {
+          "name": "bounty",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
         }
       },
       "indexes": {
@@ -56,7 +74,7 @@
           "name": "name_search_index",
           "columns": [
             {
-              "expression": "(\n        setweight(to_tsvector('simple', \"name\"), 'A') ||\n        setweight(to_tsvector('simple', \"origin\"), 'B') ||\n        setweight(to_tsvector('simple', \"birthday\"), 'C') ||\n        setweight(to_tsvector('simple', \"description\"), 'D') ||\n        setweight(to_tsvector('simple', \"blood_type\"), 'D')\n      )",
+              "expression": "(\n        setweight(to_tsvector('english', \"name\"), 'A') ||\n        setweight(to_tsvector('english', \"affiliations\"), 'B') ||\n        setweight(to_tsvector('english', \"occupations\"), 'C') ||\n        setweight(to_tsvector('english', \"origin\"), 'D') ||\n        setweight(to_tsvector('english', \"blood_type\"), 'D')\n      )",
               "asc": true,
               "isExpression": true,
               "nulls": "last"

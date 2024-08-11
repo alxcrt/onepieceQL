@@ -1,5 +1,4 @@
 import Character from "@/components/Character";
-import Marine from "@/components/Marine";
 import Image from "next/image";
 
 export default function Home() {
@@ -29,8 +28,7 @@ export default function Home() {
         </p>
       </div>
 
-      {/* <Character />
-      <Marine /> */}
+      {/* <Character /> */}
     </main>
   );
 }

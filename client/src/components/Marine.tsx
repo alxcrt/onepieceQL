@@ -13,7 +13,7 @@ export default function Marine({
   position = "admiral",
 }: MarineProps) {
   return (
-    <div className="w-[351px] h-[496px] bg-wanted flex flex-col text-black gap-2 p-2 bg-[#C2D8FF] bg-blend-luminosity">
+    <div className="w-[351px] h-[496px] bg-wanted flex flex-col text-black gap-2 p-2 bg-[#C2D8FF] bg-blend-luminosity overflow-hidden">
       <h1 className="uppercase text-7xl text-center font-playfair font-bold mix-blend-overlay">
         marine
       </h1>

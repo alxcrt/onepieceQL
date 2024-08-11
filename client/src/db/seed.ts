@@ -124,6 +124,20 @@ async function seedCharacters() {
 
     const characterBirthday = joinIfArray(characterInfo["Birthday"]);
     const characterBloodType = joinIfArray(characterInfo["Blood Type"]);
+    const characterAffiliation = joinIfArray(characterInfo["Affiliations"]);
+    const characterOccupation = joinIfArray(characterInfo["Occupations"]);
+    const characterBounty =
+      (() => {
+        if (characterInfo["Bounty"]) {
+          if (Array.isArray(characterInfo["Bounty"])) {
+            return characterInfo["Bounty"][0];
+          } else {
+            return characterInfo["Bounty"];
+          }
+        } else if (characterInfo["Total Bounty"]) {
+          return characterInfo["Total Bounty"];
+        }
+      })()?.replace(/[^\d,]/g, "") || null;
 
     if ("Devil Fruit" in character) {
       let devilFruitsInfo = character["Devil Fruit"] as any;
@@ -144,6 +158,9 @@ async function seedCharacters() {
         origin: characterOrigin,
         birthday: characterBirthday,
         bloodType: characterBloodType,
+        affiliations: characterAffiliation,
+        occupations: characterOccupation,
+        bounty: characterBounty,
       })
       .returning();
 

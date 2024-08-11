@@ -17,7 +17,10 @@ CREATE TABLE IF NOT EXISTS "characters" (
 	"birthday" text,
 	"description" text NOT NULL,
 	"image" text NOT NULL,
-	"blood_type" text
+	"blood_type" text,
+	"affiliations" text,
+	"occupations" text,
+	"bounty" text
 );
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "characters_to_devil_fruits" (
@@ -69,9 +72,9 @@ EXCEPTION
 END $$;
 --> statement-breakpoint
 CREATE INDEX IF NOT EXISTS "name_search_index" ON "characters" USING gin ((
-        setweight(to_tsvector('simple', "name"), 'A') ||
-        setweight(to_tsvector('simple', "origin"), 'B') ||
-        setweight(to_tsvector('simple', "birthday"), 'C') ||
-        setweight(to_tsvector('simple', "description"), 'D') ||
-        setweight(to_tsvector('simple', "blood_type"), 'D')
+        setweight(to_tsvector('english', "name"), 'A') ||
+        setweight(to_tsvector('english', "affiliations"), 'B') ||
+        setweight(to_tsvector('english', "occupations"), 'C') ||
+        setweight(to_tsvector('english', "origin"), 'D') ||
+        setweight(to_tsvector('english', "blood_type"), 'D')
       ));

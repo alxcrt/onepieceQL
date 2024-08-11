@@ -1,8 +1,6 @@
 "use client";
-import Character from "@/components/Character";
 import DevilFruit from "@/components/DevilFruit";
 import Loading from "@/components/Loading";
-import Marine from "@/components/Marine";
 import { useQuery, gql } from "@apollo/client";
 
 const QUERY = gql`

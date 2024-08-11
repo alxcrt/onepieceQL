@@ -2,6 +2,7 @@
 import Character from "@/components/Character";
 import Loading from "@/components/Loading";
 import Marine from "@/components/Marine";
+import WantedCharacter from "@/components/WantedCharacter";
 import { useQuery, gql, useLazyQuery } from "@apollo/client";
 import Image from "next/image";
 import React from "react";
@@ -12,18 +13,22 @@ const QUERY = gql`
       name
       description
       image
-      devilFruits {
-        name
-        description
-        image
-        types {
-          type
-          subType
-        }
-      }
+      bounty
+      occupations
+      affiliations
     }
   }
 `;
+
+// devilFruits {
+//   name
+//   description
+//   image
+//   types {
+//     type
+//     subType
+//   }
+// }
 
 export default function Home() {
   const inputRef = React.useRef<HTMLInputElement>(null);
@@ -78,7 +83,7 @@ export default function Home() {
       <div className="flex flex-col items-center p-4">
         {data?.characters.map((character: any, i: number) => (
           <div key={character.name}>
-            {i % 2 === 0 ? (
+            {/* {i % 2 === 0 ? (
               <Character
                 name={character.name}
                 image={character.image}
@@ -90,7 +95,39 @@ export default function Home() {
                 image={character.image}
                 position="Admiral"
               />
-            )}
+            )} */}
+            {/* {character.bounty && (
+              <Character
+                name={character.name}
+                image={character.image}
+                bounty={character.bounty}
+              />
+            )} */}
+
+            {
+              character.affiliations?.includes("Marines") ? (
+                <Marine
+                  name={character.name}
+                  image={character.image}
+                  position={character.occupations?.split(";")[0]}
+                />
+              ) : character.bounty ? (
+                <WantedCharacter
+                  name={character.name}
+                  image={character.image}
+                  bounty={character.bounty}
+                />
+              ) : null
+              // (
+              //   <Character
+              //     name={character.name}
+              //     image={character.image}
+              //     occupation={character.occupations?.split(";")[0]}
+              //   />
+              // )
+            }
+
+            {/* Marines */}
           </div>
         ))}
       </div>

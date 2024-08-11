@@ -698,7 +698,6 @@
       "Alias": "Ryokugyu (緑牛, Ryokugyū?, literally meaning \"Green Bull\")",
       "Status": "Alive",
       "Bounty": [
-        "",
         "(3,000,000,000)"
       ],
       "Japanese VA": [
@@ -989,6 +988,7 @@
       "Affiliations": "Blackbeard Pirates; Impel Down (former)",
       "Occupations": "Pirate; Titanic Captain (Captain of the Fourth Ship); Prisoner of the Great Prison (former); King (former)",
       "Origin": "North Blue",
+      "Residence": "Hachinosu",
       "Epithet": "\"Corrupt King\" (悪政王, Akusei-Ō?)",
       "Status": "Alive",
       "Age": [
@@ -2818,7 +2818,6 @@
       "Height": "302 cm (9'11\")",
       "Blood Type": "XF",
       "Bounty": [
-        "",
         "(3,000,000,000)"
       ],
       "Japanese VA": [
@@ -3063,7 +3062,11 @@
         "\"Soul King\" (ソウルキング, Souru Kingu?)"
       ],
       "Status": "Alive",
-      "Age": "38 (first death);88 (debut);90 (after timeskip)",
+      "Age": [
+        "38 (first death);",
+        "88 (debut);",
+        "90 (after timeskip)"
+      ],
       "Birthday": "April 3rd",
       "Height": [
         "266 cm (8'9\") (debut)",
@@ -3878,6 +3881,7 @@
       "Affiliations": "Blackbeard Pirates; Impel Down (former)",
       "Occupations": "Pirate; Titanic Captain (Captain of the Sixth Ship); Prisoner of the Great Prison (former)",
       "Origin": "South Blue",
+      "Residence": "Hachinosu",
       "Epithet": "\"Crescent Moon Hunter\" (若月狩り, Mikazuki-gari?)",
       "Status": "Alive",
       "Age": [
@@ -8063,6 +8067,7 @@
       "Affiliations": "Blackbeard Pirates",
       "Occupations": "Pirate; Doctor; Titanic Captain (Captain of the Ninth Ship)",
       "Origin": "North Blue",
+      "Residence": "Hachinosu",
       "Epithet": "\"Death God\" (死神, Shinigami?, \"Grim Reaper\" in English versions)",
       "Status": "Alive",
       "Age": [
@@ -8951,7 +8956,7 @@
     "name": "Emet",
     "id": "379",
     "href": "/wiki/Emet",
-    "description": "Emet, also known as the Iron Giant, is a legendary robot that attacked Mary Geoise 200 years ago. It was originally created 900 years ago, around the time of the Void Century, for a yet unknown purpose. It was inactive due to running out of energy and is kept on Egghead. After hearing the Drums of Liberation from Monkey D. Luffy, Emet powered back up, during which it guarded Vegapunk's prerecorded video being broadcasted from within itself. It is an ally of the Straw Hat Pirates during the Egghead Arc.",
+    "description": "Emet, also known as the Iron Giant, is a legendary robot that attacked Mary Geoise 200 years ago. It was originally created 900 years ago, around the time of the Void Century, for a yet unknown purpose. It was inactive due to running out of energy and is kept on Egghead. After hearing the Drums of Liberation from Monkey D. Luffy, Emet powered back up, during which it guarded Vegapunk's prerecorded video being broadcasted from within itself.",
     "image": "https://static.wikia.nocookie.net/onepiece/images/7/7b/Emet_Anime_Infobox.png",
     "Statistics": {
       "Japanese Name": "エメト",
@@ -12475,7 +12480,10 @@
     "Statistics": {
       "Japanese Name": "ヒノキズ",
       "Romanized Name": "Hinokizu",
-      "Official English Name": "Burn Scar",
+      "Official English Name": [
+        "Burn Scar (VIZ)",
+        "The Man with the Burn Scar (Crunchyroll)"
+      ],
       "Debut": "Chapter 1056; Episode 1083 (mentioned)",
       "Status": "Alive"
     }
@@ -12723,7 +12731,7 @@
       "Romanized Name": "Hōdi Jōnzu",
       "Official English Name": [
         "Hody Jones (Viz),",
-        "Hordy Jones (FUNimation)"
+        "Hordy Jones (Funimation)"
       ],
       "Debut": "Chapter 608; Episode 527",
       "Affiliations": "New Fish-Man Pirates; Ally of the Flying Pirates (former); Ryugu Kingdom (former)",
@@ -13775,7 +13783,6 @@
       "Height": "270 cm (8'10\")",
       "Blood Type": "S",
       "Bounty": [
-        "",
         "(3,000,000,000)"
       ],
       "Japanese VA": "Ikuya Sawaki",
@@ -14338,6 +14345,7 @@
       "Affiliations": "Blackbeard Pirates",
       "Occupations": "Helmsman; Titanic Captain (Captain of the First Ship)",
       "Origin": "Grand Line",
+      "Residence": "Hachinosu",
       "Alias": "\"Mr. Store\" (Mr.ストア, Misutā Sutoa?)",
       "Epithet": "\"Champion\" (チャンピオン, Chanpion?)",
       "Status": "Alive",
@@ -17419,6 +17427,7 @@
       "Affiliations": "Blackbeard Pirates; Marines (resigned)",
       "Occupations": "Pirate; Titanic Captain (Captain of the Tenth Ship); Admiral (former); Vice Admiral (former)",
       "Origin": "South Blue",
+      "Residence": "Hachinosu",
       "Alias": "Aokiji (青キジ, Aokiji?, literally meaning \"Blue Pheasant\")",
       "Status": "Alive",
       "Age": [
@@ -17623,6 +17632,7 @@
       "Affiliations": "Blackbeard Pirates",
       "Occupations": "Pirate; Navigator; Sheriff (former); Titanic Captain (Captain of the Fifth Ship); Chief of Staff",
       "Origin": "West Blue",
+      "Residence": "Hachinosu",
       "Epithet": "\"Demon Sheriff\" (鬼保安官, Oni Hoankan?)",
       "Status": "Alive",
       "Age": [
@@ -17633,7 +17643,7 @@
       "Height": "340 cm (11'2\")",
       "Blood Type": "X",
       "Bounty": "At least 42,200,000",
-      "Japanese VA": "Taiki Matsuno (Episode 151-752)",
+      "Japanese VA": "Taiki Matsuno",
       "Funi English VA": "Christopher Bevins"
     }
   },
@@ -20214,7 +20224,6 @@
       "Height": "287 cm (9'5\")",
       "Blood Type": "F",
       "Bounty": [
-        "",
         "(3,000,000,000)"
       ],
       "Japanese VA": "Hiroshi Naka",
@@ -20233,7 +20242,16 @@
       "Romanized Name": "Monkī Dī Rufi",
       "Official English Name": "Monkey D. Luffy",
       "Debut": "Chapter 1; Episode 1",
-      "Affiliations": "Straw Hat Pirates;Straw Hat Grand Fleet;Four Emperors;Clan of D.;Dadan Family (former);Baratie (temporary, former);Impel Down (former);Ninja-Pirate-Mink-Samurai Alliance (disbanded)",
+      "Affiliations": [
+        "Straw Hat Pirates;",
+        "Straw Hat Grand Fleet;",
+        "Four Emperors;",
+        "Clan of D.;",
+        "Dadan Family (former);",
+        "Baratie (temporary, former);",
+        "Impel Down (former);",
+        "Ninja-Pirate-Mink-Samurai Alliance (disbanded)"
+      ],
       "Occupations": "Pirate Captain; Emperor; Senior Captain of the Grand Fleet; Prisoner (former); Chore Boy (temporary, former); Bandit (former)",
       "Origin": "East Blue (Goa Kingdom)",
       "Residence": [
@@ -20241,14 +20259,35 @@
         "Mt. Colubo (former);",
         "Rusukaina (former)"
       ],
-      "Alias": "Lucy (ルーシー, Rūshī?)Luffy-tarou (ルフィ太郎, Rufitarō?, English versions: \"Luffytaro\")Luffy-no-Umi (ルフィの海, Rufinoumi?)Joy Boy (ジョイボーイ, Joi Bōi?)",
+      "Alias": [
+        "Lucy (ルーシー, Rūshī?)",
+        "Luffy-tarou (ルフィ太郎, Rufitarō?, English versions: \"Luffytaro\")",
+        "Luffy-no-Umi (ルフィの海, Rufinoumi?)",
+        "Joy Boy (ジョイボーイ, Joi Bōi?)"
+      ],
       "Epithet": "Straw Hat Luffy (麦わらのルフィ, Mugiwara no Rufi?)",
       "Status": "Alive",
-      "Age": "7 (debut);17 (pre-timeskip);19 (after timeskip)",
+      "Age": [
+        "7 (debut);",
+        "17 (pre-timeskip);",
+        "19 (after timeskip)"
+      ],
       "Birthday": "May 5th (Children's Day)",
-      "Height": "91 cm (3') (debut, child)172 cm (5'8\") (pre-timeskip)174 cm (5'9\") (after timeskip)",
+      "Height": [
+        "91 cm (3') (debut, child)",
+        "172 cm (5'8\") (pre-timeskip)",
+        "174 cm (5'9\") (after timeskip)"
+      ],
       "Blood Type": "F",
-      "Bounty": "3,000,000,0001,500,000,000500,000,000400,000,000300,000,000100,000,00030,000,000",
+      "Bounty": [
+        "3,000,000,000",
+        "1,500,000,000",
+        "500,000,000",
+        "400,000,000",
+        "300,000,000",
+        "100,000,000",
+        "30,000,000"
+      ],
       "Japanese VA": [
         "Mayumi Tanaka;",
         "Urara Takano (OVA)"
@@ -25854,6 +25893,7 @@
       "Affiliations": "Blackbeard Pirates; Impel Down (former)",
       "Occupations": "Pirate; Titanic Captain (Captain of the Seventh Ship); Prisoner of the Great Prison (former)",
       "Origin": "West Blue",
+      "Residence": "Hachinosu",
       "Epithet": "\"Colossal Battleship\" (巨大戦艦, Kyodai Senkan?, Viz, Funimation: \"Great Battleship\")",
       "Status": "Alive",
       "Age": [
@@ -27230,6 +27270,7 @@
       "Affiliations": "Blackbeard Pirates; Impel Down (former)",
       "Occupations": "Titanic Captain (Captain of the Second Ship); Head Jailer (former); Prisoner of the Great Prison (former)",
       "Origin": "Grand Line",
+      "Residence": "Hachinosu",
       "Epithet": "\"Shiryu of the Rain\" (雨のシリュウ, Ame no Shiryū?)",
       "Status": "Alive",
       "Age": [
@@ -30437,6 +30478,7 @@
       "Affiliations": "Blackbeard Pirates",
       "Occupations": "Pirate; Sniper; Titanic Captain (Captain of the Third Ship)",
       "Origin": "East Blue",
+      "Residence": "Hachinosu",
       "Epithet": "\"The Supersonic\" (音越, Otogoe?)",
       "Status": "Alive",
       "Age": [
@@ -30518,6 +30560,7 @@
       "Affiliations": "Blackbeard Pirates; Impel Down (former)",
       "Occupations": "Pirate; Titanic Captain (Captain of the Eighth Ship); Prisoner of the Great Prison (former)",
       "Origin": "South Blue",
+      "Residence": "Hachinosu",
       "Epithet": "\"Heavy Drinker\" Vasco Shot (大酒のバスコ・ショット, Ōzake no Basuko Shotto?)",
       "Status": "Alive",
       "Age": [

@@ -46,12 +46,21 @@ const resolvers = {
     // characters: async () => await db.select().from(characters).limit(10),
     characters: async (_: any, { filter }: any) => {
       if (filter.search) {
+        // const matchQuery = sql`(
+        //   setweight(to_tsvector('english', ${characters.name}), 'A') ||
+        //   setweight(to_tsvector('english', ${characters.origin}), 'B') ||
+        //   setweight(to_tsvector('english', ${characters.birthday}), 'C') ||
+        //   setweight(to_tsvector('english', ${characters.bloodType}), 'D') ||
+        //   setweight(to_tsvector('english', ${characters.description}), 'D'))
+        //   , websearch_to_tsquery('english', ${filter.search}
+        // )`;
+
         const matchQuery = sql`(
           setweight(to_tsvector('english', ${characters.name}), 'A') ||
-          setweight(to_tsvector('english', ${characters.origin}), 'B') ||
-          setweight(to_tsvector('english', ${characters.birthday}), 'C') ||
-          setweight(to_tsvector('english', ${characters.bloodType}), 'D') ||
-          setweight(to_tsvector('english', ${characters.description}), 'D'))
+          setweight(to_tsvector('english', ${characters.affiliations}), 'B') ||
+          setweight(to_tsvector('english', ${characters.occupations}), 'C') ||
+          setweight(to_tsvector('english', ${characters.origin}), 'D') ||
+          setweight(to_tsvector('english', ${characters.bloodType}), 'D'))
           , websearch_to_tsquery('english', ${filter.search}
         )`;
 
@@ -87,10 +96,10 @@ const resolvers = {
           .where(
             sql`(
               setweight(to_tsvector('english', ${characters.name}), 'A') ||
-              setweight(to_tsvector('english', ${characters.origin}), 'B') ||
-              setweight(to_tsvector('english', ${characters.birthday}), 'C') ||
-              setweight(to_tsvector('english', ${characters.bloodType}), 'D') ||
-              setweight(to_tsvector('english', ${characters.description}), 'D'))
+              setweight(to_tsvector('english', ${characters.affiliations}), 'B') ||
+              setweight(to_tsvector('english', ${characters.occupations}), 'C') ||
+              setweight(to_tsvector('english', ${characters.origin}), 'D') ||
+              setweight(to_tsvector('english', ${characters.bloodType}), 'D'))
               @@ websearch_to_tsquery('english', ${filter.search}
             )`
           )
@@ -98,7 +107,7 @@ const resolvers = {
       }
 
       return await db.query.characters.findMany({
-        limit: 10,
+        // limit: 10,
       });
     },
     devilFruits: async () => await db.select().from(devilFruits).limit(10),

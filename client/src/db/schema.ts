@@ -33,16 +33,26 @@ export const characters = pgTable(
     description: text("description").notNull(),
     image: text("image").notNull(),
     bloodType: text("blood_type"),
+    affiliations: text("affiliations"),
+    occupations: text("occupations"),
+    bounty: text("bounty"),
   },
   (table) => ({
     nameSearchIndex: index("name_search_index").using(
       "gin",
       // sql`to_tsvector('english', ${table.name})`
+      // sql`(
+      //   setweight(to_tsvector('english', ${table.name}), 'A') ||
+      //   setweight(to_tsvector('english', ${table.origin}), 'B') ||
+      //   setweight(to_tsvector('english', ${table.birthday}), 'C') ||
+      //   setweight(to_tsvector('english', ${table.description}), 'D') ||
+      //   setweight(to_tsvector('english', ${table.bloodType}), 'D')
+      // )`
       sql`(
         setweight(to_tsvector('english', ${table.name}), 'A') ||
-        setweight(to_tsvector('english', ${table.origin}), 'B') ||
-        setweight(to_tsvector('english', ${table.birthday}), 'C') ||
-        setweight(to_tsvector('english', ${table.description}), 'D') ||
+        setweight(to_tsvector('english', ${table.affiliations}), 'B') ||
+        setweight(to_tsvector('english', ${table.occupations}), 'C') ||
+        setweight(to_tsvector('english', ${table.origin}), 'D') ||
         setweight(to_tsvector('english', ${table.bloodType}), 'D')
       )`
     ),

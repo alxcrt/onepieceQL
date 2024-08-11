@@ -11,6 +11,9 @@ const typeDefs = `#graphql
     origin: String
     birthday: String
     bloodType: String
+    bounty: String
+    occupations: String
+    affiliations: String
   }
 
   type DevilFruit{
