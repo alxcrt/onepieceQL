@@ -30,9 +30,20 @@ export default function Nav() {
           </li>
 
           <ul className="ml-auto flex gap-4 justify-center items-center">
-            <li>
-              <Link href="/docs">Docs</Link>
-            </li>
+            <Link href="/docs">
+              <li
+                className="button w-[7rem] h-10 bg-[#D73634] rounded-lg cursor-pointer select-none
+    active:translate-y-2  active:[box-shadow:0_0px_0_0_#B70200,0_0px_0_0_#B70200]
+    active:border-b-[0px]
+    transition-all duration-150 [box-shadow:0_10px_0_0_#B70200,0_15px_0_0_#B70200]
+    border-b-[1px] border-[#B70200]
+  "
+              >
+                <span className="flex flex-col justify-center items-center h-full text-white font-bold text-lg">
+                  Docs
+                </span>
+              </li>
+            </Link>
             <li>
               <Link href="https://github.com">
                 <Image

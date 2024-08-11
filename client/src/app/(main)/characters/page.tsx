@@ -77,10 +77,10 @@ export default function Home() {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         onKeyDown={handleSearch}
-        className="w-1/2 p-2 border border-gray-300 rounded-lg text-black mx-auto"
+        className="w-1/2 p-2 border border-gray-300 rounded-lg text-black mx-auto my-8"
       />
 
-      <div className="flex flex-col items-center p-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 place-items-center gap-4">
         {data?.characters.map((character: any, i: number) => (
           <div key={character.name}>
             {/* {i % 2 === 0 ? (
@@ -104,28 +104,25 @@ export default function Home() {
               />
             )} */}
 
-            {
-              character.affiliations?.includes("Marines") ? (
-                <Marine
-                  name={character.name}
-                  image={character.image}
-                  position={character.occupations?.split(";")[0]}
-                />
-              ) : character.bounty ? (
-                <WantedCharacter
-                  name={character.name}
-                  image={character.image}
-                  bounty={character.bounty}
-                />
-              ) : null
-              // (
-              //   <Character
-              //     name={character.name}
-              //     image={character.image}
-              //     occupation={character.occupations?.split(";")[0]}
-              //   />
-              // )
-            }
+            {character.bounty ? (
+              <WantedCharacter
+                name={character.name}
+                image={character.image}
+                bounty={character.bounty}
+              />
+            ) : character.affiliations?.includes("Marines") ? (
+              <Marine
+                name={character.name}
+                image={character.image}
+                position={character.occupations?.split(";")[0]}
+              />
+            ) : (
+              <Character
+                name={character.name}
+                image={character.image}
+                occupation={character.occupations?.split(";")[0]}
+              />
+            )}
 
             {/* Marines */}
           </div>

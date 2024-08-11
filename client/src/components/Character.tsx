@@ -13,7 +13,7 @@ export default function Character({
   occupation = "Pirate",
 }: CharacterProps) {
   return (
-    <div className="w-[351px] h-[496px] bg-[#62B6EC] flex flex-col text-black gap-2 p-2 relative overflow-hidden">
+    <div className="w-[351px] h-[496px] bg-wanted flex flex-col text-black gap-2 p-2 bg-[#A7C796] bg-blend-luminosity overflow-hidden">
       <div className="w-[335px] h-[72px]"></div>
 
       <div className="w-[220px] h-[220px] mx-auto flex justify-center items-center">

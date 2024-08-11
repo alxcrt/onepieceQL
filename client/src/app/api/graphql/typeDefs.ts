@@ -1,6 +1,9 @@
 const typeDefs = `#graphql
   input CharacterFilter{
     search: String!
+    limit: Int
+    offset: Int
+    hasBounty: Boolean
   }
 
   type Character{

@@ -1,9 +1,16 @@
 import Character from "@/components/Character";
 import Image from "next/image";
+import Pirates from "./characters/components/Pirates";
+import Marines from "./characters/components/Marines";
+import Warlords from "./characters/components/Warlords";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center">
+    <main className="flex flex-col items-center justify-center space-y-20">
+      <h2 className="text-6xl font-bold text-center font-playfair ">
+        OnePieceQL 🔥
+      </h2>
+
       <div className=" flex justify-center items-center flex-col lg:flex-row gap-8 lg:gap-16">
         <Image
           src="/assets/hero-main.jpg"
@@ -28,7 +35,11 @@ export default function Home() {
         </p>
       </div>
 
-      {/* <Character /> */}
+      <section className="space-y-9">
+        <Pirates />
+        <Marines />
+        <Warlords />
+      </section>
     </main>
   );
 }

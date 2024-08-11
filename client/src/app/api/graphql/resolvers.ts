@@ -1,4 +1,13 @@
-import { desc, eq, getTableColumns, inArray, sql } from "drizzle-orm";
+import {
+  desc,
+  eq,
+  getTableColumns,
+  inArray,
+  sql,
+  not,
+  isNotNull,
+  and,
+} from "drizzle-orm";
 
 import db from "@/db";
 import {
@@ -45,6 +54,8 @@ const resolvers = {
     me: () => "Hello, world!",
     // characters: async () => await db.select().from(characters).limit(10),
     characters: async (_: any, { filter }: any) => {
+      const { search, limit, offset, hasBounty } = filter;
+
       if (filter.search) {
         // const matchQuery = sql`(
         //   setweight(to_tsvector('english', ${characters.name}), 'A') ||
@@ -94,23 +105,30 @@ const resolvers = {
           })
           .from(characters)
           .where(
-            sql`(
+            and(
+              sql`(
               setweight(to_tsvector('english', ${characters.name}), 'A') ||
               setweight(to_tsvector('english', ${characters.affiliations}), 'B') ||
               setweight(to_tsvector('english', ${characters.occupations}), 'C') ||
               setweight(to_tsvector('english', ${characters.origin}), 'D') ||
               setweight(to_tsvector('english', ${characters.bloodType}), 'D'))
               @@ websearch_to_tsquery('english', ${filter.search}
-            )`
+            )`,
+              hasBounty ? isNotNull(characters.bounty) : undefined
+            )
           )
-          .orderBy((t) => desc(t.rank));
+          .orderBy((t) => desc(t.rank))
+          .limit(limit)
+          .offset(offset);
       }
 
       return await db.query.characters.findMany({
-        // limit: 10,
+        limit: limit,
+        offset: offset,
+        where: hasBounty ? isNotNull(characters.bounty) : undefined,
       });
     },
-    devilFruits: async () => await db.select().from(devilFruits).limit(10),
+    devilFruits: async () => await db.select().from(devilFruits),
   },
 };
 
