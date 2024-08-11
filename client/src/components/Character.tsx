@@ -13,7 +13,7 @@ export default function Character({
   bounty = "5,000,000,000",
 }: CharacterProps) {
   return (
-    <div className="w-[351px] h-[496px] bg-wanted flex flex-col text-black gap-2 p-4">
+    <div className="w-[351px] h-[496px] bg-wanted flex flex-col text-black gap-2 p-2 relative">
       {/* 351 × 496 */}
       <h1 className="uppercase text-7xl text-center font-playfair font-bold mix-blend-overlay">
         Wanted
@@ -43,8 +43,8 @@ export default function Character({
         {bounty}
       </p>
 
-      <div className="flex justify-center items-center gap-3">
-        <p className="text-[5px] font-playfair font-bold mix-blend-overlay text-left">
+      <div className="flex justify-between items-center ">
+        <p className="text-[5px] font-playfair font-bold mix-blend-overlay text-left pl-6">
           KONO SAKUHIN HA FICTION DETHUNODE JITSUZAISURU JINBUTSU DANTAI SONOTA
           NO SOSHIKI TO DOITSU NO MEISHOU GA GEKICHU NI TOUJYOU SHITATOSHITEMO
           JITSUZAI NA MONOTOHA ISSAI MUKANKEIDETH
@@ -53,6 +53,41 @@ export default function Character({
         <p className="uppercase text-3xl text-center font-playfair font-bold mix-blend-overlay">
           marine
         </p>
+
+        {/* Decorations */}
+        <div className=" mix-blend-overlay">
+          <Image
+            src="/assets/Swirl Left Top.svg"
+            alt={name}
+            className="mx-auto object-cover object-top rounded-md absolute top-[65%] left-3"
+            width={13}
+            height={56}
+          />
+
+          <Image
+            src="/assets/Swirl Left Bottom.svg"
+            alt={name}
+            className="mx-auto object-cover object-top rounded-md absolute top-[77%] left-3"
+            width={16}
+            height={96}
+          />
+
+          <Image
+            src="/assets/Swirl Right Top.svg"
+            alt={name}
+            className="mx-auto object-cover object-top rounded-md absolute top-[65%] right-3"
+            width={14}
+            height={56}
+          />
+
+          <Image
+            src="/assets/Swirl Right Bottom.svg"
+            alt={name}
+            className="mx-auto object-cover object-top rounded-md absolute top-[77%] right-3"
+            width={13}
+            height={64}
+          />
+        </div>
       </div>
     </div>
   );

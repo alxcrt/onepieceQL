@@ -35,7 +35,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
         {data.characters.map((character, i) => (
           <div key={character.name} className="flex flex-col items-center">
             {i % 2 === 0 ? (

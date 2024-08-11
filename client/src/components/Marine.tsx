@@ -13,7 +13,7 @@ export default function Marine({
   position = "admiral",
 }: MarineProps) {
   return (
-    <div className="w-[351px] h-[496px] bg-wanted flex flex-col text-black gap-2 p-4 bg-[#C2D8FF] bg-blend-luminosity">
+    <div className="w-[351px] h-[496px] bg-wanted flex flex-col text-black gap-2 p-2 bg-[#C2D8FF] bg-blend-luminosity">
       <h1 className="uppercase text-7xl text-center font-playfair font-bold mix-blend-overlay">
         marine
       </h1>
@@ -37,13 +37,13 @@ export default function Marine({
         {name}
       </p>
 
-      <div className="uppercase text-sm text-center font-playfair mix-blend-overlay flex items-center justify-between">
+      <div className="uppercase text-sm text-center font-playfair mix-blend-overlay flex items-center justify-between px-4">
         <div className="flex items-center">
           <Image
             src="/assets/wg.png"
             alt=""
             width={40}
-            height={20}
+            height={40}
             className="inline mr-2"
           />
           <p className="text-2xl">Rank</p>
@@ -51,7 +51,7 @@ export default function Marine({
         <p className="text-2xl">{position}</p>
       </div>
 
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center px-4">
         <p className="text-[5px] font-playfair font-bold mix-blend-overlay text-left">
           honor of marine, we will swear that will help to people innocent and
           have keep the justice if we find bad thing in the sea, we have to get
@@ -62,8 +62,8 @@ export default function Marine({
           src="/assets/marine.png"
           alt=""
           width={80}
-          height={40}
-          className="inline"
+          height={36}
+          className="inline w-20 h-9"
         />
       </div>
     </div>
