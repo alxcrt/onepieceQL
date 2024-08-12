@@ -44,7 +44,6 @@ const typeDefs = `#graphql
   }
 
   type Query {
-    me: String!
     characters(filter: CharacterFilter): CharactersResponse
     devilFruits: [DevilFruit]
   }

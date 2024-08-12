@@ -52,8 +52,6 @@ const resolvers = {
     },
   },
   Query: {
-    me: () => "Hello, world!",
-    // characters: async () => await db.select().from(characters).limit(10),
     characters: async (_: any, { filter }: any) => {
       const { search, limit, offset, hasBounty } = filter;
 
