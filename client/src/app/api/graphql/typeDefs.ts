@@ -19,6 +19,18 @@ const typeDefs = `#graphql
     affiliations: String
   }
 
+  type CharactersResponse{
+    info: Info!
+    results: [Character!]
+  }
+
+  type Info{
+    count: Int!
+    pages: Int!
+    next: String
+    prev: String
+  }
+
   type DevilFruit{
     name: String!
     description: String!
@@ -33,8 +45,7 @@ const typeDefs = `#graphql
 
   type Query {
     me: String!
-    # characters: [Character]
-    characters(filter: CharacterFilter): [Character]
+    characters(filter: CharacterFilter): CharactersResponse
     devilFruits: [DevilFruit]
   }
 

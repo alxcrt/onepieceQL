@@ -30,9 +30,9 @@ export default function Nav() {
           </li>
 
           <ul className="ml-auto flex gap-4 justify-center items-center">
-            <Link href="/docs">
+            <Link href="/api/graphql" target="_blank">
               <li
-                className="button w-[7rem] h-10 bg-[#D73634] rounded-lg cursor-pointer select-none
+                className="button w-[6rem] h-[2.5rem] bg-[#D73634] rounded-lg cursor-pointer select-none
     active:translate-y-2  active:[box-shadow:0_0px_0_0_#B70200,0_0px_0_0_#B70200]
     active:border-b-[0px]
     transition-all duration-150 [box-shadow:0_10px_0_0_#B70200,0_15px_0_0_#B70200]

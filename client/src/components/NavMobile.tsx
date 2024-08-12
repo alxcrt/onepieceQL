@@ -66,7 +66,9 @@ export default function NavMobile() {
 
             <ul className="ml-auto flex gap-4 justify-center items-center">
               <li onClick={() => setIsOpen(false)}>
-                <Link href="/docs">Docs</Link>
+                <Link href="/api/graphql" target="_blank">
+                  Docs
+                </Link>
               </li>
               <li onClick={() => setIsOpen(false)}>
                 <Link href="https://github.com">

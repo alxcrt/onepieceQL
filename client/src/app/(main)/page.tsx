@@ -1,4 +1,3 @@
-import Character from "@/components/Character";
 import Image from "next/image";
 import Pirates from "./characters/components/Pirates";
 import Marines from "./characters/components/Marines";
@@ -6,10 +5,29 @@ import Warlords from "./characters/components/Warlords";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center space-y-20">
+    <main className="flex flex-col items-center justify-center space-y-20 px-4">
       <h2 className="text-6xl font-bold text-center font-playfair ">
         OnePieceQL 🔥
       </h2>
+
+      <div className="text-2xl font-mono space-y-4">
+        <p>
+          Not sure how you ended up here? Cool, neither are we but there is a
+          strong assumption you are interested in graphQL or anime. Use this
+          documentation to help you get the most out of the OnePieceQL API.
+        </p>
+        <p>
+          You can query the api at{" "}
+          <a
+            href={`${process.env.NEXT_PUBLIC_URL}/api/graphql`}
+            target="_blank"
+          >
+            <span className="bg-gray-200 text-gray-600 p-1 rounded-md">
+              {`${process.env.NEXT_PUBLIC_URL}/api/graphql`}
+            </span>
+          </a>
+        </p>
+      </div>
 
       <div className=" flex justify-center items-center flex-col lg:flex-row gap-8 lg:gap-16">
         <Image

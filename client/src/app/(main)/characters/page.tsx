@@ -5,17 +5,26 @@ import Marine from "@/components/Marine";
 import WantedCharacter from "@/components/WantedCharacter";
 import { useQuery, gql, useLazyQuery } from "@apollo/client";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
+import { useDebounce } from "use-debounce";
 
 const QUERY = gql`
   query characters($filter: CharacterFilter) {
     characters(filter: $filter) {
-      name
-      description
-      image
-      bounty
-      occupations
-      affiliations
+      info {
+        count
+        pages
+        next
+        prev
+      }
+      results {
+        name
+        description
+        image
+        bounty
+        occupations
+        affiliations
+      }
     }
   }
 `;
@@ -34,101 +43,65 @@ export default function Home() {
   const inputRef = React.useRef<HTMLInputElement>(null);
 
   const [query, setQuery] = React.useState("");
+  const [debouncedQuery] = useDebounce(query, 500);
 
-  const [search, { data, loading, error }] = useLazyQuery(QUERY, {
+  const { data, loading, error } = useQuery(QUERY, {
     variables: {
       filter: {
-        search: query,
+        search: debouncedQuery,
+        limit: 10,
+        offset: 0,
       },
     },
+    notifyOnNetworkStatusChange: true,
   });
 
-  const handleSearch = (e: any) => {
-    if (e.key === "Enter") {
-      e.preventDefault(); // Prevent form submission
-      search({
-        variables: {
-          filter: {
-            search: query,
-          },
-        },
-      });
-    }
-
-    if (e.key === "Escape") {
-      inputRef.current?.blur();
-    }
-  };
-
-  if (loading) {
-    // return <p>Loading...</p>;
-    return <Loading />;
-  }
+  useEffect(() => {
+    inputRef.current?.focus();
+  }, []);
 
   if (error) {
     return <p>Error: {error.message}</p>;
   }
 
   return (
-    <main className="flex min-h-screen flex-col">
+    <main className="flex flex-col">
       <input
         type="text"
         ref={inputRef}
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        onKeyDown={handleSearch}
+        // onKeyDown={handleSearch}
         className="w-1/2 p-2 border border-gray-300 rounded-lg text-black mx-auto my-8"
       />
 
+      {loading && <Loading />}
       <div className="grid grid-cols-1 md:grid-cols-3 place-items-center gap-4">
-        {data?.characters.map((character: any, i: number) => (
-          <div key={character.name}>
-            {/* {i % 2 === 0 ? (
-              <Character
-                name={character.name}
-                image={character.image}
-                bounty="5,000,000,000"
-              />
-            ) : (
-              <Marine
-                name={character.name}
-                image={character.image}
-                position="Admiral"
-              />
-            )} */}
-            {/* {character.bounty && (
-              <Character
-                name={character.name}
-                image={character.image}
-                bounty={character.bounty}
-              />
-            )} */}
-
-            {character.bounty ? (
-              <WantedCharacter
-                name={character.name}
-                image={character.image}
-                bounty={character.bounty}
-              />
-            ) : character.affiliations?.includes("Marines") ? (
-              <Marine
-                name={character.name}
-                image={character.image}
-                position={character.occupations?.split(";")[0]}
-              />
-            ) : (
-              <Character
-                name={character.name}
-                image={character.image}
-                occupation={character.occupations?.split(";")[0]}
-              />
-            )}
-
-            {/* Marines */}
-          </div>
-        ))}
+        {!loading &&
+          data.characters.results.map((character: any, i: number) => (
+            <div key={character.name}>
+              {character.bounty ? (
+                <WantedCharacter
+                  name={character.name}
+                  image={character.image}
+                  bounty={character.bounty}
+                />
+              ) : character.affiliations?.includes("Marines") ? (
+                <Marine
+                  name={character.name}
+                  image={character.image}
+                  position={character.occupations?.split(";")[0]}
+                />
+              ) : (
+                <Character
+                  name={character.name}
+                  image={character.image}
+                  occupation={character.occupations?.split(";")[0]}
+                />
+              )}
+            </div>
+          ))}
       </div>
-      {/* <p>{JSON.stringify(data)}</p> */}
     </main>
   );
 }
