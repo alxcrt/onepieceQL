@@ -1,5 +1,5 @@
 # onepieceQL
-![](https://c.tenor.com/Xg0Ba5TxmDwAAAAC/tenor.gif)
+![](./one-piece.gif)
 
 ## 📖 Overview
 
