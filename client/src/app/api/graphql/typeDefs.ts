@@ -6,6 +6,18 @@ const typeDefs = `#graphql
     hasBounty: Boolean
   }
 
+  enum DevilFruitTypes{
+    PARAMECIA
+    ZOAN
+    LOGIA
+  }
+
+  input DevilFruitFilter{
+    limit: Int
+    page: Int
+    type: DevilFruitTypes
+  }
+
   type Character{
     name: String!
     description: String!
@@ -22,6 +34,11 @@ const typeDefs = `#graphql
   type CharactersResponse{
     info: Info!
     results: [Character!]
+  }
+
+  type DevilFruitsResponse{
+    info: Info!
+    results: [DevilFruit!]
   }
 
   type Info{
@@ -45,7 +62,7 @@ const typeDefs = `#graphql
 
   type Query {
     characters(filter: CharacterFilter): CharactersResponse
-    devilFruits: [DevilFruit]
+    devilFruits(filter: DevilFruitFilter): DevilFruitsResponse
   }
 
 `;

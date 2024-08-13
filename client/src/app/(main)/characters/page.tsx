@@ -93,10 +93,6 @@ export default function Home() {
     inputRef.current?.focus();
   }, []);
 
-  if (error) {
-    return <p>Error: {error.message}</p>;
-  }
-
   return (
     <main className="flex flex-col px-4 mt-5">
       <h1 className="font-mono text-center  text-5xl">Characters</h1>
@@ -110,6 +106,7 @@ export default function Home() {
         className="lg:w-[75%] p-2 border border-gray-300 rounded-lg text-black mx-auto my-8 font-mono text-xl w-full"
       />
 
+      {error && <p>Error: {error.message}</p>}
       {loading && <Loading />}
       <div className="grid grid-cols-1 md:grid-cols-3 place-items-center gap-4 p-4">
         {data?.characters.results?.map((character: any, i: number) => (

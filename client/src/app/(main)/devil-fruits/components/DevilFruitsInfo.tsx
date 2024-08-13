@@ -1,7 +1,11 @@
 import Image from "next/image";
 import React from "react";
 
-export default function DevilFruitsInfo() {
+interface DevilFruitProps {
+  handleSelect: (event: any) => void;
+}
+
+export default function DevilFruitsInfo({ handleSelect }: DevilFruitProps) {
   return (
     <div className="font-mono text-center space-y-10">
       <h1 className="text-5xl">Devil Fruits</h1>
@@ -28,7 +32,14 @@ export default function DevilFruitsInfo() {
           <div className="flex justify-center gap-10 flex-col md:flex-row">
             {["Paramecia", "Zoan", "Logia"].map((fruit) => (
               <div className="flex items-center justify-center" key={fruit}>
-                <input type="checkbox" id={fruit} className="w-5 h-5" />
+                <input
+                  onClick={handleSelect}
+                  type="radio"
+                  id={fruit}
+                  name="fruitType"
+                  value={fruit.toUpperCase()}
+                  className="w-5 h-5"
+                />
                 <label htmlFor={fruit} className="ms-3 text-3xl">
                   {fruit}
                 </label>

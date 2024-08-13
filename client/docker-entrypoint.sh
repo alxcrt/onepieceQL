@@ -17,11 +17,11 @@ npm run db:migrate
 # Seed the database
 npm run db:seed
 
-# # Build the Next site including SSG
-# npm run build
+# Build the Next site including SSG
+npm run build
 
-# # Start the production server
-# npm run start
+# Start the production server
+npm run start
 
 # Start the development server
-npm run dev
+# npm run dev

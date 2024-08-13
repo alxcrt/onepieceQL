@@ -1,5 +1,10 @@
 import { and, desc, getTableColumns, isNotNull, sql } from "drizzle-orm";
-import { characters } from "./schema";
+import {
+  characters,
+  devilFruits,
+  devilFruitsToDevilFruitTypes,
+  devilFruitTypes,
+} from "./schema";
 import db from ".";
 
 export async function fetchCharacters(filter: {
@@ -47,19 +52,6 @@ export async function fetchCharacters(filter: {
 
     // @ts-expect-error
     const pages = Math.ceil((results[0]?.count || 0) / limit);
-    // // if (page > pages) {
-    // //   throw new NotFoundError('Invalid page');
-    // // }
-
-    // return {
-    //   info: {
-    //     count,
-    //     pages,
-    //     next: page >= pages ? null : page + 1,
-    //     prev: page < 2 ? null : page - 1,
-    //   },
-    //   results: results,
-    // };
 
     return {
       results,
@@ -75,12 +67,6 @@ export async function fetchCharacters(filter: {
     };
   }
 
-  // const results = await db.query.characters.findMany({
-  //   limit: limit,
-  //   offset: offset,
-  //   where: hasBounty ? isNotNull(characters.bounty) : undefined,
-  // });
-
   const results = await db
     .select({
       ...getTableColumns(characters),
@@ -92,6 +78,82 @@ export async function fetchCharacters(filter: {
     .offset(limit * page - limit);
 
   // @ts-expect-error
+  const pages = Math.ceil((results[0]?.count || 0) / limit);
+
+  return {
+    results,
+    info: {
+      count: results[0]?.count || 0,
+      pages,
+      next: page >= pages ? null : page + 1,
+      prev: page < 2 ? null : page - 1,
+    },
+  };
+}
+
+export async function fetchDevilFruits(filter: {
+  limit: number;
+  page?: number;
+  type?: string;
+}) {
+  const { limit = 20, page = 1, type } = filter;
+
+  if (type) {
+    const getDevilFruitsWithTypes = async (
+      fruitNameFilter?: string,
+      typeNameFilter?: string
+    ) => {
+      return await db.query.devilFruitsToDevilFruitTypes.findMany({
+        where: and(
+          fruitNameFilter
+            ? sql`${devilFruitsToDevilFruitTypes.devilFruitId} IN (
+                  SELECT id FROM ${devilFruits} WHERE name = ${fruitNameFilter}
+                )`
+            : undefined,
+          typeNameFilter
+            ? sql`${devilFruitsToDevilFruitTypes.devilFruitTypeId} IN (
+                  SELECT id FROM ${devilFruitTypes} WHERE type = ${typeNameFilter}
+                )`
+            : undefined
+        ),
+        with: {
+          devilFruit: true,
+          devilFruitType: true,
+        },
+        extras: {
+          count: sql`count(*) OVER()`.as("count"),
+        },
+        limit,
+        offset: page * limit - limit,
+      });
+    };
+
+    const results = await getDevilFruitsWithTypes(undefined, type);
+
+    //@ts-expect-error
+    const pages = Math.ceil((results[0]?.count || 0) / limit);
+
+    return {
+      results: results.map((result: any) => result.devilFruit),
+      info: {
+        count: results[0]?.count || 0,
+        pages,
+        next: page >= pages ? null : page + 1,
+        prev: page < 2 ? null : page - 1,
+      },
+    };
+  }
+
+  const results = await db
+    .select({
+      ...getTableColumns(devilFruits),
+      count: sql`count(*) OVER()`,
+    })
+    .from(devilFruits)
+    .limit(limit)
+    .offset(page * limit - limit);
+
+  //@ts-expect-error
   const pages = Math.ceil((results[0]?.count || 0) / limit);
 
   return {
