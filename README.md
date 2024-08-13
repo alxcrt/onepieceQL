@@ -7,7 +7,7 @@ Not sure how you ended up here? Cool, neither are we but there is a strong assum
 
 You can query the api at https://onepieceql.com/api/graphql
 
-## 🚀 Teach Stack
+## 🚀 Tech Stack
 
 - **Next.js**
 - **Apollo Client/Server**
