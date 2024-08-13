@@ -64,7 +64,10 @@ export default function NavMobile() {
                 </Link>
               </li>
               <li onClick={() => setIsOpen(false)}>
-                <Link href="https://github.com/alxcrt/onepieceQL">
+                <Link
+                  href="https://github.com/alxcrt/onepieceQL"
+                  target="_blank"
+                >
                   <Image
                     className="w-[30px] h-[30px] invert"
                     src="/gh.svg"
