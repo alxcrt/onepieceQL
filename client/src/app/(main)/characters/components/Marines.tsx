@@ -5,7 +5,6 @@ export default async function Marines() {
   const data = await fetchCharacters({
     search: "marines and -pirate and admiral",
     limit: 3,
-    offset: 0,
   });
 
   return (

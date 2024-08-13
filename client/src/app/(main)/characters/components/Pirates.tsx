@@ -5,7 +5,6 @@ export default async function Pirates() {
   const data = await fetchCharacters({
     search: "pirate and -warlord and -marines and or luffy or straw hat",
     limit: 3,
-    offset: 0,
   });
 
   return (

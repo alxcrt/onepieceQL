@@ -53,7 +53,7 @@ const resolvers = {
   },
   Query: {
     characters: async (_: any, { filter }: any) => {
-      const { search, limit, offset, hasBounty } = filter;
+      // const { search, limit, page, hasBounty } = filter;
 
       return await fetchCharacters(filter);
 

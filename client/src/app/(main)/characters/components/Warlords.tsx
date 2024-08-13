@@ -5,7 +5,6 @@ export default async function Warlords() {
   const data = await fetchCharacters({
     search: "warlord",
     limit: 3,
-    offset: 0,
   });
 
   return (
