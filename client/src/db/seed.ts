@@ -13,6 +13,15 @@ import { joinIfArray } from "@/utils";
 import db from ".";
 
 (async () => {
+  // Run the seed script if the database is empty
+  const devilFruitsCount = await db.select().from(devilFruits);
+  const charactersCount = await db.select().from(characters);
+
+  if (devilFruitsCount.length > 0 || charactersCount.length > 0) {
+    console.log("Database already seeded");
+    process.exit(0);
+  }
+
   try {
     console.log("Seeding database");
 
