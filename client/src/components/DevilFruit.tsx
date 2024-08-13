@@ -1,17 +1,17 @@
 import Image from "next/image";
 import React from "react";
 
-interface CharacterProps {
+interface DevilFruitProps {
   name: string;
   image: string;
-  bounty: string;
+  types: { type: string; subType: string }[];
 }
 
 export default function DevilFruit({
   name = "Monkey D. Luffy",
   image = "https://static.wikia.nocookie.net/onepiece/images/6/6d/Monkey_D._Luffy_Anime_Post_Timeskip_Infobox.png",
-}: // types = ["Paramecia"],
-CharacterProps) {
+  types = [{ type: "Zoan", subType: "Mythical" }],
+}: DevilFruitProps) {
   return (
     <div className="w-[351px] h-[496px] bg-wanted flex flex-col gap-2 p-2 bg-[#DBBE8E] bg-blend-multiply relative text-[#4f0000]">
       {/* 351 × 496 */}
@@ -30,18 +30,20 @@ CharacterProps) {
         />
       </div>
 
-      {/* <p className="uppercase text-2xl text-center font-playfair font-bold mix-blend-overlay tracking-[0.4rem]">
-        dead or alive
-      </p> */}
-
       <p className="uppercase text-3xl text-center font-playfair font-bold mix-blend-overlay ">
         {name}
       </p>
 
-      {/* <p className="uppercase text-3xl text-center font-alwaysInMyHeart mix-blend-overlay tracking-[0.5rem] mx-auto flex">
-        <Image src="/assets/Belly.svg" alt="" width={20} height={20} />
-        {bounty}
-      </p> */}
+      <div className="flex justify-center gap-4 font-mono">
+        {types.map((type) => (
+          <div
+            key={type.type}
+            className="bg-[#4f0000] text-[#DBBE8E] p-2 rounded-md text-sm"
+          >
+            {type.type} {type.subType}
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

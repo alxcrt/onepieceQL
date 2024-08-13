@@ -28,16 +28,6 @@ const QUERY = gql`
   }
 `;
 
-// devilFruits {
-//   name
-//   description
-//   image
-//   types {
-//     type
-//     subType
-//   }
-// }
-
 export default function Home() {
   const inputRef = React.useRef<HTMLInputElement>(null);
 
@@ -81,7 +71,7 @@ export default function Home() {
     });
   }, [fetchMore, data, debouncedQuery]);
 
-  // Callback
+  // Callback Ref to observe the last character
   const lastCharacter = useCallback(
     (node: any) => {
       if (!node) return;
@@ -108,17 +98,20 @@ export default function Home() {
   }
 
   return (
-    <main className="flex flex-col">
+    <main className="flex flex-col px-4 mt-5">
+      <h1 className="font-mono text-center  text-5xl">Characters</h1>
+
       <input
         type="text"
         ref={inputRef}
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        className="w-1/2 p-2 border border-gray-300 rounded-lg text-black mx-auto my-8"
+        placeholder="Search characters e.g. Straw Hat Pirates, Marines, etc"
+        className="lg:w-[75%] p-2 border border-gray-300 rounded-lg text-black mx-auto my-8 font-mono text-xl w-full"
       />
 
       {loading && <Loading />}
-      <div className="grid grid-cols-1 md:grid-cols-3 place-items-center gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 place-items-center gap-4 p-4">
         {data?.characters.results?.map((character: any, i: number) => (
           <div
             key={character.name}
