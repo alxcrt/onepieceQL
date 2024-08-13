@@ -8,7 +8,7 @@ interface DevilFruitProps {
 export default function DevilFruitsInfo({ handleSelect }: DevilFruitProps) {
   return (
     <div className="font-mono text-center space-y-10">
-      <h1 className="text-5xl">Devil Fruits</h1>
+      <h2 className="text-5xl">Devil Fruits</h2>
 
       <div className="flex justify-center items-center flex-col lg:flex-row text-2xl">
         <Image

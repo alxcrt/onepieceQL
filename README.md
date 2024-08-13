@@ -7,12 +7,13 @@ Not sure how you ended up here? Cool, neither are we but there is a strong assum
 
 You can query the api at https://onepieceql.com/api/graphql
 
-## 🚀 Features
+## 🚀 Teach Stack
 
-- **TypeScript**: Enjoy the safety and reliability of strongly-typed code with TypeScript, ensuring fewer bugs and better maintainability.
-- **Next.js**: Leverage the power of Next.js for server-side rendering, static site generation, and seamless API routes, all in one powerful framework.
-- **Drizzle ORM**: Simplify your database interactions with Drizzle ORM, a lightweight and type-safe ORM for TypeScript, ensuring smooth and efficient data management.
-
+- **Next.js**
+- **Apollo Client/Server**
+- **Tailwind CSS**
+- **Drizzle ORM**
+- **PostgreSQL**
 
 ## 🛠️ Getting Started
 

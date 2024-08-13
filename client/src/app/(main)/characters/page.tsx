@@ -95,7 +95,7 @@ export default function Home() {
 
   return (
     <main className="flex flex-col px-4 mt-5">
-      <h1 className="font-mono text-center  text-5xl">Characters</h1>
+      <h2 className="font-mono text-center  text-5xl">Characters</h2>
 
       <input
         type="text"

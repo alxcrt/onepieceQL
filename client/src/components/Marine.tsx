@@ -14,9 +14,9 @@ export default function Marine({
 }: MarineProps) {
   return (
     <div className="w-[351px] h-[496px] bg-wanted flex flex-col text-black gap-2 p-2 bg-[#C2D8FF] bg-blend-luminosity overflow-hidden">
-      <h1 className="uppercase text-7xl text-center font-playfair font-bold mix-blend-overlay">
+      <h3 className="uppercase text-7xl text-center font-playfair font-bold mix-blend-overlay">
         marine
-      </h1>
+      </h3>
 
       <div className="w-[220px] h-[220px] mx-auto flex justify-center items-center">
         <div className="w-[220px] h-[220px] bg-black opacity-50 mix-blend-overlay absolute rounded-md"></div>
