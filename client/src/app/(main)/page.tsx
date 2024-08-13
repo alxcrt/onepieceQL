@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center space-y-20 px-4">
       <h2 className="text-6xl font-bold text-center font-playfair ">
-        OnePieceQL 🔥
+        OnePieceQL <span className="hidden sm:inline">🔥</span>
       </h2>
 
       <div className="text-2xl font-mono space-y-4">
@@ -22,7 +22,7 @@ export default function Home() {
             href={`${process.env.NEXT_PUBLIC_URL}/api/graphql`}
             target="_blank"
           >
-            <span className="bg-gray-200 text-gray-600 p-1 rounded-md">
+            <span className="bg-gray-200 text-gray-600 p-1 rounded-md text-sm block sm:inline sm:text-2xl">
               {`${process.env.NEXT_PUBLIC_URL}/api/graphql`}
             </span>
           </a>

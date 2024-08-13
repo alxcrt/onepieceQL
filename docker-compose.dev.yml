@@ -1,18 +1,6 @@
 version: '3.9'
 
 services:
-
-  server:
-    container_name: server
-    environment:
-      - DATABASE_URL=postgresql://luffy:onepieceisreal@db:5432/onepiece
-    command: ["npm", "run", "dev"]
-    volumes:
-      - ./server:/app # we need to mount the server directory to the container for hot-reloading
-      - /app/node_modules
-    depends_on:
-      - db
-
   client:
     container_name: client
     build: ./client
@@ -25,8 +13,8 @@ services:
     container_name: db
     image: postgres:16.3
     environment:
-      POSTGRES_PASSWORD: onepieceisreal
-      POSTGRES_USER: luffy
-      POSTGRES_DB: onepiece
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_DB=${DB_NAME}
     ports:
-      - "5432:5432"
+      - "${DB_PORT}:5432"
