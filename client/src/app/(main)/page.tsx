@@ -22,7 +22,7 @@ export default function Home() {
             href={`${process.env.NEXT_PUBLIC_URL}/api/graphql`}
             target="_blank"
           >
-            <span className="bg-gray-200 text-gray-600 p-1 rounded-md text-sm block sm:inline sm:text-2xl">
+            <span className="bg-gray-200 text-gray-600 p-1 rounded-md text-[1rem] block sm:inline sm:text-2xl mt-4 sm:mt-0">
               {`${process.env.NEXT_PUBLIC_URL}/api/graphql`}
             </span>
           </a>
