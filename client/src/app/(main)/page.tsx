@@ -5,7 +5,7 @@ import Warlords from "./characters/components/Warlords";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center space-y-20 px-4">
+    <main className="flex flex-col items-center justify-center space-y-10 px-4 md:space-y-20">
       <h1 className="text-6xl font-bold text-center font-playfair ">
         OnePieceQL <span className="hidden sm:inline">🔥</span>
       </h1>
