@@ -40,14 +40,6 @@ export const characters = pgTable(
   (table) => ({
     nameSearchIndex: index("name_search_index").using(
       "gin",
-      // sql`to_tsvector('english', ${table.name})`
-      // sql`(
-      //   setweight(to_tsvector('english', ${table.name}), 'A') ||
-      //   setweight(to_tsvector('english', ${table.origin}), 'B') ||
-      //   setweight(to_tsvector('english', ${table.birthday}), 'C') ||
-      //   setweight(to_tsvector('english', ${table.description}), 'D') ||
-      //   setweight(to_tsvector('english', ${table.bloodType}), 'D')
-      // )`
       sql`(
         setweight(to_tsvector('english', ${table.name}), 'A') ||
         setweight(to_tsvector('english', ${table.affiliations}), 'B') ||
@@ -109,22 +101,3 @@ export const charactersToDevilFruitsRelations = relations(
     }),
   })
 );
-
-// export const users = pgTable("users", {
-//   id: serial("id").primaryKey(),
-//   name: text("name").notNull(),
-// });
-
-// export const usersRelations = relations(users, ({ many }) => ({
-//   posts: many(posts),
-// }));
-
-// export const posts = pgTable("posts", {
-//   id: serial("id").primaryKey(),
-//   content: text("content").notNull(),
-//   authorId: integer("author_id").notNull(),
-// });
-
-// export const postsRelations = relations(posts, ({ one }) => ({
-//   author: one(users, { fields: [posts.authorId], references: [users.id] }),
-// }));

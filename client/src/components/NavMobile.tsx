@@ -2,17 +2,10 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import React, { use } from "react";
+import React from "react";
 
 export default function NavMobile() {
-  const pathname = usePathname();
-
   const [isOpen, setIsOpen] = React.useState(false);
-
-  // React.useEffect(() => {
-  //   setIsOpen(false);
-  // }, [pathname]);
 
   return (
     <nav>

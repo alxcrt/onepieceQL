@@ -3,21 +3,7 @@ import DevilFruit from "@/components/DevilFruit";
 import Loading from "@/components/Loading";
 import { useQuery, gql } from "@apollo/client";
 import DevilFruitsInfo from "./components/DevilFruitsInfo";
-import { useCallback, useEffect, useRef, useState } from "react";
-
-// const QUERY = gql`
-//   query {
-//     devilFruits {
-//       name
-//       description
-//       image
-//       types {
-//         type
-//         subType
-//       }
-//     }
-//   }
-// `;
+import { useCallback, useRef, useState } from "react";
 
 const QUERY = gql`
   query devilFruits($filter: DevilFruitFilter) {

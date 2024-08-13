@@ -74,11 +74,6 @@ async function getCanonDevilFruitsMetadata() {
 
               if (!name || !href || !type) return;
 
-              // devilFruitsMetadata.push({
-              //   name,
-              //   href,
-              //   id: id.toString(),
-              // });
               id++;
 
               // Check if the devil fruit is already in the array

@@ -1,10 +1,7 @@
 "use client";
-import Character from "@/components/Character";
 import Loading from "@/components/Loading";
-import Marine from "@/components/Marine";
 import WantedCharacter from "@/components/WantedCharacter";
-import { useQuery, gql, useLazyQuery } from "@apollo/client";
-import Image from "next/image";
+import { useQuery, gql } from "@apollo/client";
 import React from "react";
 
 const QUERY = gql`
@@ -19,16 +16,6 @@ const QUERY = gql`
     }
   }
 `;
-
-// devilFruits {
-//   name
-//   description
-//   image
-//   types {
-//     type
-//     subType
-//   }
-// }
 
 export default function Warlords() {
   const { data, loading, error } = useQuery(QUERY, {
