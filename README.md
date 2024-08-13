@@ -18,7 +18,7 @@ You can query the api at https://onepieceql.com/api/graphql
 
 Make sure you have docker installed.
 ```bash
-docker-compose-up
+docker compose up // or docker-compose up
 ```
 
 ## 📚 Resources
