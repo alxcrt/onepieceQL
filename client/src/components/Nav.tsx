@@ -45,7 +45,7 @@ export default function Nav() {
               </li>
             </Link>
             <li>
-              <Link href="https://github.com">
+              <Link href="https://github.com/alxcrt/onepieceQL">
                 <Image
                   className="w-[30px] h-[30px] invert"
                   src="/gh.svg"
