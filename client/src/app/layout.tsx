@@ -47,6 +47,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          defer
+          data-domain="onepieceql.com"
+          src="https://plausible.alexcretu.com/js/script.js"
+        ></script>
+      </head>
       <body
         className={`${playfair.variable} ${alwaysInMyHeart.variable} bg-bg backdrop-grayscale backdrop-brightness-50 backdrop-contrast-200`}
       >
