@@ -6,8 +6,8 @@ import {
   charactersToDevilFruits,
 } from "./schema";
 
-import devilFruitsInfo from "../../../scrapers/devilFruitsInfo.json" assert { type: "json" };
-import charactersInfo from "../../../scrapers/charactersInfo.json" assert { type: "json" };
+import devilFruitsInfo from "../../scraper_data/devilFruitsInfo.json" assert { type: "json" };
+import charactersInfo from "../../scraper_data/charactersInfo.json" assert { type: "json" };
 import { inArray, or, sql } from "drizzle-orm";
 import { joinIfArray } from "@/utils";
 import db from ".";

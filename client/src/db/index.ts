@@ -3,7 +3,7 @@ import { drizzle } from "drizzle-orm/node-postgres";
 import pg from "pg";
 
 const client = new pg.Client({
-  connectionString: "postgresql://luffy:onepieceisreal@localhost:5432/onepiece",
+  connectionString: process.env.DATABASE_URL,
 });
 
 // Connect to the database (use this to resolve the top-level await)

@@ -8,6 +8,10 @@ export const wait = (ms: number) =>
 // Utility function to save a JSON file
 export const saveJSON = (data: any, filename: string) => {
   fs.writeFileSync(filename, JSON.stringify(data, null, 2));
+  fs.writeFileSync(
+    `../../client/scraper_data/${filename}`,
+    JSON.stringify(data, null, 2)
+  );
 };
 
 // Utility function remove bracketed footnotes

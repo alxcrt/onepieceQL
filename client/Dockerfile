@@ -14,10 +14,14 @@ RUN npm install
 COPY . .
 
 # Build the application
-RUN npm run build
+# RUN npm run build
 
 # Expose the port the app runs on
-EXPOSE 4000
+EXPOSE 3000
 
 # Run the app
-CMD [ "npm", "start" ]
+# CMD [ "npm", "run", "dev" ]
+
+COPY docker-entrypoint.sh /
+RUN chmod +x /docker-entrypoint.sh
+ENTRYPOINT ["/bin/sh", "/docker-entrypoint.sh"]

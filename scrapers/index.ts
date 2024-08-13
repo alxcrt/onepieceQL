@@ -11,9 +11,9 @@ async function performScraping() {
   const charactersInfo = await getCanonCharacters(1000);
   // console.log(JSON.stringify(charactersInfo, null, 2));
   saveJSON(charactersInfo, "charactersInfo.json");
-  // const devilFruitsInfo = await getCanonDevilFruits(1000);
+  const devilFruitsInfo = await getCanonDevilFruits(1000);
   // console.log(JSON.stringify(devilFruitsInfo, null, 2));
-  // saveJSON(devilFruitsInfo, "devilFruitsInfo.json");
+  saveJSON(devilFruitsInfo, "devilFruitsInfo.json");
 }
 
 performScraping();

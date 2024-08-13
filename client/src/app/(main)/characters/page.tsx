@@ -3,9 +3,8 @@ import Character from "@/components/Character";
 import Loading from "@/components/Loading";
 import Marine from "@/components/Marine";
 import WantedCharacter from "@/components/WantedCharacter";
-import { useQuery, gql, useLazyQuery } from "@apollo/client";
-import Image from "next/image";
-import React, { ReactNode, useCallback, useEffect, useRef } from "react";
+import { useQuery, gql } from "@apollo/client";
+import React, { useCallback, useEffect, useRef } from "react";
 import { useDebounce } from "use-debounce";
 
 const QUERY = gql`
@@ -118,7 +117,7 @@ export default function Home() {
         className="w-1/2 p-2 border border-gray-300 rounded-lg text-black mx-auto my-8"
       />
 
-      {/* {loading && <Loading />} */}
+      {loading && <Loading />}
       <div className="grid grid-cols-1 md:grid-cols-3 place-items-center gap-4">
         {data?.characters.results?.map((character: any, i: number) => (
           <div
