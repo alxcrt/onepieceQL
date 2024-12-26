@@ -1,5 +1,5 @@
 # onepieceQL
-![](./one-piece.gif)
+![](./one-piece-ql.png)
 
 ## 📖 Overview
 
