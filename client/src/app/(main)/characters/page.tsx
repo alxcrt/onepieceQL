@@ -3,9 +3,12 @@ import Character from "@/components/Character";
 import Loading from "@/components/Loading";
 import Marine from "@/components/Marine";
 import WantedCharacter from "@/components/WantedCharacter";
-import { useQuery, gql } from "@apollo/client";
+import { gql } from "@apollo/client";
+import { useQuery } from "@apollo/client/react";
 import React, { useCallback, useEffect, useRef } from "react";
 import { useDebounce } from "use-debounce";
+
+import type { CharactersData } from "@/types/graphql";
 
 const QUERY = gql`
   query characters($filter: CharacterFilter) {
@@ -36,7 +39,7 @@ export default function Home() {
 
   const obersever = useRef<IntersectionObserver | null>(null);
 
-  const { data, loading, error, fetchMore } = useQuery(QUERY, {
+  const { data, loading, error, fetchMore } = useQuery<CharactersData>(QUERY, {
     variables: {
       filter: {
         search: debouncedQuery,
@@ -52,7 +55,7 @@ export default function Home() {
         filter: {
           search: debouncedQuery,
           limit: 20,
-          page: Number.parseInt(data.characters.info.next),
+          page: Number(data?.characters.info.next || 1),
         },
       },
       updateQuery: (prev, { fetchMoreResult }) => {
@@ -62,7 +65,7 @@ export default function Home() {
           characters: {
             info: fetchMoreResult.characters.info,
             results: [
-              ...prev.characters.results,
+              ...(prev?.characters.results || []),
               ...fetchMoreResult.characters.results,
             ],
           },

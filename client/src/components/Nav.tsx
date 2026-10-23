@@ -32,11 +32,11 @@ export default function Nav() {
           <ul className="ml-auto flex gap-4 justify-center items-center">
             <Link href="/api/graphql" target="_blank">
               <li
-                className="button w-[6rem] h-[2.5rem] bg-[#D73634] rounded-lg cursor-pointer select-none
+                className="button w-24 h-10 bg-[#D73634] rounded-lg cursor-pointer select-none
     active:translate-y-2  active:[box-shadow:0_0px_0_0_#B70200,0_0px_0_0_#B70200]
-    active:border-b-[0px]
+    active:border-b-0
     transition-all duration-150 [box-shadow:0_10px_0_0_#B70200,0_15px_0_0_#B70200]
-    border-b-[1px] border-[#B70200]
+    border-b border-[#B70200]
   "
               >
                 <span className="flex flex-col justify-center items-center h-full text-white font-bold text-lg">

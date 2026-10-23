@@ -4,7 +4,7 @@ import React from "react";
 interface WantedCharacterProps {
   name: string;
   image: string;
-  bounty: string;
+  bounty: string | null;
 }
 
 export default function WantedCharacter({
@@ -40,7 +40,7 @@ export default function WantedCharacter({
 
       <p className="uppercase text-3xl text-center font-alwaysInMyHeart mix-blend-overlay tracking-[0.5rem] mx-auto flex">
         <Image src="/assets/Belly.svg" alt="" width={20} height={20} />
-        {bounty}
+        {bounty ?? "Unknown"}
       </p>
 
       <div className="flex justify-between items-center ">

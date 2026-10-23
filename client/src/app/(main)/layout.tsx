@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import Nav from "@/components/Nav";
 
 export default function MainLayout({

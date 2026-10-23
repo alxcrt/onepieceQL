@@ -1,27 +1,18 @@
-# Use an official Node.js runtime as a parent image
-FROM node:20-alpine
-
-# Set the working directory in the container to /app
+FROM node:24-alpine AS build
 WORKDIR /app
-
-# Copy the current directory contents into the container at /app
-COPY package*json ./
-
-# Install any needed packages specified in package.json
-RUN npm install
-
-# Copy the rest of the application code into the container at /app
+COPY package.json package-lock.json ./
+RUN npm ci
 COPY . .
-
-# Build the application
-# RUN npm run build
-
-# Expose the port the app runs on
+ARG NEXT_PUBLIC_URL=http://127.0.0.1:3000
+ENV NEXT_PUBLIC_URL=$NEXT_PUBLIC_URL
+RUN npm run build
+FROM node:24-alpine
+WORKDIR /app
+ENV NODE_ENV=production HOSTNAME=0.0.0.0 PORT=3000
+COPY --from=build --chown=node:node /app/.next/standalone ./
+COPY --from=build --chown=node:node /app/.next/static ./.next/static
+COPY --from=build --chown=node:node /app/public ./public
+COPY --chmod=755 docker-entrypoint.sh /docker-entrypoint.sh
+USER node
 EXPOSE 3000
-
-# Run the app
-# CMD [ "npm", "run", "dev" ]
-
-COPY docker-entrypoint.sh /
-RUN chmod +x /docker-entrypoint.sh
-ENTRYPOINT ["/bin/sh", "/docker-entrypoint.sh"]
+ENTRYPOINT ["/docker-entrypoint.sh"]

@@ -1,24 +1,23 @@
 "use client";
 import Loading from "@/components/Loading";
 import WantedCharacter from "@/components/WantedCharacter";
-import { useQuery, gql } from "@apollo/client";
+import { gql } from "@apollo/client";
+import { useQuery } from "@apollo/client/react";
 import React from "react";
+
+import type { CharactersData } from "@/types/graphql";
 
 const QUERY = gql`
   query characters($filter: CharacterFilter) {
     characters(filter: $filter) {
-      name
-      description
-      image
-      bounty
-      occupations
-      affiliations
+      info { count pages next prev }
+      results { name description image bounty occupations affiliations }
     }
   }
 `;
 
 export default function Warlords() {
-  const { data, loading, error } = useQuery(QUERY, {
+  const { data, loading, error } = useQuery<CharactersData>(QUERY, {
     variables: {
       filter: {
         search: "warlord",
@@ -42,7 +41,7 @@ export default function Warlords() {
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 place-items-center">
-        {data?.characters.map((character: any, i: number) => (
+        {data?.characters.results.map((character) => (
           <div key={character.name} className="scale-75">
             <WantedCharacter
               name={character.name}
