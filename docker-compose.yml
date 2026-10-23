@@ -32,4 +32,4 @@ volumes:
     # Adopt the existing data volume explicitly; never silently create a blank
     # replacement. Fresh installations create one and set this variable first.
     external: true
-    name: ${ONEPIECE_DB_VOLUME:?Set the reviewed existing PostgreSQL volume}
+    name: ${ONEPIECE_DB_VOLUME}
