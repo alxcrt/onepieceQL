@@ -1,9 +1,12 @@
 "use client";
 import DevilFruit from "@/components/DevilFruit";
 import Loading from "@/components/Loading";
-import { useQuery, gql } from "@apollo/client";
+import { gql } from "@apollo/client";
+import { useQuery } from "@apollo/client/react";
 import DevilFruitsInfo from "./components/DevilFruitsInfo";
 import { useCallback, useRef, useState } from "react";
+
+import type { DevilFruitsData } from "@/types/graphql";
 
 const QUERY = gql`
   query devilFruits($filter: DevilFruitFilter) {
@@ -37,7 +40,7 @@ export default function Home() {
 
   const obersever = useRef<IntersectionObserver | null>(null);
 
-  const { data, loading, error, fetchMore } = useQuery(QUERY, {
+  const { data, loading, error, fetchMore } = useQuery<DevilFruitsData>(QUERY, {
     variables: {
       filter: {
         limit: 20,
@@ -52,7 +55,7 @@ export default function Home() {
       variables: {
         filter: {
           limit: 20,
-          page: Number.parseInt(data.devilFruits.info.next),
+          page: Number(data?.devilFruits.info.next || 1),
           type: selectedType ? selectedType : undefined,
         },
       },
@@ -63,7 +66,7 @@ export default function Home() {
           devilFruits: {
             info: fetchMoreResult.devilFruits.info,
             results: [
-              ...prev.devilFruits.results,
+              ...(prev?.devilFruits.results || []),
               ...fetchMoreResult.devilFruits.results,
             ],
           },

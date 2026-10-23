@@ -21,7 +21,7 @@ const playfair = localFont({
       style: "normal",
     },
   ],
-  variable: "--font-playfair",
+  variable: "--font-playfair-face",
 });
 
 const alwaysInMyHeart = localFont({

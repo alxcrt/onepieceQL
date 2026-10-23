@@ -9,7 +9,7 @@ export default function NavMobile() {
 
   return (
     <nav>
-      <div className="max-w-screen-xl flex-wrap items-center justify-between mx-auto p-4 font-playfair uppercase font-black text-2xl tracking-[0.2rem] flex md:hidden text-white">
+      <div className="max-w-(--breakpoint-xl) flex-wrap items-center justify-between mx-auto p-4 font-playfair uppercase font-black text-2xl tracking-[0.2rem] flex md:hidden text-white">
         <Link href="/">
           <Image
             className="w-[215px] h-[78px]"
@@ -22,7 +22,7 @@ export default function NavMobile() {
         <button
           data-collapse-toggle="navbar-default"
           type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden focus:outline-none focus:ring-2 text-gray-400 hover:bg-gray-700 focus:ring-gray-600"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden focus:outline-hidden focus:ring-2 text-gray-400 hover:bg-gray-700 focus:ring-gray-600"
           aria-controls="navbar-default"
           aria-expanded="false"
           onClick={() => setIsOpen(!isOpen)}

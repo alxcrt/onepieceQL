@@ -2,13 +2,7 @@ import * as dbSchema from "./schema";
 import { drizzle } from "drizzle-orm/node-postgres";
 import pg from "pg";
 
-const client = new pg.Client({
-  connectionString: process.env.DATABASE_URL,
-});
-
-// Connect to the database (use this to resolve the top-level await)
-(async () => await client.connect())();
-
-const db = drizzle(client, { schema: dbSchema, logger: true });
-
+// Open connections lazily on actual requests, never while compiling the image.
+const pool = new pg.Pool({ connectionString: process.env.DATABASE_URL, max: 5 });
+const db = drizzle(pool, { schema: dbSchema });
 export default db;

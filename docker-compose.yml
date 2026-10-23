@@ -1,31 +1,35 @@
-version: '3.9'
-
 services:
   client:
-    container_name: client
     build:
       context: ./client
+      args:
+        NEXT_PUBLIC_URL: ${NEXT_PUBLIC_URL}
     ports:
-      - "3000:3000"
+      - '3000:3000'
     environment:
       - NEXT_PUBLIC_URL=${NEXT_PUBLIC_URL}
       - DATABASE_URL=postgresql://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME}
     depends_on:
       db:
-        condition: service_healthy  # Wait until db service is healthy before starting
-
+        condition: service_healthy
   db:
-    container_name: db
-    image: postgres:16.3
+    image: postgres:16-bookworm
     environment:
       - POSTGRES_PASSWORD=${DB_PASSWORD}
       - POSTGRES_USER=${DB_USER}
       - POSTGRES_DB=${DB_NAME}
     ports:
-      - "${DB_PORT}:5432"
-    # For condition to work, we need to add healthcheck to the db service
+      - '${DB_PORT}:5432'
+    volumes:
+      - db-data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -d ${DB_NAME} -U ${DB_USER}"]
+      test: ['CMD-SHELL', 'pg_isready -d ${DB_NAME} -U ${DB_USER}']
       interval: 10s
       timeout: 5s
       retries: 5
+volumes:
+  db-data:
+    # Adopt the existing data volume explicitly; never silently create a blank
+    # replacement. Fresh installations create one and set this variable first.
+    external: true
+    name: ${ONEPIECE_DB_VOLUME:?Set the reviewed existing PostgreSQL volume}

@@ -5,7 +5,7 @@ import {
   ApolloNextAppProvider,
   ApolloClient,
   InMemoryCache,
-} from "@apollo/experimental-nextjs-app-support";
+} from "@apollo/client-integration-nextjs";
 
 // have a function to create a client for you
 function makeClient() {
@@ -24,9 +24,9 @@ function makeClient() {
     },
   });
 
-  // use the `ApolloClient` from "@apollo/experimental-nextjs-app-support"
+  // use the `ApolloClient` from "@apollo/client-integration-nextjs"
   return new ApolloClient({
-    // use the `InMemoryCache` from "@apollo/experimental-nextjs-app-support"
+    // use the `InMemoryCache` from "@apollo/client-integration-nextjs"
     cache: new InMemoryCache(),
     link: httpLink,
   });
