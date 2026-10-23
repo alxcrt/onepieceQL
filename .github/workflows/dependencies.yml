@@ -37,6 +37,19 @@
           }
         },
         {
+          "name": "Validate the persistent deployment manifest",
+          "env": {
+            "ONEPIECE_DB_VOLUME": "existing-fixture-volume",
+            "NEXT_PUBLIC_URL": "http://127.0.0.1:3000",
+            "DB_USER": "postgres",
+            "DB_PASSWORD": "fixture",
+            "DB_HOST": "db",
+            "DB_PORT": "5432",
+            "DB_NAME": "onepiece"
+          },
+          "run": "docker compose config --quiet"
+        },
+        {
           "name": "Install maintained scraper dependencies",
           "run": "cd scrapers && npm ci && npm test && npm audit --omit=dev --audit-level=high"
         },
