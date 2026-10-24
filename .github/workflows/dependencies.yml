@@ -72,6 +72,26 @@
           "run": "cd client\nnpm run db:migrate\nnpm run db:seed\ndocker build --pull -t dependency-check .\ndocker run -d --network host --name dependency-check --memory 1g -e DATABASE_URL dependency-check\ntrap 'docker logs dependency-check; docker rm -f dependency-check dependency-postgres' EXIT\ncurl --fail --silent --show-error --retry 30 --retry-all-errors --retry-delay 1 http://127.0.0.1:3000/ --output /tmp/onepiece.html\ncurl --fail --silent -H 'Content-Type: application/json' --data '{\"query\":\"{ characters(filter:{search: \\\"luffy\\\",limit:2}) { info { count } results { name } } devilFruits(filter:{limit:2}) { results { name } } }\"}' http://127.0.0.1:3000/api/graphql > /tmp/graphql.json\nnode -e \"const x=require('/tmp/graphql.json');if(x.errors||!x.data.characters.results.length||!x.data.devilFruits.results.length)throw Error(JSON.stringify(x))\""
         }
       ]
+    },
+    "verified-release-receipt": {
+      "name": "Verified release receipt",
+      "needs": "dependency-gate",
+      "if": "(github.event_name == 'push' || github.event_name == 'workflow_dispatch') && github.ref_name == github.event.repository.default_branch",
+      "runs-on": "ubuntu-latest",
+      "permissions": {
+        "contents": "write"
+      },
+      "env": {
+        "GH_TOKEN": "${{ github.token }}",
+        "GH_REPO": "${{ github.repository }}",
+        "COMMIT": "${{ github.sha }}"
+      },
+      "steps": [
+        {
+          "name": "Record the exact successful default-branch commit",
+          "run": "set -eu\ncase \"$COMMIT\" in *[!a-f0-9]*|'') exit 1;; esac\n[ \"${#COMMIT}\" -eq 40 ]\nref=\"homelab-verified-$COMMIT\"\nexisting=$(gh api \"repos/$GH_REPO/git/matching-refs/tags/$ref\" --jq \".[] | select(.ref == \\\"refs/tags/$ref\\\") | .object.sha\")\nif [ \"$existing\" = \"$COMMIT\" ]; then exit 0; fi\n[ -z \"$existing\" ]\ngh api --method POST \"repos/$GH_REPO/git/refs\" -f \"ref=refs/tags/$ref\" -f \"sha=$COMMIT\"\n"
+        }
+      ]
     }
   }
 }
