@@ -22,7 +22,9 @@ Copy `.env.example` to an untracked `.env` and set a unique, randomly generated
 `DB_PASSWORD` before starting the stack. Keep the password out of commits and
 backups shared outside your trusted environment. The database volume is external;
 set `ONEPIECE_DB_VOLUME` to the existing volume name, or create a dedicated volume
-for a fresh installation before starting the stack.
+for a fresh installation before starting the stack. The production Compose
+keeps PostgreSQL on the private application network; only the client service
+publishes a host port.
 ```bash
 docker compose up # or docker-compose up
 ```
